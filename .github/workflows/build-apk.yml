@@ -5,6 +5,9 @@ on:
     branches: [ main, master ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,10 +40,40 @@ jobs:
         run: |
           cd android
           ./gradlew assembleDebug --stacktrace
+          cp app/build/outputs/apk/debug/app-debug.apk ../EuphoriaLiveClasses.apk
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Euphoria-Live-Classes-APK
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          path: EuphoriaLiveClasses.apk
           retention-days: 30
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
+        with:
+          tag_name: v1.0.0
+          name: "Euphoria Live Classes Mobile App v1.0.0"
+          body: |
+            ## 📱 Euphoria Live Classes Mobile App (v1.0.0)
+            
+            Welcome to the official Euphoria Live Classes Android App!
+            
+            ### ✨ Features Included:
+            - **Complete Course Catalog**: Browse all 94+ masterclasses with instant filters and search.
+            - **Secure DRM Video Player**: Prevents unauthorized recording and displays dynamic floating student watermarks.
+            - **Protected PDF Recipe Viewer**: Interactive in-app canvas document reader with copyright protection.
+            - **Offline-Ready & Fast**: Lightweight (~5.8 MB), blazing fast navigation compared to the slow website.
+            - **1-Click WhatsApp VIP Support**: Direct line to chef and academy support.
+            
+            ### 📥 Installation Instructions:
+            1. Tap on `EuphoriaLiveClasses.apk` below on your Android phone to download.
+            2. Open the downloaded file and choose **Install** (if prompted, enable *"Allow from this source"*).
+            3. Launch the app and enjoy your classes!
+          draft: false
+          prerelease: false
+          files: EuphoriaLiveClasses.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
