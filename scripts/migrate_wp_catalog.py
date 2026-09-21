@@ -146,6 +146,7 @@ def fetch_all_products():
             'badge': 'Bestseller' if (p_id % 5 == 0) else ('Popular' if (p_id % 7 == 0) else None),
             'shortDescription': short_desc or f"Comprehensive hands-on training for {name}.",
             'description': desc or f"Master the professional techniques of {name} with lifetime access, video guidance, and business costing support.",
+            'rawDescription': p.get('description', ''),
             'modules': modules
         }
         cleaned_courses.append(course_obj)

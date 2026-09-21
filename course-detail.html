@@ -20,6 +20,8 @@
               navy: '#0c203b',
               navyDark: '#081528',
               navyLight: '#18345b',
+              blueBtn: '#0071e3',
+              blueBtnHover: '#005bb5',
               cream: '#fdfaf5',
               creamLight: '#fffdfa',
               creamDark: '#f7f1e5',
@@ -28,9 +30,8 @@
             }
           },
           fontFamily: {
-            sans: ['Outfit', 'sans-serif'],
-            serif: ['Playfair Display', 'serif'],
-            script: ['Caveat', 'cursive']
+            sans: ['Outfit', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            serif: ['Playfair Display', 'serif']
           }
         }
       }
@@ -38,381 +39,702 @@
   </script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body class="bg-gray-50 text-gray-800 antialiased selection:bg-red-100 selection:text-red-700 pb-20 lg:pb-0">
+<body class="bg-white text-gray-800 antialiased selection:bg-red-100 selection:text-red-700 min-h-screen flex flex-col justify-between">
 
-  <!-- ================= TOP HEADER & NAVIGATION ================= -->
-  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-20 gap-4">
-        
-        <div class="flex items-center gap-4">
-          <a href="index.html" class="flex items-center gap-2 group">
-            <img src="assets/images/logo-navbar-transparent.png" alt="Euphoria Live Classes" class="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-105" />
-          </a>
-        </div>
+  <!-- ================= TOP HEADER (MATCHING SCREENSHOT) ================= -->
+  <header class="bg-white border-b border-gray-100 sticky top-0 z-40 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Left: Logo -->
+      <a href="index.html" class="flex items-center gap-2 group">
+        <img src="assets/images/logo-navbar-transparent.png" alt="Euphoria Live Classes" class="h-11 sm:h-12 w-auto object-contain" />
+      </a>
 
-        <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-gray-600">
+      <!-- Right: Main Menu Items -->
+      <div class="flex items-center gap-6 sm:gap-8">
+        <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-gray-700">
           <a href="index.html" class="hover:text-euphoria-red transition-colors">Home</a>
-          <a href="courses.html" class="hover:text-euphoria-red transition-colors">All Courses (94)</a>
-          <a href="free-resources.html" class="hover:text-euphoria-red transition-colors flex items-center gap-1.5">
-            <span>Free Resources</span>
-            <span class="bg-amber-100 text-amber-700 text-[10px] font-bold px-1.5 py-0.5 rounded-full">FREE</span>
-          </a>
-          <a href="dashboard.html" class="hover:text-euphoria-red transition-colors flex items-center gap-1 text-emerald-700 font-semibold">
-            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <span>Student Portal</span>
-          </a>
-          <a href="about.html" class="hover:text-euphoria-red transition-colors">About</a>
-          <a href="contact.html" class="hover:text-euphoria-red transition-colors">Contact</a>
+          <a href="courses.html" class="hover:text-euphoria-red transition-colors">Courses</a>
+          <a href="courses.html?cat=Baking" class="hover:text-euphoria-red transition-colors">Baking Tools</a>
+          <a href="javascript:void(0)" id="nav-cart-link" class="hover:text-euphoria-red transition-colors">Cart</a>
+          <a href="dashboard.html" class="hover:text-euphoria-red transition-colors">My account</a>
         </nav>
 
-        <div class="flex items-center gap-4">
-          <button id="cart-btn" class="relative flex items-center gap-1.5 text-xs sm:text-sm font-medium text-gray-700 hover:text-euphoria-red transition-colors group" aria-label="Shopping Cart">
-            <div class="relative">
-              <svg class="w-5 h-5 text-gray-700 group-hover:text-euphoria-red transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-              <span id="cart-count" class="absolute -top-2 -right-2 bg-euphoria-red text-white font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center shadow-sm">0</span>
-            </div>
-            <span class="hidden sm:inline">Cart</span>
-          </button>
-        </div>
+        <!-- Cart Bag Icon with Counter -->
+        <button id="cart-btn" class="relative p-1 text-gray-700 hover:text-euphoria-red transition-colors group" aria-label="Shopping Cart">
+          <div class="relative flex items-center">
+            <!-- WooCommerce Shopping Bag SVG -->
+            <svg class="w-6 h-6 text-gray-800 group-hover:text-euphoria-red transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+            </svg>
+            <span id="cart-count" class="absolute -top-1.5 -right-2 bg-[#0071e3] text-white font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center shadow-xs">
+              0
+            </span>
+          </div>
+        </button>
+
+        <!-- Search Icon -->
+        <a href="courses.html" class="text-gray-700 hover:text-euphoria-red transition-colors p-1" title="Search Courses">
+          <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </a>
       </div>
+
     </div>
   </header>
 
-  <!-- ================= BREADCRUMB ================= -->
-  <div class="bg-white border-b border-gray-100 py-3">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-gray-500 flex items-center gap-2">
-      <a href="index.html" class="hover:text-euphoria-red">Home</a>
-      <span>/</span>
-      <a href="courses.html" class="hover:text-euphoria-red">Courses</a>
-      <span>/</span>
-      <span id="breadcrumb-cat" class="text-gray-700">Category</span>
-      <span>/</span>
-      <span id="breadcrumb-title" class="text-gray-900 font-semibold truncate max-w-xs sm:max-w-md">Course Title</span>
-    </div>
-  </div>
-
-  <!-- ================= MAIN COURSE HERO & CONTENT ================= -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+  <!-- ================= MAIN COURSE PRODUCT SECTION ================= -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 flex-1 w-full space-y-10">
+    
+    <!-- TOP PRODUCT ROW (2 COLUMNS) -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
       
-      <!-- LEFT COLUMN: Content, Syllabus, Details (8 cols) -->
-      <div class="lg:col-span-8 space-y-8">
+      <!-- LEFT COLUMN: Image with "Sale!" badge & Zoom (6 cols) -->
+      <div class="lg:col-span-6">
+        <div class="relative bg-white border border-gray-200/80 rounded-2xl overflow-hidden shadow-soft group">
+          
+          <!-- "Sale!" Badge (pinned to top-left) -->
+          <span class="sale-badge">
+            Sale!
+          </span>
+
+          <!-- Zoom Magnifying Icon (pinned to top-right) -->
+          <button id="zoom-img-btn" class="zoom-badge" title="View Full Image">
+            <svg class="w-4 h-4 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path>
+            </svg>
+          </button>
+
+          <!-- Main Course Image -->
+          <img 
+            id="course-hero-img" 
+            src="assets/images/course-chocolate.png" 
+            alt="Course Banner" 
+            class="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-[1.02] cursor-pointer"
+          />
+
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Breadcrumbs, Title, Price & Action Buttons (6 cols) -->
+      <div class="lg:col-span-6 space-y-4">
         
-        <!-- Header Info -->
+        <!-- Breadcrumb Navigation -->
+        <nav class="text-xs text-gray-500 flex flex-wrap items-center gap-1.5">
+          <a href="index.html" class="hover:text-euphoria-red transition-colors">Home</a>
+          <span>/</span>
+          <a href="courses.html" id="breadcrumb-category" class="hover:text-euphoria-red transition-colors">Category</a>
+          <span>/</span>
+          <span id="breadcrumb-title" class="text-gray-700 font-medium truncate max-w-xs sm:max-w-md">Course Title</span>
+        </nav>
+
+        <!-- Category Tag Link (Blue) -->
         <div>
-          <div class="flex items-center gap-2 mb-3">
-            <span class="badge-veg" title="100% Vegetarian / Eggless"></span>
-            <span id="course-category-tag" class="text-xs font-bold text-euphoria-red bg-red-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
-              Category
+          <a href="courses.html" id="course-category-link" class="text-sm font-semibold text-[#0071e3] hover:underline">
+            Category Name
+          </a>
+        </div>
+
+        <!-- Course Title -->
+        <h1 id="course-title" class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight leading-snug">
+          Course Title Loading...
+        </h1>
+
+        <!-- Price Line -->
+        <div class="flex items-baseline gap-3 pt-1">
+          <span id="course-original-price" class="text-gray-400 line-through text-lg sm:text-xl font-medium">
+            ₹999.00
+          </span>
+          <span id="course-price" class="text-2xl sm:text-3xl font-bold text-gray-900">
+            ₹449.00
+          </span>
+        </div>
+
+        <!-- Action Buttons Row -->
+        <div class="space-y-2.5 pt-2">
+          <!-- Add to Cart (Solid Blue Button) -->
+          <button 
+            type="button" 
+            id="add-to-cart-btn" 
+            class="w-full py-3 px-6 bg-[#0071e3] hover:bg-[#005bb5] text-white font-bold text-sm sm:text-base rounded-md shadow-xs transition-colors text-center block"
+          >
+            Add to cart
+          </button>
+
+          <!-- Buy Now (Solid Red Button) -->
+          <button 
+            type="button" 
+            id="buy-now-btn" 
+            class="w-full py-3 px-6 bg-[#d34a30] hover:bg-[#ba3c24] text-white font-bold text-sm sm:text-base rounded-md shadow-xs transition-colors text-center block"
+          >
+            Buy Now
+          </button>
+
+          <!-- WhatsApp Chat Button (Green Pill) -->
+          <a 
+            id="whatsapp-chat-btn" 
+            href="https://wa.me/916294822573" 
+            target="_blank" 
+            rel="noopener"
+            class="w-full py-2.5 px-6 bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold text-sm rounded-full shadow-xs transition-colors flex items-center justify-center gap-2"
+          >
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>Need Help? Chat with us.</span>
+          </a>
+        </div>
+
+        <!-- Category & Brand Meta -->
+        <div class="pt-3 text-xs text-gray-600 space-y-1">
+          <div>
+            Category: <a href="courses.html" id="meta-category" class="text-[#0071e3] hover:underline font-medium">Baking</a>
+          </div>
+          <div>
+            Brand: <a href="index.html" class="text-[#0071e3] hover:underline font-medium">Euphoria Live Classes</a>
+          </div>
+        </div>
+
+        <!-- Guaranteed Safe Checkout Box -->
+        <div class="border border-gray-200 rounded-lg p-3 text-center mt-4 bg-white shadow-2xs">
+          <div class="relative flex items-center justify-center my-1">
+            <div class="flex-grow border-t border-gray-300"></div>
+            <span class="flex-shrink mx-3 text-[11px] font-semibold text-gray-500 uppercase tracking-wider">
+              Guaranteed Safe Checkout
             </span>
-            <span id="course-badge" class="text-xs font-bold text-amber-800 bg-amber-100 px-2.5 py-1 rounded-full">
-              Bestseller
+            <div class="flex-grow border-t border-gray-300"></div>
+          </div>
+          
+          <!-- Payment Provider Badges (Visa, Mastercard, Amex, Maestro/RuPay) -->
+          <div class="flex items-center justify-center gap-2.5 mt-2">
+            <!-- Visa -->
+            <span class="px-2.5 py-1 bg-blue-900 text-white font-extrabold text-[10px] rounded italic tracking-wider">
+              VISA
+            </span>
+            <!-- Mastercard -->
+            <span class="px-2 py-0.5 bg-gray-900 text-white font-bold text-[10px] rounded flex items-center gap-0.5">
+              <span class="w-3 h-3 rounded-full bg-red-600 inline-block"></span>
+              <span class="w-3 h-3 rounded-full bg-amber-500 -ml-2 inline-block opacity-90"></span>
+            </span>
+            <!-- Amex -->
+            <span class="px-2 py-1 bg-cyan-700 text-white font-bold text-[10px] rounded">
+              AMEX
+            </span>
+            <!-- Maestro/RuPay -->
+            <span class="px-2.5 py-1 bg-blue-600 text-white font-bold text-[10px] rounded">
+              RuPay
+            </span>
+            <!-- UPI -->
+            <span class="px-2 py-1 bg-emerald-700 text-white font-bold text-[10px] rounded">
+              UPI
             </span>
           </div>
-
-          <h1 id="course-title" class="text-2xl sm:text-4xl font-extrabold text-gray-900 font-serif-brand leading-tight">
-            Course Title Loading...
-          </h1>
-
-          <p id="course-short-desc" class="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed">
-            Short description loading...
-          </p>
-
-          <div class="flex flex-wrap items-center gap-4 sm:gap-6 mt-4 text-xs sm:text-sm text-gray-500 pt-3 border-t border-gray-100">
-            <div class="flex items-center gap-1 text-amber-500 font-bold">
-              <span>⭐</span>
-              <span id="course-rating">4.9</span>
-              <span id="course-reviews" class="text-gray-400 font-normal">(120 reviews)</span>
-            </div>
-            <div>👨‍🍳 <strong class="text-gray-800">Master Chef Instructors</strong></div>
-            <div>🌐 <span class="text-gray-800">Hindi Audio with English Notes</span></div>
-            <div>♾️ <span class="text-gray-800">Lifetime Access</span></div>
-          </div>
         </div>
 
-        <!-- Banner Preview Image / Video -->
-        <div class="rounded-2xl overflow-hidden shadow-soft border border-gray-200 aspect-[16/9] bg-gray-900 relative group">
-          <img id="course-hero-img" src="assets/images/course-chocolate.png" alt="Course Hero" class="w-full h-full object-cover" />
-          <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
-            <a href="learn.html" class="flex items-center gap-3 bg-white/95 backdrop-blur-md px-6 py-3 rounded-2xl shadow-xl hover:scale-105 transition-transform group">
-              <span class="w-10 h-10 rounded-full bg-euphoria-red text-white flex items-center justify-center text-sm">▶</span>
-              <div class="text-left">
-                <div class="text-xs font-bold text-gray-900">Preview Class Video</div>
-                <div class="text-[11px] text-gray-500">Includes anti-piracy DRM protection</div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <!-- Curriculum & Syllabus -->
-        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-soft">
-          <div class="flex items-center justify-between mb-6">
-            <div>
-              <div class="text-xs font-bold text-euphoria-red uppercase tracking-wider">Class Curriculum</div>
-              <h2 class="text-xl sm:text-2xl font-bold text-gray-900 font-serif-brand mt-1">
-                What You Will Learn In This Masterclass
-              </h2>
-            </div>
-            <span class="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded-full font-semibold">
-              Step-by-Step Practical
-            </span>
-          </div>
-
-          <div id="curriculum-list" class="space-y-3">
-            <!-- Injected via JS -->
-          </div>
-        </div>
-
-        <!-- Security & Inclusions Highlight -->
-        <div class="bg-gradient-to-br from-amber-50 to-orange-50/40 rounded-2xl p-6 sm:p-8 border border-amber-200/60 shadow-soft">
-          <h3 class="text-lg font-bold text-gray-900 flex items-center gap-2">
-            <span>🛡️ Proprietary Recipes & Digital Security</span>
-          </h3>
-          <p class="text-xs text-gray-600 mt-1 leading-relaxed">
-            All course videos and recipe cards are protected under Euphoria Live Classes digital rights management.
-          </p>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5 text-xs">
-            <div class="bg-white p-4 rounded-xl border border-amber-200/70 shadow-xs">
-              <div class="font-bold text-gray-900 mb-1 flex items-center gap-1.5">
-                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                Dynamic Moving Watermark
-              </div>
-              <p class="text-gray-500 leading-relaxed text-[11px]">
-                Video lessons display the enrolled student's personal phone and verification ID, preventing unauthorized screen recordings.
-              </p>
-            </div>
-            <div class="bg-white p-4 rounded-xl border border-amber-200/70 shadow-xs">
-              <div class="font-bold text-gray-900 mb-1 flex items-center gap-1.5">
-                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                Canvas Protected PDF Notes
-              </div>
-              <p class="text-gray-500 leading-relaxed text-[11px]">
-                Formulation sheets are rendered inside our sandboxed reader with diagonal copyright watermarks and no unauthorized extraction.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Course Description & Business Guide -->
-        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-soft">
-          <h3 class="text-lg font-bold text-gray-900 mb-3">About This Online Class</h3>
-          <div id="course-full-desc" class="text-xs sm:text-sm text-gray-600 leading-relaxed space-y-3">
-            <!-- Full description injected -->
+        <!-- DRM & Digital Access Notice -->
+        <div class="p-3 bg-amber-50/70 border border-amber-200/80 rounded-xl text-xs text-amber-900 flex items-start gap-2">
+          <span class="text-sm">🛡️</span>
+          <div>
+            <strong>DRM Protection & Course Inclusions:</strong> Includes dynamic anti-piracy watermarked video lessons, PDF formula recipe sheet, ISO 9001 completion certificate, and lifetime doubt resolution support.
           </div>
         </div>
 
       </div>
 
-      <!-- RIGHT COLUMN: Sticky Purchase Card (4 cols) -->
-      <div class="lg:col-span-4 sticky top-24">
-        <div class="bg-white rounded-2xl border border-gray-200 shadow-xl p-6 overflow-hidden">
+    </div>
+
+    <!-- ================= TABS SECTION (DESCRIPTION, REVIEWS, DRM PREVIEW) ================= -->
+    <div class="border-t border-gray-200 pt-8">
+      
+      <!-- Tab Headers -->
+      <div class="flex items-center gap-6 border-b border-gray-200 text-sm font-bold pb-px">
+        <button class="detail-tab active py-3 border-b-2 border-euphoria-red text-gray-900" data-tab="description">
+          Description
+        </button>
+        <button class="detail-tab py-3 border-b-2 border-transparent text-gray-400 hover:text-gray-700" data-tab="reviews">
+          Reviews (<span id="tab-reviews-count">0</span>)
+        </button>
+        <button class="detail-tab py-3 border-b-2 border-transparent text-gray-400 hover:text-gray-700 flex items-center gap-1.5 text-emerald-700" data-tab="drm-preview">
+          <span>▶ Watch DRM Video Demo</span>
+        </button>
+      </div>
+
+      <!-- TAB 1: Description Content (Raw WooCommerce HTML Structure) -->
+      <div id="tab-content-description" class="py-6 max-w-4xl">
+        <div id="course-description-container" class="course-wc-description">
+          <!-- Populated dynamically with exact authentic course description HTML -->
+        </div>
+      </div>
+
+      <!-- TAB 2: Reviews Content -->
+      <div id="tab-content-reviews" class="hidden py-6 max-w-2xl space-y-6">
+        <div>
+          <h3 class="text-base font-bold text-gray-900 mb-1">Student Reviews</h3>
+          <p class="text-xs text-gray-500">There are no written reviews yet. Be the first to review this class!</p>
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200 space-y-4">
+          <h4 class="text-sm font-bold text-gray-900">Add a review</h4>
+          <div class="text-xs text-gray-600">Your email address will not be published. Required fields are marked *</div>
           
-          <div class="flex items-baseline justify-between mb-4">
+          <div>
+            <label class="block text-xs font-semibold text-gray-700 mb-1">Your rating *</label>
+            <div class="text-amber-500 text-lg cursor-pointer">⭐⭐⭐⭐⭐</div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-gray-700 mb-1">Your review *</label>
+            <textarea rows="4" class="w-full p-3 bg-white border border-gray-200 rounded-xl text-xs focus:ring-2 focus:ring-euphoria-red focus:outline-none"></textarea>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
             <div>
-              <span class="text-3xl font-extrabold text-gray-900" id="card-price">₹449</span>
-              <span class="text-sm text-gray-400 line-through ml-2" id="card-original-price">₹999</span>
+              <label class="block text-xs font-semibold text-gray-700 mb-1">Name *</label>
+              <input type="text" class="w-full p-2.5 bg-white border border-gray-200 rounded-xl text-xs focus:ring-2 focus:ring-euphoria-red focus:outline-none" />
             </div>
-            <span id="card-discount-badge" class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-full">
-              Save 55%
-            </span>
-          </div>
-
-          <div class="text-xs text-emerald-600 font-semibold mb-6 flex items-center gap-1.5">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-            <span>Instant Access Unlocked Upon Enrollment</span>
-          </div>
-
-          <div class="space-y-3">
-            <button id="enroll-now-btn" class="w-full py-3.5 bg-euphoria-red text-white font-bold rounded-xl shadow-lg hover:bg-euphoria-redHover transition-all flex items-center justify-center gap-2 text-sm">
-              <span>Enroll Now & Start Learning</span>
-              <span>→</span>
-            </button>
-            <button id="add-to-cart-page-btn" class="w-full py-3 bg-gray-100 text-gray-800 font-bold rounded-xl hover:bg-gray-200 transition-colors text-xs">
-              Add to Shopping Cart
-            </button>
-          </div>
-
-          <div class="mt-6 pt-6 border-t border-gray-100 space-y-3 text-xs text-gray-600">
-            <div class="font-bold text-gray-900 mb-2">This Masterclass Includes:</div>
-            <div class="flex items-center gap-2">
-              <span class="text-emerald-500 font-bold">✓</span>
-              <span>Full HD Step-by-Step Video Recordings</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <span class="text-emerald-500 font-bold">✓</span>
-              <span>Downloadable/Viewable Recipe PDF Formula Sheets</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <span class="text-emerald-500 font-bold">✓</span>
-              <span>ISO 9001:2015 Verified Certificate of Completion</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <span class="text-emerald-500 font-bold">✓</span>
-              <span>Dedicated WhatsApp Doubt Clearing Support</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <span class="text-emerald-500 font-bold">✓</span>
-              <span>Commercial Pricing, Costing & Packaging Secrets</span>
+            <div>
+              <label class="block text-xs font-semibold text-gray-700 mb-1">Email *</label>
+              <input type="email" class="w-full p-2.5 bg-white border border-gray-200 rounded-xl text-xs focus:ring-2 focus:ring-euphoria-red focus:outline-none" />
             </div>
           </div>
 
-          <div class="mt-6 p-3 bg-gray-50 rounded-xl text-[11px] text-gray-500 text-center">
-            🔒 256-Bit SSL Encrypted Checkout. UPI / GPay / PhonePe / Cards Accepted.
-          </div>
+          <button type="button" onclick="alert('Thank you! Your review has been submitted for moderation.')" class="px-5 py-2.5 bg-[#0071e3] hover:bg-[#005bb5] text-white text-xs font-bold rounded-lg transition-colors">
+            Submit
+          </button>
+        </div>
+      </div>
 
+      <!-- TAB 3: DRM Preview Demo -->
+      <div id="tab-content-drm-preview" class="hidden py-6 max-w-4xl space-y-4">
+        <div class="p-4 bg-gray-900 text-white rounded-2xl space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">🔒 Anti-Piracy DRM Demo</span>
+            <span class="text-[10px] bg-red-600 text-white px-2 py-0.5 rounded font-mono">LIVE WATERMARK</span>
+          </div>
+          <p class="text-xs text-gray-300">
+            When you enroll, the video player displays a dynamic watermark with your registered Name and WhatsApp number animating across the video every 5 seconds to eliminate screen recording piracy.
+          </p>
+        </div>
+
+        <div class="relative aspect-video bg-black rounded-2xl overflow-hidden border border-gray-800 shadow-xl">
+          <video 
+            id="preview-video-player"
+            class="w-full h-full object-cover"
+            controls
+            controlsList="nodownload"
+            poster="assets/images/course-chocolate.png"
+          >
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="text-center pt-2">
+          <a href="learn.html" class="inline-flex items-center gap-1.5 px-6 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold rounded-xl shadow transition-colors">
+            <span>Open Full Student Learning Portal</span>
+            <span>→</span>
+          </a>
         </div>
       </div>
 
     </div>
+
+    <!-- ================= "YOU MAY ALSO LIKE..." SECTION ================= -->
+    <section class="border-t border-gray-200 pt-10">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 font-serif-brand">
+        You may also like…
+      </h2>
+
+      <!-- Related 4-Column Grid -->
+      <div id="related-courses-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Populated dynamically via JS -->
+      </div>
+    </section>
+
   </main>
 
-  <!-- ================= MOBILE FIXED BOTTOM CHECKOUT BAR ================= -->
-  <div class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-200 p-3 shadow-2xl flex items-center justify-between gap-4">
-    <div>
-      <div class="text-lg font-bold text-gray-900" id="mobile-bar-price">₹449</div>
-      <div class="text-[10px] text-emerald-600 font-semibold">Lifetime Access + PDF</div>
-    </div>
-    <div class="flex gap-2">
-      <button id="mobile-add-cart-btn" class="px-3 py-2 bg-gray-100 text-gray-700 text-xs font-bold rounded-lg">
-        Cart
-      </button>
-      <button id="mobile-enroll-btn" class="px-5 py-2 bg-euphoria-red text-white text-xs font-bold rounded-lg shadow">
-        Enroll Now
-      </button>
+  <!-- ================= IMAGE LIGHTBOX ZOOM MODAL ================= -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+    <div class="relative max-w-3xl w-full">
+      <button id="close-lightbox" class="absolute -top-10 right-0 text-white text-2xl font-bold hover:text-gray-300">✕</button>
+      <img id="lightbox-img" src="" alt="Full view" class="w-full h-auto max-h-[85vh] object-contain rounded-xl shadow-2xl" />
     </div>
   </div>
 
-  <!-- Toast Alert -->
-  <div id="toast" class="bg-gray-900 text-white px-5 py-3 rounded-xl shadow-2xl flex items-center gap-3">
-    <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-    <span id="toast-message" class="text-xs sm:text-sm font-medium">Added to cart!</span>
+  <!-- ================= CART DRAWER ================= -->
+  <div id="cart-backdrop" class="fixed inset-0 bg-black/50 backdrop-blur-xs z-50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+  <aside id="cart-drawer" class="fixed inset-y-0 right-0 max-w-sm w-full bg-white shadow-2xl z-50 translate-x-full transition-transform duration-300 flex flex-col">
+    <div class="flex items-center justify-between p-4 border-b border-gray-100">
+      <div class="flex items-center gap-2">
+        <h3 class="font-bold text-gray-900 text-sm">Shopping Cart</h3>
+        <span id="drawer-cart-count" class="text-xs bg-red-100 text-euphoria-red font-bold px-2 py-0.5 rounded-full">0</span>
+      </div>
+      <button id="close-cart-btn" class="p-1.5 text-gray-400 hover:text-gray-800 rounded-lg">✕</button>
+    </div>
+
+    <!-- Cart Items Container -->
+    <div id="cart-items" class="flex-1 overflow-y-auto p-4 space-y-3"></div>
+
+    <!-- Cart Empty State -->
+    <div id="cart-empty" class="hidden flex-1 flex flex-col items-center justify-center p-6 text-center text-gray-400">
+      <div class="text-4xl mb-2">🛒</div>
+      <p class="text-xs font-semibold text-gray-600">Your cart is empty</p>
+      <p class="text-[11px] text-gray-400 mt-1">Browse masterclasses to get started.</p>
+    </div>
+
+    <!-- Cart Footer -->
+    <div id="cart-footer" class="p-4 border-t border-gray-100 bg-gray-50 space-y-3">
+      <div class="flex justify-between text-xs font-bold text-gray-900">
+        <span>Subtotal:</span>
+        <span id="cart-subtotal" class="text-base text-euphoria-red">₹0</span>
+      </div>
+      <a href="checkout.html" class="block w-full py-3 bg-[#d34a30] hover:bg-[#ba3c24] text-white font-bold text-xs rounded-xl shadow-md text-center transition-colors">
+        Proceed to Checkout →
+      </a>
+    </div>
+  </aside>
+
+  <!-- ================= FLOATING WHATSAPP PILL (MATCHING SCREENSHOT) ================= -->
+  <a 
+    id="floating-whatsapp"
+    href="https://wa.me/916294822573?text=Hi%20Euphoria%2C%20I%20have%20a%20doubt%20about%20your%20classes" 
+    target="_blank" 
+    rel="noopener"
+    class="fixed bottom-4 right-4 z-40 flex items-center gap-2 bg-[#25D366] text-white px-4 py-2.5 rounded-full font-bold text-xs shadow-xl hover:bg-[#20bd5a] transition-all hover:scale-105"
+    aria-label="Need Help? Chat with us"
+  >
+    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+    </svg>
+    <span>Need Help? Chat with us</span>
+  </a>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-6 left-6 z-50 transform -translate-y-24 opacity-0 transition-all duration-300 pointer-events-none">
+    <div class="bg-gray-900 text-white text-xs font-semibold px-4 py-3 rounded-2xl shadow-xl border border-gray-800 flex items-center gap-2">
+      <span id="toast-message">Message</span>
+    </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="bg-euphoria-navy text-white pt-12 pb-8 border-t border-gray-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-gray-400">
-      <p>© 2026 Euphoria Live Classes. All Rights Reserved. ISO 9001:2015 Certified Academy.</p>
+  <!-- ================= FOOTER (MATCHING SCREENSHOT) ================= -->
+  <footer class="bg-white border-t border-gray-200 py-6 text-xs text-gray-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        Copyright © 2019 – 2026 Euphoria Live Classes
+      </div>
+      <div class="flex flex-wrap items-center gap-4 text-gray-600">
+        <a href="about.html" class="hover:text-euphoria-red">About Us</a>
+        <span>|</span>
+        <a href="contact.html" class="hover:text-euphoria-red">Contact Us</a>
+        <span>|</span>
+        <a href="contact.html" class="hover:text-euphoria-red">Privacy Policy</a>
+        <span>|</span>
+        <a href="contact.html" class="hover:text-euphoria-red">Terms of Use</a>
+        <span>|</span>
+        <a href="contact.html" class="hover:text-euphoria-red">Disclaimer</a>
+      </div>
     </div>
   </footer>
 
-  <!-- ================= FLOATING WHATSAPP SUPPORT ================= -->
-  <a 
-    href="https://wa.me/916294822573?text=Hi%20Euphoria%2C%20I%20have%20a%20question%20about%20this%20class" 
-    target="_blank" 
-    rel="noopener"
-    class="floating-whatsapp-btn flex items-center gap-2 bg-[#25D366] text-white px-3.5 py-2.5 rounded-full font-bold text-xs shadow-lg hover:bg-[#20bd5a] transition-all"
-    aria-label="Direct WhatsApp Support"
-  >
-    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-    <span class="hidden sm:inline">WhatsApp Help</span>
-  </a>
-
   <!-- Scripts -->
   <script src="js/courses-data.js"></script>
+  <script src="js/secure-player.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const urlParams = new URLSearchParams(window.location.search);
-      const courseId = urlParams.get('id') || 'course-11702';
-      const courses = window.EUPHORIA_COURSES || [];
-      const course = courses.find(c => c.id === courseId) || courses[0];
+      // Default to Mini Cookies & Dips (11522) to match user screenshot, or any passed id
+      const courseId = urlParams.get('id') || 'course-11522';
+      const allCourses = window.EUPHORIA_COURSES || [];
+      const course = allCourses.find(c => c.id === courseId) || allCourses[1] || allCourses[0];
 
       if (!course) return;
 
-      // Update Page Meta
+      // Page Title & Meta
       document.title = `${course.title} | Euphoria Live Classes`;
       document.getElementById('page-title').textContent = `${course.title} | Euphoria Live Classes`;
-      document.getElementById('page-desc').setAttribute('content', course.shortDescription);
-
-      // Populate Elements
-      document.getElementById('breadcrumb-cat').textContent = course.category;
+      
+      // Breadcrumbs
+      const catName = course.rawCategory || course.category || 'Baking';
+      document.getElementById('breadcrumb-category').textContent = catName;
+      document.getElementById('breadcrumb-category').href = `courses.html?cat=${encodeURIComponent(course.category)}`;
       document.getElementById('breadcrumb-title').textContent = course.title;
-      document.getElementById('course-category-tag').textContent = course.category;
+
+      // Category Tag Link
+      const catLink = document.getElementById('course-category-link');
+      catLink.textContent = catName;
+      catLink.href = `courses.html?cat=${encodeURIComponent(course.category)}`;
+
+      // Meta category
+      const metaCat = document.getElementById('meta-category');
+      metaCat.textContent = catName;
+      metaCat.href = `courses.html?cat=${encodeURIComponent(course.category)}`;
+
+      // Title & Pricing
       document.getElementById('course-title').textContent = course.title;
-      document.getElementById('course-short-desc').textContent = course.shortDescription;
-      document.getElementById('course-rating').textContent = course.rating;
-      document.getElementById('course-reviews').textContent = `(${course.reviewsCount} verified reviews)`;
+      const originalPrice = course.originalPrice || (course.price * 2);
+      document.getElementById('course-original-price').textContent = `₹${originalPrice}.00`;
+      document.getElementById('course-price').textContent = `₹${course.price}.00`;
 
-      const badgeEl = document.getElementById('course-badge');
-      if (course.badge) {
-        badgeEl.textContent = course.badge;
-      } else {
-        badgeEl.classList.add('hidden');
-      }
-
+      // Hero Image
       const heroImg = document.getElementById('course-hero-img');
-      heroImg.src = course.image;
+      heroImg.src = course.image || 'assets/images/course-chocolate.png';
       heroImg.alt = course.title;
 
-      // Price Cards
-      const discount = Math.round(((course.originalPrice - course.price) / course.originalPrice) * 100);
-      document.getElementById('card-price').textContent = `₹${course.price}`;
-      document.getElementById('card-original-price').textContent = `₹${course.originalPrice}`;
-      document.getElementById('card-discount-badge').textContent = `Save ${discount}%`;
-      document.getElementById('mobile-bar-price').textContent = `₹${course.price}`;
+      // WhatsApp Chat prefill
+      const waText = encodeURIComponent(`Hi Euphoria, I am interested in ${course.title}. Please provide more details.`);
+      const waUrl = `https://wa.me/916294822573?text=${waText}`;
+      document.getElementById('whatsapp-chat-btn').href = waUrl;
+      document.getElementById('floating-whatsapp').href = waUrl;
 
-      // Full Description
-      document.getElementById('course-full-desc').textContent = course.description;
+      // Render Description HTML
+      const descContainer = document.getElementById('course-description-container');
+      if (course.rawDescription && course.rawDescription.trim().length > 20) {
+        descContainer.innerHTML = course.rawDescription;
+      } else {
+        // Structured fallback
+        descContainer.innerHTML = `
+          <p>Euphoria Live Classes presents <strong>${course.title}</strong>. In this class, you will master step-by-step practical formulations, commercial packaging secrets, and professional baking techniques.</p>
+          <p><strong>Course Details:</strong></p>
+          <ul>
+            <li>Course Fees: ${course.price}/-</li>
+            <li>No of Videos: 20 Videos</li>
+            <li>Pre-Recorded Class</li>
+          </ul>
+          <p><strong>Course Modules:</strong></p>
+          <ol>
+            ${(course.modules || []).map(m => `<li>${m}</li>`).join('')}
+          </ol>
+          <h5>Bonus Learning:</h5>
+          <ul>
+            <li>Marketing & Selling Guide</li>
+          </ul>
+          <h5>What We Provide:</h5>
+          <ul>
+            <li>Recordings for lifetime access</li>
+            <li>Course Materials as PDFs</li>
+            <li>Course Completion Certificate</li>
+            <li>Lifetime Support (Call or WhatsApp)</li>
+            <li>Community Support</li>
+            <li>Ingredients & Tools Buying Guide</li>
+          </ul>
+          <h5>Language of Teaching:</h5>
+          <ul>
+            <li>Hindi</li>
+          </ul>
+          <p><strong>Note</strong>: For any issue, please call or WhatsApp +91 62948 22573 (Calling time: 10:30 am to 7:30 pm; Except holidays)</p>
+        `;
+      }
 
-      // Curriculum
-      const curriculumList = document.getElementById('curriculum-list');
-      curriculumList.innerHTML = course.modules.map((m, i) => `
-        <div class="flex items-center justify-between p-3.5 bg-gray-50 rounded-xl border border-gray-100 hover:bg-white hover:border-gray-200 transition-colors">
-          <div class="flex items-center gap-3">
-            <span class="w-6 h-6 rounded-full bg-euphoria-navy text-white text-xs font-bold flex items-center justify-center">
-              ${i + 1}
-            </span>
-            <span class="text-xs sm:text-sm font-semibold text-gray-800">${m}</span>
+      // Reviews Count
+      document.getElementById('tab-reviews-count').textContent = course.reviewsCount || 0;
+
+      // Lightbox Zoom
+      const zoomBtn = document.getElementById('zoom-img-btn');
+      const lightboxModal = document.getElementById('lightbox-modal');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const closeLightbox = document.getElementById('close-lightbox');
+
+      function openZoom() {
+        lightboxImg.src = heroImg.src;
+        lightboxModal.classList.remove('hidden');
+      }
+
+      heroImg.addEventListener('click', openZoom);
+      zoomBtn.addEventListener('click', openZoom);
+      closeLightbox.addEventListener('click', () => lightboxModal.classList.add('hidden'));
+      lightboxModal.addEventListener('click', (e) => {
+        if (e.target === lightboxModal) lightboxModal.classList.add('hidden');
+      });
+
+      // Tabs Switcher
+      const tabs = document.querySelectorAll('.detail-tab');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => {
+            t.classList.remove('active', 'border-euphoria-red', 'text-gray-900');
+            t.classList.add('border-transparent', 'text-gray-400');
+          });
+          tab.classList.add('active', 'border-euphoria-red', 'text-gray-900');
+          tab.classList.remove('border-transparent', 'text-gray-400');
+
+          const tabName = tab.dataset.tab;
+          document.getElementById('tab-content-description').classList.toggle('hidden', tabName !== 'description');
+          document.getElementById('tab-content-reviews').classList.toggle('hidden', tabName !== 'reviews');
+          document.getElementById('tab-content-drm-preview').classList.toggle('hidden', tabName !== 'drm-preview');
+        });
+      });
+
+      // Initialize DRM Player on preview video
+      const student = JSON.parse(localStorage.getItem('euphoria_student')) || {
+        name: 'Priya Sharma',
+        phone: '+91 98765 43210',
+        id: 'ELC-89214'
+      };
+
+      const previewVideo = document.getElementById('preview-video-player');
+      if (previewVideo) {
+        previewVideo.poster = course.image;
+        new EuphoriaSecurePlayer({
+          container: previewVideo.parentElement,
+          video: previewVideo,
+          student: {
+            name: student.name,
+            phone: student.phone,
+            id: student.id,
+            ip: '103.211.54.12'
+          }
+        });
+      }
+
+      // Render "You may also like..."
+      const relatedGrid = document.getElementById('related-courses-grid');
+      const relatedCourses = allCourses
+        .filter(c => c.id !== course.id && (c.category === course.category || Math.abs(c.price - course.price) <= 100))
+        .slice(0, 4);
+
+      relatedGrid.innerHTML = relatedCourses.map(rel => `
+        <div class="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-2xs hover:shadow-md transition-all flex flex-col justify-between group">
+          
+          <div class="relative aspect-[4/3] bg-gray-100 overflow-hidden">
+            <span class="sale-badge">Sale!</span>
+            <a href="course-detail.html?id=${rel.id}">
+              <img src="${rel.image}" alt="${rel.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='assets/images/course-chocolate.png'" />
+            </a>
           </div>
-          <span class="text-[11px] text-gray-400 font-mono">Video & PDF Notes</span>
+
+          <div class="p-4 flex-1 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="text-[11px] text-gray-500">${rel.rawCategory || rel.category}</div>
+              <a href="course-detail.html?id=${rel.id}" class="text-xs sm:text-sm font-bold text-gray-900 line-clamp-2 hover:text-euphoria-red transition-colors mt-0.5">
+                ${rel.title}
+              </a>
+              <div class="flex items-baseline gap-2 mt-2">
+                <span class="text-xs text-gray-400 line-through">₹${rel.originalPrice || (rel.price * 2)}.00</span>
+                <span class="text-sm font-bold text-gray-900">₹${rel.price}.00</span>
+              </div>
+            </div>
+
+            <div class="space-y-1.5 pt-2">
+              <button class="w-full py-2 bg-[#0071e3] hover:bg-[#005bb5] text-white font-bold text-xs rounded transition-colors rel-add-cart" data-id="${rel.id}">
+                Add to cart
+              </button>
+              <a href="checkout.html?buy=${rel.id}" class="w-full py-2 bg-[#d34a30] hover:bg-[#ba3c24] text-white font-bold text-xs rounded transition-colors text-center block">
+                Buy Now
+              </a>
+            </div>
+          </div>
+
         </div>
       `).join('');
 
       // Cart Logic
       let cart = JSON.parse(localStorage.getItem('euphoria_cart')) || [];
-      const cartCountEl = document.getElementById('cart-count');
-      if (cartCountEl) cartCountEl.textContent = cart.length;
+      const cartCountBadge = document.getElementById('cart-count');
+      const drawerCartCount = document.getElementById('drawer-cart-count');
+      const cartDrawer = document.getElementById('cart-drawer');
+      const cartBackdrop = document.getElementById('cart-backdrop');
+      const closeCartBtn = document.getElementById('close-cart-btn');
+      const cartItemsContainer = document.getElementById('cart-items');
+      const cartEmptyEl = document.getElementById('cart-empty');
+      const cartSubtotalEl = document.getElementById('cart-subtotal');
 
-      function addToCart() {
-        const existing = cart.find(i => i.id === course.id);
-        if (!existing) {
-          cart.push({
-            id: course.id,
-            title: course.title,
-            price: course.price,
-            originalPrice: course.originalPrice,
-            image: course.image,
-            category: course.category
+      function updateCartUI() {
+        cartCountBadge.textContent = cart.length;
+        drawerCartCount.textContent = cart.length;
+        localStorage.setItem('euphoria_cart', JSON.stringify(cart));
+
+        if (cart.length === 0) {
+          cartEmptyEl.classList.remove('hidden');
+          cartItemsContainer.innerHTML = '';
+          cartSubtotalEl.textContent = '₹0';
+          return;
+        }
+
+        cartEmptyEl.classList.add('hidden');
+        const subtotal = cart.reduce((acc, i) => acc + i.price, 0);
+        cartSubtotalEl.textContent = `₹${subtotal}.00`;
+
+        cartItemsContainer.innerHTML = cart.map((item, idx) => `
+          <div class="flex items-center gap-3 p-2.5 bg-gray-50 rounded-xl border border-gray-100">
+            <img src="${item.image}" alt="${item.title}" class="w-12 h-12 rounded object-cover" />
+            <div class="flex-1 min-w-0">
+              <div class="text-xs font-bold text-gray-900 truncate">${item.title}</div>
+              <div class="text-[11px] text-gray-500">₹${item.price}.00</div>
+            </div>
+            <button class="remove-cart-item text-gray-400 hover:text-red-500 text-sm p-1" data-index="${idx}">✕</button>
+          </div>
+        `).join('');
+
+        cartItemsContainer.querySelectorAll('.remove-cart-item').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = parseInt(btn.dataset.index);
+            cart.splice(idx, 1);
+            updateCartUI();
           });
-          localStorage.setItem('euphoria_cart', JSON.stringify(cart));
-          if (cartCountEl) cartCountEl.textContent = cart.length;
-          showToast(`Added "${course.title.slice(0, 24)}..." to cart!`);
+        });
+      }
+
+      function openCart() {
+        cartDrawer.classList.remove('translate-x-full');
+        cartBackdrop.classList.remove('opacity-0', 'pointer-events-none');
+      }
+
+      function closeCart() {
+        cartDrawer.classList.add('translate-x-full');
+        cartBackdrop.classList.add('opacity-0', 'pointer-events-none');
+      }
+
+      function addToCart(c = course) {
+        const exists = cart.some(i => i.id === c.id);
+        if (!exists) {
+          cart.push({
+            id: c.id,
+            title: c.title,
+            price: c.price,
+            originalPrice: c.originalPrice || (c.price * 2),
+            image: c.image,
+            category: c.category
+          });
+          updateCartUI();
+          showToast(`Added "${c.title.slice(0, 25)}..." to cart!`);
+          openCart();
         } else {
-          showToast('Already in your cart.');
+          showToast('Course is already in your cart!');
+          openCart();
         }
       }
 
-      function enrollNow() {
-        showToast('Directing to Secure Checkout...');
-        setTimeout(() => {
-          window.location.href = `checkout.html?buy=${course.id}`;
-        }, 500);
-      }
+      document.getElementById('add-to-cart-btn').addEventListener('click', () => addToCart(course));
+      document.getElementById('buy-now-btn').addEventListener('click', () => {
+        window.location.href = `checkout.html?buy=${course.id}`;
+      });
 
-      document.getElementById('enroll-now-btn').addEventListener('click', enrollNow);
-      document.getElementById('mobile-enroll-btn').addEventListener('click', enrollNow);
-      document.getElementById('add-to-cart-page-btn').addEventListener('click', addToCart);
-      document.getElementById('mobile-add-cart-btn').addEventListener('click', addToCart);
+      // Related course add to cart
+      document.querySelectorAll('.rel-add-cart').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const relCourse = allCourses.find(c => c.id === btn.dataset.id);
+          if (relCourse) addToCart(relCourse);
+        });
+      });
+
+      document.getElementById('cart-btn').addEventListener('click', openCart);
+      document.getElementById('nav-cart-link')?.addEventListener('click', openCart);
+      closeCartBtn.addEventListener('click', closeCart);
+      cartBackdrop.addEventListener('click', closeCart);
 
       function showToast(msg) {
         const toast = document.getElementById('toast');
         const toastMsg = document.getElementById('toast-message');
         if (toast && toastMsg) {
           toastMsg.textContent = msg;
-          toast.classList.add('show');
-          setTimeout(() => toast.classList.remove('show'), 3000);
+          toast.classList.remove('-translate-y-24', 'opacity-0');
+          setTimeout(() => {
+            toast.classList.add('-translate-y-24', 'opacity-0');
+          }, 3000);
         }
       }
+
+      updateCartUI();
     });
   </script>
 </body>
