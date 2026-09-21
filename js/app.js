@@ -182,11 +182,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (cart.length === 0) return;
     showToast('Redirecting to secure payment checkout...');
     setTimeout(() => {
-      alert(`🎉 Thank you for choosing Euphoria Live Classes!\n\nOrder summary: ${cart.length} course(s)\nTotal: ${cartSubtotalEl.textContent}\n\nLifetime access will be unlocked in your account!`);
-      cart = [];
-      updateCartUI();
-      closeCart();
-    }, 800);
+      window.location.href = 'checkout.html';
+    }, 500);
   });
 
   // --- Render Courses ---

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure Checkout & Instant Enrollment | Euphoria Live Classes</title>
+  <meta name="description" content="Secure student enrollment and payment checkout for Euphoria Live Classes. Unlock lifetime access to professional baking masterclasses and DRM-protected recipe books." />
+  <link rel="icon" type="image/png" href="assets/images/logo-navbar-transparent.png" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            euphoria: {
+              red: '#d34a30',
+              redHover: '#ba3c24',
+              navy: '#0c203b',
+              navyDark: '#081528',
+              navyLight: '#18345b',
+              cream: '#fdfaf5',
+              creamLight: '#fffdfa',
+              creamDark: '#f7f1e5',
+              gold: '#f59e0b',
+              border: '#f1e8d9'
+            }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            serif: ['Playfair Display', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased selection:bg-red-100 selection:text-red-700 min-h-screen flex flex-col justify-between">
+
+  <!-- ================= TOP HEADER ================= -->
+  <header class="bg-white border-b border-gray-100 sticky top-0 z-40 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-2 group">
+        <img src="assets/images/logo-navbar-transparent.png" alt="Euphoria Live Classes" class="h-9 sm:h-10 w-auto object-contain" />
+      </a>
+
+      <!-- Security Guarantee Indicator -->
+      <div class="flex items-center gap-2 text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-3.5 py-1.5 rounded-full">
+        <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+        <span>256-Bit SSL Encrypted & Secure Checkout</span>
+      </div>
+
+      <!-- Return Link -->
+      <a href="courses.html" class="text-xs sm:text-sm font-semibold text-gray-600 hover:text-euphoria-red transition-colors flex items-center gap-1">
+        <span>← Back to Courses</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ================= MAIN CHECKOUT CONTENT ================= -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+    
+    <!-- Empty Cart Notice (hidden by default) -->
+    <div id="checkout-empty" class="hidden bg-white rounded-3xl p-12 text-center border border-gray-100 shadow-soft max-w-xl mx-auto my-8">
+      <div class="w-16 h-16 rounded-full bg-red-50 text-euphoria-red flex items-center justify-center text-3xl mx-auto mb-4">🛒</div>
+      <h2 class="text-2xl font-bold text-gray-900 mb-2">Your Enrollment Cart is Empty</h2>
+      <p class="text-gray-500 text-sm mb-6">Explore our 94+ certified baking and cooking masterclasses to get started!</p>
+      <a href="courses.html" class="inline-flex items-center gap-2 px-6 py-3 bg-euphoria-red hover:bg-euphoria-redHover text-white font-bold text-sm rounded-xl shadow-md transition-all">
+        <span>Browse All Courses</span>
+        <span>→</span>
+      </a>
+    </div>
+
+    <!-- Active Checkout Grid -->
+    <div id="checkout-content" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      
+      <!-- LEFT COLUMN: Student Details & Payment Methods (7 cols) -->
+      <div class="lg:col-span-7 space-y-6">
+        
+        <!-- Step 1: Student Information -->
+        <div class="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-soft">
+          <div class="flex items-center gap-3 mb-6 pb-4 border-b border-gray-100">
+            <span class="w-8 h-8 rounded-full bg-euphoria-navy text-white text-sm font-bold flex items-center justify-center">1</span>
+            <div>
+              <h2 class="text-lg sm:text-xl font-bold text-gray-900">Student Enrollment Details</h2>
+              <p class="text-xs text-gray-500">Your certificate and secure DRM learning watermark will use these details.</p>
+            </div>
+          </div>
+
+          <form id="student-form" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5" for="student-name">
+                Full Name (For Certificate) *
+              </label>
+              <input 
+                type="text" 
+                id="student-name" 
+                required 
+                placeholder="e.g. Priya Sharma"
+                value="Priya Sharma"
+                class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-euphoria-red transition-all"
+              />
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5" for="student-phone">
+                WhatsApp Phone Number *
+              </label>
+              <input 
+                type="tel" 
+                id="student-phone" 
+                required 
+                placeholder="e.g. +91 98765 43210"
+                value="+91 98765 43210"
+                class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-euphoria-red transition-all"
+              />
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5" for="student-email">
+                Email Address (For LMS Login) *
+              </label>
+              <input 
+                type="email" 
+                id="student-email" 
+                required 
+                placeholder="e.g. priya@example.com"
+                value="priya.sharma@example.com"
+                class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-euphoria-red transition-all"
+              />
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5" for="student-city">
+                City / State *
+              </label>
+              <input 
+                type="text" 
+                id="student-city" 
+                required 
+                placeholder="e.g. Kolkata, West Bengal"
+                value="Kolkata, WB"
+                class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-euphoria-red transition-all"
+              />
+            </div>
+          </form>
+
+          <div class="mt-4 p-3 bg-amber-50/60 rounded-xl border border-amber-100/80 flex items-start gap-2.5 text-xs text-amber-900">
+            <span class="text-base">🛡️</span>
+            <span>
+              <strong>Anti-Piracy Guarantee:</strong> Your registered phone number will dynamically animate across the student video player to protect copyrighted masterclass recordings.
+            </span>
+          </div>
+        </div>
+
+        <!-- Step 2: Payment Method -->
+        <div class="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-soft">
+          <div class="flex items-center gap-3 mb-6 pb-4 border-b border-gray-100">
+            <span class="w-8 h-8 rounded-full bg-euphoria-navy text-white text-sm font-bold flex items-center justify-center">2</span>
+            <div>
+              <h2 class="text-lg sm:text-xl font-bold text-gray-900">Select Payment Method</h2>
+              <p class="text-xs text-gray-500">100% Secure Transaction via Indian Banking Gateways.</p>
+            </div>
+          </div>
+
+          <!-- Payment Options Tabs -->
+          <div class="grid grid-cols-3 gap-3 mb-6">
+            <button type="button" class="pay-method-tab active p-3 rounded-2xl border-2 border-euphoria-red bg-red-50/50 flex flex-col items-center justify-center text-center gap-1 transition-all" data-method="upi">
+              <span class="text-xl">⚡</span>
+              <span class="text-xs font-bold text-gray-900">Instant UPI</span>
+              <span class="text-[10px] text-emerald-600 font-semibold">Zero Surcharge</span>
+            </button>
+
+            <button type="button" class="pay-method-tab p-3 rounded-2xl border-2 border-gray-200 hover:border-gray-300 bg-white flex flex-col items-center justify-center text-center gap-1 transition-all" data-method="card">
+              <span class="text-xl">💳</span>
+              <span class="text-xs font-bold text-gray-900">Cards</span>
+              <span class="text-[10px] text-gray-400">Visa / RuPay / MC</span>
+            </button>
+
+            <button type="button" class="pay-method-tab p-3 rounded-2xl border-2 border-gray-200 hover:border-gray-300 bg-white flex flex-col items-center justify-center text-center gap-1 transition-all" data-method="netbanking">
+              <span class="text-xl">🏦</span>
+              <span class="text-xs font-bold text-gray-900">Net Banking</span>
+              <span class="text-[10px] text-gray-400">All Top Banks</span>
+            </button>
+          </div>
+
+          <!-- Method 1: UPI Details -->
+          <div id="method-upi" class="space-y-4">
+            <div class="p-4 bg-gray-50 rounded-2xl border border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div class="w-16 h-16 bg-white rounded-xl border border-gray-200 p-1 flex items-center justify-center shadow-xs">
+                  <!-- Simulated QR Code Icon -->
+                  <div class="w-full h-full bg-euphoria-navy/90 rounded flex items-center justify-center text-white font-mono text-[10px] font-bold text-center leading-tight">
+                    SCAN<br/>UPI QR
+                  </div>
+                </div>
+                <div>
+                  <div class="text-xs font-bold text-gray-900">Scan QR Code or Use UPI ID</div>
+                  <div class="text-xs text-gray-500 mt-0.5">Google Pay, PhonePe, Paytm, BHIM</div>
+                  <div class="text-xs font-mono text-euphoria-red font-bold mt-1">euphoria.classes@upi</div>
+                </div>
+              </div>
+              <button type="button" id="copy-upi-btn" class="px-3.5 py-1.5 bg-white border border-gray-200 text-gray-700 text-xs font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+                Copy UPI ID
+              </button>
+            </div>
+          </div>
+
+          <!-- Method 2: Card Details (hidden by default) -->
+          <div id="method-card" class="hidden space-y-3">
+            <div>
+              <label class="block text-xs font-bold text-gray-700 mb-1">Card Number</label>
+              <input type="text" placeholder="4123 4567 8901 2345" class="w-full px-4 py-2 bg-gray-50 border border-gray-200 rounded-xl text-sm font-mono" />
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-bold text-gray-700 mb-1">Expiry Date</label>
+                <input type="text" placeholder="MM / YY" class="w-full px-4 py-2 bg-gray-50 border border-gray-200 rounded-xl text-sm font-mono" />
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-gray-700 mb-1">CVV</label>
+                <input type="password" placeholder="123" maxlength="4" class="w-full px-4 py-2 bg-gray-50 border border-gray-200 rounded-xl text-sm font-mono" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Method 3: Net Banking (hidden by default) -->
+          <div id="method-netbanking" class="hidden space-y-3">
+            <label class="block text-xs font-bold text-gray-700 mb-1">Select Bank</label>
+            <select class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm">
+              <option>State Bank of India (SBI)</option>
+              <option>HDFC Bank</option>
+              <option>ICICI Bank</option>
+              <option>Axis Bank</option>
+              <option>Punjab National Bank (PNB)</option>
+            </select>
+          </div>
+
+          <!-- Trust Badges Row -->
+          <div class="mt-6 pt-6 border-t border-gray-100 grid grid-cols-3 gap-2 text-center">
+            <div class="flex flex-col items-center">
+              <span class="text-emerald-500 font-bold text-sm">✓ 100%</span>
+              <span class="text-[11px] text-gray-500">Secure Payment</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="text-euphoria-navy font-bold text-sm">♾️ Lifetime</span>
+              <span class="text-[11px] text-gray-500">Portal Access</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="text-amber-500 font-bold text-sm">🏆 ISO 9001</span>
+              <span class="text-[11px] text-gray-500">Certified Academy</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN: Order Summary & Pay Button (5 cols) -->
+      <div class="lg:col-span-5 sticky top-24 space-y-5">
+        
+        <!-- Summary Card -->
+        <div class="bg-white rounded-3xl border border-gray-100 p-6 sm:p-7 shadow-soft">
+          <div class="flex items-center justify-between pb-4 border-b border-gray-100 mb-4">
+            <h3 class="text-base font-bold text-gray-900">Order Summary</h3>
+            <span id="summary-items-count" class="text-xs bg-red-50 text-euphoria-red font-bold px-2.5 py-1 rounded-full">
+              1 Course
+            </span>
+          </div>
+
+          <!-- Items List -->
+          <div id="checkout-items-list" class="space-y-3 max-h-64 overflow-y-auto pr-1 mb-5">
+            <!-- Populated dynamically -->
+          </div>
+
+          <!-- Coupon Code Section -->
+          <div class="pt-4 border-t border-gray-100 mb-5">
+            <label class="block text-xs font-bold text-gray-700 mb-1.5" for="coupon-input">Have a Promo Coupon?</label>
+            <div class="flex gap-2">
+              <input 
+                type="text" 
+                id="coupon-input" 
+                placeholder="Try EUPHORIA50 or FLAT100" 
+                class="flex-1 px-3.5 py-2 bg-gray-50 border border-gray-200 rounded-xl text-xs uppercase font-mono tracking-wider focus:bg-white focus:outline-none focus:ring-2 focus:ring-euphoria-red"
+              />
+              <button 
+                type="button" 
+                id="apply-coupon-btn" 
+                class="px-4 py-2 bg-euphoria-navy text-white text-xs font-bold rounded-xl hover:bg-euphoria-navyLight transition-colors"
+              >
+                Apply
+              </button>
+            </div>
+            <div id="coupon-message" class="text-[11px] font-semibold mt-1.5 hidden"></div>
+          </div>
+
+          <!-- Price Calculation Rows -->
+          <div class="space-y-2.5 text-xs text-gray-600 pb-5 border-b border-gray-100">
+            <div class="flex justify-between">
+              <span>Original Course Fee</span>
+              <span id="calc-original" class="line-through text-gray-400">₹999</span>
+            </div>
+            <div class="flex justify-between text-emerald-600 font-semibold">
+              <span>Catalog Discount</span>
+              <span id="calc-discount">- ₹550</span>
+            </div>
+            <div id="coupon-row" class="flex justify-between text-euphoria-red font-bold hidden">
+              <span>Coupon Discount (<span id="coupon-code-label"></span>)</span>
+              <span id="calc-coupon">- ₹0</span>
+            </div>
+            <div class="flex justify-between">
+              <span>DRM & Digital Content Access</span>
+              <span class="text-emerald-600 font-bold">FREE</span>
+            </div>
+          </div>
+
+          <!-- Total Amount -->
+          <div class="flex items-baseline justify-between pt-4 mb-6">
+            <span class="text-sm font-bold text-gray-900">Total Payable Amount</span>
+            <span id="calc-total" class="text-2xl sm:text-3xl font-extrabold text-euphoria-red">₹449</span>
+          </div>
+
+          <!-- Big Pay Button -->
+          <button 
+            type="button" 
+            id="pay-now-btn" 
+            class="w-full py-4 bg-euphoria-red hover:bg-euphoria-redHover text-white font-bold text-sm sm:text-base rounded-2xl shadow-lg transform hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group"
+          >
+            <span>Complete Enrollment & Unlock LMS</span>
+            <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </button>
+
+          <p class="text-[10px] text-gray-400 text-center mt-3">
+            By completing this enrollment, you agree to Euphoria's Terms of Digital Learning & Anti-Piracy Policy.
+          </p>
+        </div>
+
+        <!-- Help Card -->
+        <div class="bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-4 border border-orange-100/80 flex items-center justify-between gap-3">
+          <div class="text-xs">
+            <div class="font-bold text-gray-900">Need help with payment?</div>
+            <div class="text-gray-600">Connect with our VIP Support Desk on WhatsApp.</div>
+          </div>
+          <a href="https://wa.me/916294822573" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-xl shadow-xs flex-shrink-0 flex items-center gap-1">
+            <span>💬 Chat</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ================= ORDER SUCCESS CELEBRATION MODAL ================= -->
+  <div id="success-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full text-center shadow-2xl border border-orange-100 animate-in fade-in zoom-in duration-300">
+      
+      <!-- Celebration Icon -->
+      <div class="w-20 h-20 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-4xl mx-auto mb-4 animate-bounce">
+        🎉
+      </div>
+
+      <span class="text-xs font-bold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">
+        Enrollment Confirmed
+      </span>
+
+      <h2 class="text-2xl font-extrabold text-gray-900 font-serif-brand mt-3 mb-1">
+        Welcome to Euphoria!
+      </h2>
+      <p class="text-xs sm:text-sm text-gray-600 leading-relaxed mb-4">
+        Congratulations <strong id="success-student-name" class="text-gray-900">Priya Sharma</strong>! Your lifetime access has been unlocked in the student learning portal.
+      </p>
+
+      <!-- Student Card Box -->
+      <div class="bg-gray-50 rounded-2xl p-4 border border-gray-200 text-left text-xs mb-6 space-y-1.5">
+        <div class="flex justify-between">
+          <span class="text-gray-500">Student ID:</span>
+          <span id="success-student-id" class="font-mono font-bold text-euphoria-navy">ELC-89214</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">Registered WhatsApp:</span>
+          <span id="success-student-phone" class="font-mono text-gray-800">+91 98765 43210</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">Courses Enrolled:</span>
+          <span id="success-courses-count" class="font-bold text-emerald-600">1 Course</span>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="space-y-2.5">
+        <button id="go-to-lms-btn" class="w-full py-3.5 bg-euphoria-red hover:bg-euphoria-redHover text-white font-bold text-sm rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
+          <span>Launch Learning Portal (LMS)</span>
+          <span>▶</span>
+        </button>
+
+        <a href="dashboard.html" class="block w-full py-3 bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold text-xs rounded-xl transition-colors">
+          View My Dashboard
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none">
+    <div class="bg-gray-900 text-white text-xs font-semibold px-4 py-3 rounded-2xl shadow-xl border border-gray-800 flex items-center gap-2">
+      <span id="toast-message">Message</span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-gray-100 py-6 text-center text-xs text-gray-400">
+    © 2026 Euphoria Live Classes. ISO 9001:2015 Certified Culinary Academy. All Rights Reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/courses-data.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const buyId = urlParams.get('buy');
+      const allCourses = window.EUPHORIA_COURSES || [];
+
+      let cart = JSON.parse(localStorage.getItem('euphoria_cart')) || [];
+
+      // If user came via "?buy=course-id", ensure that course is in checkout
+      if (buyId) {
+        const found = allCourses.find(c => c.id === buyId);
+        if (found) {
+          if (!cart.some(i => i.id === found.id)) {
+            cart = [{
+              id: found.id,
+              title: found.title,
+              price: found.price,
+              originalPrice: found.originalPrice || (found.price * 2),
+              image: found.image,
+              category: found.category
+            }];
+            localStorage.setItem('euphoria_cart', JSON.stringify(cart));
+          }
+        }
+      }
+
+      const emptyEl = document.getElementById('checkout-empty');
+      const contentEl = document.getElementById('checkout-content');
+      const itemsListEl = document.getElementById('checkout-items-list');
+      const itemsCountBadge = document.getElementById('summary-items-count');
+
+      const calcOriginalEl = document.getElementById('calc-original');
+      const calcDiscountEl = document.getElementById('calc-discount');
+      const calcTotalEl = document.getElementById('calc-total');
+      const couponRow = document.getElementById('coupon-row');
+      const couponCodeLabel = document.getElementById('coupon-code-label');
+      const calcCouponEl = document.getElementById('calc-coupon');
+      const couponInput = document.getElementById('coupon-input');
+      const applyCouponBtn = document.getElementById('apply-coupon-btn');
+      const couponMsgEl = document.getElementById('coupon-message');
+
+      const payNowBtn = document.getElementById('pay-now-btn');
+      const successModal = document.getElementById('success-modal');
+
+      let discountPercent = 0;
+      let flatDiscount = 0;
+
+      function renderCheckout() {
+        if (cart.length === 0) {
+          emptyEl.classList.remove('hidden');
+          contentEl.classList.add('hidden');
+          return;
+        }
+
+        emptyEl.classList.add('hidden');
+        contentEl.classList.remove('hidden');
+        itemsCountBadge.textContent = `${cart.length} Course${cart.length > 1 ? 's' : ''}`;
+
+        // Render itemized list
+        itemsListEl.innerHTML = cart.map((item, idx) => `
+          <div class="flex items-center justify-between gap-3 p-3 bg-gray-50 rounded-2xl border border-gray-100">
+            <img src="${item.image}" alt="${item.title}" class="w-12 h-12 object-cover rounded-xl flex-shrink-0" />
+            <div class="flex-1 min-w-0">
+              <h4 class="text-xs font-bold text-gray-900 truncate">${item.title}</h4>
+              <div class="text-[11px] text-gray-500">${item.category || 'Masterclass'}</div>
+            </div>
+            <div class="text-right flex-shrink-0">
+              <div class="text-xs font-bold text-gray-900">₹${item.price}</div>
+              <button type="button" class="text-[10px] text-red-500 hover:text-red-700 remove-item-btn" data-index="${idx}">
+                Remove
+              </button>
+            </div>
+          </div>
+        `).join('');
+
+        // Wire remove buttons
+        document.querySelectorAll('.remove-item-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const index = parseInt(btn.dataset.index);
+            cart.splice(index, 1);
+            localStorage.setItem('euphoria_cart', JSON.stringify(cart));
+            renderCheckout();
+          });
+        });
+
+        // Calculations
+        const subtotal = cart.reduce((acc, i) => acc + (i.price || 449), 0);
+        const originalTotal = cart.reduce((acc, i) => acc + (i.originalPrice || (i.price * 2)), 0);
+        const catalogSavings = originalTotal - subtotal;
+
+        let couponDiscountAmount = 0;
+        if (discountPercent > 0) {
+          couponDiscountAmount = Math.round((subtotal * discountPercent) / 100);
+        } else if (flatDiscount > 0) {
+          couponDiscountAmount = Math.min(flatDiscount, subtotal - 50);
+        }
+
+        const finalTotal = Math.max(0, subtotal - couponDiscountAmount);
+
+        calcOriginalEl.textContent = `₹${originalTotal}`;
+        calcDiscountEl.textContent = `- ₹${catalogSavings}`;
+
+        if (couponDiscountAmount > 0) {
+          couponRow.classList.remove('hidden');
+          calcCouponEl.textContent = `- ₹${couponDiscountAmount}`;
+        } else {
+          couponRow.classList.add('hidden');
+        }
+
+        calcTotalEl.textContent = `₹${finalTotal}`;
+        payNowBtn.querySelector('span:first-child').textContent = `Pay ₹${finalTotal} & Unlock LMS`;
+      }
+
+      // Payment Tabs Switching
+      const payTabs = document.querySelectorAll('.pay-method-tab');
+      payTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          payTabs.forEach(t => {
+            t.classList.remove('active', 'border-euphoria-red', 'bg-red-50/50');
+            t.classList.add('border-gray-200', 'bg-white');
+          });
+          tab.classList.add('active', 'border-euphoria-red', 'bg-red-50/50');
+          tab.classList.remove('border-gray-200', 'bg-white');
+
+          const method = tab.dataset.method;
+          document.getElementById('method-upi').classList.toggle('hidden', method !== 'upi');
+          document.getElementById('method-card').classList.toggle('hidden', method !== 'card');
+          document.getElementById('method-netbanking').classList.toggle('hidden', method !== 'netbanking');
+        });
+      });
+
+      // Copy UPI ID Button
+      document.getElementById('copy-upi-btn')?.addEventListener('click', () => {
+        navigator.clipboard.writeText('euphoria.classes@upi');
+        showToast('UPI ID copied to clipboard!');
+      });
+
+      // Coupon Code Application
+      applyCouponBtn.addEventListener('click', () => {
+        const code = couponInput.value.trim().toUpperCase();
+        couponMsgEl.classList.remove('hidden', 'text-emerald-600', 'text-red-500');
+
+        if (code === 'EUPHORIA50') {
+          discountPercent = 50;
+          flatDiscount = 0;
+          couponCodeLabel.textContent = 'EUPHORIA50 (50% OFF)';
+          couponMsgEl.textContent = '🎉 Coupon applied! 50% discount unlocked.';
+          couponMsgEl.classList.add('text-emerald-600');
+        } else if (code === 'FLAT100') {
+          flatDiscount = 100;
+          discountPercent = 0;
+          couponCodeLabel.textContent = 'FLAT100 (₹100 OFF)';
+          couponMsgEl.textContent = '🎉 Coupon applied! ₹100 flat discount applied.';
+          couponMsgEl.classList.add('text-emerald-600');
+        } else if (code === 'WELCOME10') {
+          discountPercent = 10;
+          flatDiscount = 0;
+          couponCodeLabel.textContent = 'WELCOME10 (10% OFF)';
+          couponMsgEl.textContent = '🎉 Coupon applied! 10% welcome discount applied.';
+          couponMsgEl.classList.add('text-emerald-600');
+        } else {
+          discountPercent = 0;
+          flatDiscount = 0;
+          couponMsgEl.textContent = 'Invalid coupon code. Try EUPHORIA50 or FLAT100';
+          couponMsgEl.classList.add('text-red-500');
+        }
+        renderCheckout();
+      });
+
+      // Pay Now & Order Completion
+      payNowBtn.addEventListener('click', () => {
+        const studentName = document.getElementById('student-name').value.trim();
+        const studentPhone = document.getElementById('student-phone').value.trim();
+        const studentEmail = document.getElementById('student-email').value.trim();
+        const studentCity = document.getElementById('student-city').value.trim();
+
+        if (!studentName || !studentPhone || !studentEmail) {
+          showToast('Please fill in your name, phone number, and email.');
+          return;
+        }
+
+        payNowBtn.disabled = true;
+        payNowBtn.innerHTML = `
+          <svg class="animate-spin h-5 w-5 text-white" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          <span>Securing Enrollment...</span>
+        `;
+
+        // Simulate Gateway Handshake
+        setTimeout(() => {
+          // Generate Student ID
+          const randomId = 'ELC-' + Math.floor(10000 + Math.random() * 90000);
+
+          // Save Student Profile
+          const studentProfile = {
+            name: studentName,
+            phone: studentPhone,
+            email: studentEmail,
+            city: studentCity,
+            id: randomId,
+            enrolledAt: new Date().toISOString()
+          };
+          localStorage.setItem('euphoria_student', JSON.stringify(studentProfile));
+
+          // Save Enrolled Courses
+          let enrolled = JSON.parse(localStorage.getItem('euphoria_enrolled_courses')) || [];
+          cart.forEach(item => {
+            if (!enrolled.some(e => e.id === item.id)) {
+              enrolled.push({
+                ...item,
+                progress: 0,
+                completed: false,
+                enrolledDate: new Date().toLocaleDateString('en-IN')
+              });
+            }
+          });
+          localStorage.setItem('euphoria_enrolled_courses', JSON.stringify(enrolled));
+
+          // Save first course ID for quick launch
+          const firstCourseId = cart[0]?.id || 'course-11702';
+
+          // Clear cart
+          localStorage.removeItem('euphoria_cart');
+
+          // Populate modal
+          document.getElementById('success-student-name').textContent = studentName;
+          document.getElementById('success-student-id').textContent = randomId;
+          document.getElementById('success-student-phone').textContent = studentPhone;
+          document.getElementById('success-courses-count').textContent = `${cart.length} Course${cart.length > 1 ? 's' : ''}`;
+
+          document.getElementById('go-to-lms-btn').onclick = () => {
+            window.location.href = `learn.html?id=${firstCourseId}`;
+          };
+
+          successModal.classList.remove('hidden');
+        }, 1200);
+      });
+
+      function showToast(msg) {
+        const toast = document.getElementById('toast');
+        const toastMsg = document.getElementById('toast-message');
+        if (toast && toastMsg) {
+          toastMsg.textContent = msg;
+          toast.classList.remove('translate-y-24', 'opacity-0');
+          setTimeout(() => {
+            toast.classList.add('translate-y-24', 'opacity-0');
+          }, 3000);
+        }
+      }
+
+      renderCheckout();
+    });
+  </script>
+</body>
+</html>

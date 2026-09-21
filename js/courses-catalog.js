@@ -435,11 +435,10 @@ document.addEventListener('DOMContentLoaded', () => {
       showToast('Your cart is empty!');
       return;
     }
-    // Forward to student portal with simulated active enrollment
-    showToast('Redirecting to Student Portal...');
+    showToast('Redirecting to secure checkout...');
     setTimeout(() => {
-      window.location.href = 'learn.html';
-    }, 1000);
+      window.location.href = 'checkout.html';
+    }, 600);
   });
 
   function showToast(msg) {
