@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Euphoria Live Classes</string>
+    <string name="title_activity_main">Euphoria Live Classes</string>
+    <string name="package_name">com.euphorialiveclasses.app</string>
+    <string name="custom_url_scheme">com.euphorialiveclasses.app</string>
+</resources>

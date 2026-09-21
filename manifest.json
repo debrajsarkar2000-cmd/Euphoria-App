@@ -1,0 +1,41 @@
+{
+  "name": "Euphoria Live Classes",
+  "short_name": "Euphoria",
+  "description": "Professional Baking, Chocolate Making & Cooking Online Academy",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0c203b",
+  "theme_color": "#0c203b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/logo-navbar-transparent.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/logo-navbar-transparent.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "All Courses",
+      "url": "courses.html",
+      "description": "Browse 90+ live courses"
+    },
+    {
+      "name": "Free Resources",
+      "url": "free-resources.html",
+      "description": "Download free recipe cheat sheets"
+    },
+    {
+      "name": "My Learning",
+      "url": "learn.html",
+      "description": "Watch video lessons"
+    }
+  ]
+}

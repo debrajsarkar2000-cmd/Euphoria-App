@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Courses Catalog | Euphoria Live Classes</title>
+  <meta name="description" content="Explore 90+ professional baking, chocolate making, cake decoration, and commercial cooking classes with lifetime access and certified recipes." />
+  <link rel="icon" type="image/png" href="assets/images/logo-navbar-transparent.png" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            euphoria: {
+              red: '#d34a30',
+              redHover: '#ba3c24',
+              navy: '#0c203b',
+              navyDark: '#081528',
+              navyLight: '#18345b',
+              cream: '#fdfaf5',
+              creamLight: '#fffdfa',
+              creamDark: '#f7f1e5',
+              gold: '#f59e0b',
+              border: '#f1e8d9'
+            }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+            script: ['Caveat', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased selection:bg-red-100 selection:text-red-700">
+
+  <!-- ================= TOP HEADER & NAVIGATION ================= -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20 gap-4">
+        
+        <!-- Left: Logo & Mobile Toggle -->
+        <div class="flex items-center gap-4">
+          <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-700 hover:text-euphoria-navy focus:outline-none" aria-label="Open navigation menu">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+          
+          <a href="index.html" class="flex items-center gap-2 group">
+            <img src="assets/images/logo-navbar-transparent.png" alt="Euphoria Live Classes" class="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-105" />
+          </a>
+        </div>
+
+        <!-- Center: Desktop Nav Links -->
+        <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-gray-600">
+          <a href="index.html" class="hover:text-euphoria-red transition-colors">Home</a>
+          <a href="courses.html" class="text-euphoria-red font-semibold">All Courses (94)</a>
+          <a href="free-resources.html" class="hover:text-euphoria-red transition-colors flex items-center gap-1.5">
+            <span>Free Resources</span>
+            <span class="bg-amber-100 text-amber-700 text-[10px] font-bold px-1.5 py-0.5 rounded-full">FREE</span>
+          </a>
+          <a href="learn.html" class="hover:text-euphoria-red transition-colors flex items-center gap-1">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span>Student Portal</span>
+          </a>
+        </nav>
+
+        <!-- Right: Search & Cart -->
+        <div class="flex items-center gap-4">
+          <div class="relative hidden sm:block w-48 md:w-64">
+            <input 
+              id="catalog-search-input" 
+              type="text" 
+              placeholder="Search 90+ classes..." 
+              autocomplete="off"
+              class="w-full pl-9 pr-4 py-1.5 bg-gray-100 border border-gray-200 rounded-full text-xs placeholder-gray-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-euphoria-red transition-all"
+            />
+            <svg class="w-4 h-4 text-gray-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          </div>
+
+          <button id="cart-btn" class="relative flex items-center gap-1.5 text-xs sm:text-sm font-medium text-gray-700 hover:text-euphoria-red transition-colors group" aria-label="Shopping Cart">
+            <div class="relative">
+              <svg class="w-5 h-5 text-gray-700 group-hover:text-euphoria-red transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+              <span id="cart-count" class="absolute -top-2 -right-2 bg-euphoria-red text-white font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center shadow-sm">0</span>
+            </div>
+            <span class="hidden sm:inline">Cart</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO BANNER ================= -->
+  <section class="bg-euphoria-navy text-white py-12 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 bg-white/10 text-amber-300 text-xs font-semibold px-3 py-1 rounded-full mb-3 backdrop-blur-sm">
+          <span>✨ 94+ Certified Online Baking & Cooking Masterclasses</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-serif-brand tracking-tight leading-tight">
+          Commercial Baking, Chocolates & Cooking Courses
+        </h1>
+        <p class="mt-3 text-sm sm:text-base text-gray-300 leading-relaxed">
+          Learn authentic, commercially tested recipes with lifetime video access, PDF formula sheets, ISO certificates, and direct WhatsApp instructor support.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FILTER & SEARCH BAR ================= -->
+  <section class="sticky top-20 z-30 bg-white border-b border-gray-200 shadow-sm py-3.5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        
+        <!-- Category Pills -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-2 md:pb-0 no-scrollbar text-xs font-medium" id="category-pills">
+          <button data-cat="all" class="cat-pill active px-3.5 py-1.5 rounded-full bg-euphoria-red text-white transition-all whitespace-nowrap">
+            All (<span id="count-all">94</span>)
+          </button>
+          <button data-cat="Cakes" class="cat-pill px-3.5 py-1.5 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-all whitespace-nowrap">
+            Cakes (<span id="count-cakes">23</span>)
+          </button>
+          <button data-cat="Baking" class="cat-pill px-3.5 py-1.5 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-all whitespace-nowrap">
+            Baking (<span id="count-baking">47</span>)
+          </button>
+          <button data-cat="Chocolates" class="cat-pill px-3.5 py-1.5 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-all whitespace-nowrap">
+            Chocolates (<span id="count-chocolates">6</span>)
+          </button>
+          <button data-cat="Cookies" class="cat-pill px-3.5 py-1.5 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-all whitespace-nowrap">
+            Cookies (<span id="count-cookies">6</span>)
+          </button>
+          <button data-cat="Sweets" class="cat-pill px-3.5 py-1.5 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-all whitespace-nowrap">
+            Traditional Sweets (<span id="count-sweets">4</span>)
+          </button>
+          <button data-cat="Breads & Snacks" class="cat-pill px-3.5 py-1.5 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-all whitespace-nowrap">
+            Breads & Snacks (<span id="count-breads">4</span>)
+          </button>
+        </div>
+
+        <!-- Controls: Price & Sort -->
+        <div class="flex items-center gap-3 self-end md:self-auto text-xs">
+          <select id="price-filter" class="bg-gray-50 border border-gray-200 rounded-lg px-2.5 py-1.5 text-gray-700 focus:outline-none focus:ring-1 focus:ring-euphoria-red">
+            <option value="all">All Prices</option>
+            <option value="under-399">Under ₹399</option>
+            <option value="399-499">₹399 – ₹499</option>
+            <option value="above-500">₹500 & Above</option>
+          </select>
+
+          <select id="sort-select" class="bg-gray-50 border border-gray-200 rounded-lg px-2.5 py-1.5 text-gray-700 focus:outline-none focus:ring-1 focus:ring-euphoria-red">
+            <option value="popular">Most Popular</option>
+            <option value="rating">Top Rated</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COURSES GRID ================= -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    <!-- Active filters and result count -->
+    <div class="flex items-center justify-between mb-6">
+      <div class="text-sm text-gray-600">
+        Showing <span id="displayed-count" class="font-bold text-gray-900">0</span> courses
+      </div>
+      <div id="reset-filters" class="hidden text-xs text-euphoria-red hover:underline cursor-pointer font-medium">
+        Reset filters
+      </div>
+    </div>
+
+    <!-- The Grid -->
+    <div id="catalog-courses-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <!-- Dynamically Rendered via JS -->
+    </div>
+
+    <!-- Empty State -->
+    <div id="no-results" class="hidden py-16 text-center">
+      <svg class="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <h3 class="text-lg font-bold text-gray-800">No courses match your criteria</h3>
+      <p class="text-sm text-gray-500 mt-1">Try clearing filters or searching for different keywords.</p>
+      <button id="clear-search-btn" class="mt-4 px-4 py-2 bg-euphoria-red text-white text-xs font-semibold rounded-lg shadow hover:bg-euphoria-redHover transition-colors">
+        View All 94 Courses
+      </button>
+    </div>
+  </main>
+
+  <!-- ================= COURSE PREVIEW MODAL ================= -->
+  <div id="course-modal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl animate-fade-in relative">
+      <button id="close-course-modal" class="absolute top-4 right-4 z-10 w-8 h-8 rounded-full bg-white/90 shadow text-gray-600 hover:text-gray-900 flex items-center justify-center">
+        ✕
+      </button>
+      <div id="course-modal-body" class="p-6">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= CART SLIDE-OVER DRAWER ================= -->
+  <div id="cart-backdrop" class="fixed inset-0 bg-black/50 backdrop-blur-xs z-50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+  <aside id="cart-drawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-white z-50 shadow-2xl flex flex-col translate-x-full transition-transform duration-300">
+    <div class="flex items-center justify-between px-6 py-4 border-b border-gray-100">
+      <h2 class="text-lg font-bold text-gray-900 flex items-center gap-2">
+        <span>Shopping Cart</span>
+        <span id="drawer-cart-count" class="text-xs bg-euphoria-red text-white px-2 py-0.5 rounded-full font-bold">0</span>
+      </h2>
+      <button id="close-cart-btn" class="text-gray-400 hover:text-gray-600 p-1 text-xl">✕</button>
+    </div>
+    
+    <div id="cart-items" class="flex-1 overflow-y-auto p-6 space-y-4">
+      <!-- Items dynamically added -->
+    </div>
+    
+    <div id="cart-empty" class="hidden flex-1 flex flex-col items-center justify-center p-8 text-center text-gray-400">
+      <svg class="w-16 h-16 text-gray-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+      <p class="text-sm font-medium text-gray-600">Your cart is empty</p>
+      <p class="text-xs text-gray-400 mt-1">Explore our 90+ live courses and start learning today!</p>
+    </div>
+
+    <div id="cart-footer" class="p-6 border-t border-gray-100 bg-gray-50">
+      <div class="flex justify-between items-center mb-4">
+        <span class="text-sm font-semibold text-gray-600">Subtotal</span>
+        <span id="cart-subtotal" class="text-xl font-bold text-gray-900">₹0</span>
+      </div>
+      <button id="checkout-btn" class="w-full py-3 bg-euphoria-red text-white font-bold rounded-xl shadow-lg hover:bg-euphoria-redHover transition-colors flex items-center justify-center gap-2">
+        <span>Proceed to Secure Checkout</span>
+        <span>→</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ================= TOAST ALERT ================= -->
+  <div id="toast" class="bg-gray-900 text-white px-5 py-3 rounded-xl shadow-2xl flex items-center gap-3">
+    <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+    <span id="toast-message" class="text-xs sm:text-sm font-medium">Added to cart!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-euphoria-navy text-white pt-12 pb-8 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-gray-400">
+      <p>© 2026 Euphoria Live Classes. All Rights Reserved. ISO 9001:2015 Certified Academy.</p>
+    </div>
+  </footer>
+
+  <!-- ================= MOBILE APP BOTTOM NAVIGATION BAR ================= -->
+  <nav class="md:hidden mobile-app-bottom-bar grid grid-cols-5 px-1 py-1">
+    <a href="index.html" class="mobile-nav-tab">
+      <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+      <span>Home</span>
+    </a>
+
+    <a href="courses.html" class="mobile-nav-tab active">
+      <div class="relative">
+        <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+        <span class="absolute -top-1 -right-2 bg-euphoria-red text-white text-[9px] font-bold px-1 rounded-full">94</span>
+      </div>
+      <span>Courses</span>
+    </a>
+
+    <a href="free-resources.html" class="mobile-nav-tab">
+      <div class="relative">
+        <svg class="w-5 h-5 mb-0.5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+        <span class="absolute -top-1 -right-2 bg-amber-500 text-white text-[8px] font-extrabold px-1 rounded-full">FREE</span>
+      </div>
+      <span>Resources</span>
+    </a>
+
+    <a href="learn.html" class="mobile-nav-tab">
+      <svg class="w-5 h-5 mb-0.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <span>Portal</span>
+    </a>
+
+    <button onclick="document.getElementById('cart-btn')?.click()" class="mobile-nav-tab">
+      <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+      <span>Cart</span>
+    </button>
+  </nav>
+
+  <!-- ================= FLOATING WHATSAPP SUPPORT ================= -->
+  <a 
+    href="https://wa.me/916294822573?text=Hi%20Euphoria%2C%20I%20have%20a%20question%20about%20live%20classes" 
+    target="_blank" 
+    rel="noopener"
+    class="floating-whatsapp-btn flex items-center gap-2 bg-[#25D366] text-white px-3.5 py-2.5 rounded-full font-bold text-xs shadow-lg hover:bg-[#20bd5a] transition-all"
+    aria-label="Direct WhatsApp Support"
+  >
+    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    <span class="hidden sm:inline">WhatsApp Support</span>
+  </a>
+
+  <!-- App Catalog Scripts -->
+  <script src="js/courses-data.js"></script>
+  <script src="js/courses-catalog.js"></script>
+</body>
+</html>

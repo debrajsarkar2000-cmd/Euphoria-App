@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Learning Portal | Euphoria Live Classes</title>
+  <meta name="description" content="Secure DRM student learning portal for Euphoria Live Classes. Watch video masterclasses and view verified recipe cards." />
+  <link rel="icon" type="image/png" href="assets/images/logo-navbar-transparent.png" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            euphoria: {
+              red: '#d34a30',
+              redHover: '#ba3c24',
+              navy: '#0c203b',
+              navyDark: '#081528',
+              navyLight: '#18345b',
+              cream: '#fdfaf5',
+              creamLight: '#fffdfa',
+              creamDark: '#f7f1e5',
+              gold: '#f59e0b',
+              border: '#f1e8d9'
+            }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+            script: ['Caveat', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased selection:bg-red-900 selection:text-white">
+
+  <!-- ================= LMS APP TOP BAR ================= -->
+  <header class="bg-gray-950 border-b border-gray-800 sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+      
+      <!-- Left: Logo & Course Nav -->
+      <div class="flex items-center gap-4">
+        <a href="index.html" class="flex items-center gap-2 group" title="Return to Homepage">
+          <img src="assets/images/logo-navbar-transparent.png" alt="Euphoria" class="h-8 sm:h-9 w-auto object-contain brightness-0 invert" />
+        </a>
+        <div class="hidden sm:block h-5 w-px bg-gray-800"></div>
+        <div class="hidden md:flex flex-col">
+          <span class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Active Course</span>
+          <span id="lms-course-title" class="text-xs sm:text-sm font-bold text-white truncate max-w-sm">
+            Festive Special Laddu Making Online Class
+          </span>
+        </div>
+      </div>
+
+      <!-- Center / Progress Indicator -->
+      <div class="flex items-center gap-3">
+        <div class="hidden sm:flex flex-col items-end">
+          <span class="text-[11px] text-gray-400">Course Progress</span>
+          <span class="text-xs font-bold text-emerald-400"><span id="progress-percent">25</span>% Completed</span>
+        </div>
+        <div class="w-24 sm:w-32 bg-gray-800 h-2 rounded-full overflow-hidden">
+          <div id="progress-bar-fill" class="bg-emerald-500 h-full w-1/4 transition-all duration-500"></div>
+        </div>
+      </div>
+
+      <!-- Right: Student Profile & Help -->
+      <div class="flex items-center gap-4">
+        <a href="https://wa.me/916294822573" target="_blank" class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-semibold hover:bg-emerald-500/20 transition-colors">
+          <span>💬 Doubt Support</span>
+        </a>
+
+        <!-- Student Badge -->
+        <div class="flex items-center gap-2.5 bg-gray-900 border border-gray-800 py-1 px-3 rounded-full">
+          <div class="w-6 h-6 rounded-full bg-euphoria-red text-white text-[11px] font-bold flex items-center justify-center">
+            PS
+          </div>
+          <div class="text-left hidden sm:block">
+            <div class="text-xs font-bold text-white leading-tight">Priya Sharma</div>
+            <div class="text-[10px] text-gray-400 font-mono">+91 98765 43210</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= MAIN LMS WORKSPACE ================= -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+      
+      <!-- LEFT: VIDEO PLAYER & LESSON DETAILS (8 cols) -->
+      <div class="lg:col-span-8 space-y-6">
+        
+        <!-- Video Player Frame with DYNAMIC DRM WATERMARK -->
+        <div id="secure-video-container" class="relative aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl border border-gray-800 group">
+          
+          <!-- Sample High-Quality Culinary Video Stream -->
+          <video 
+            id="lms-video-player"
+            class="w-full h-full object-cover"
+            controls
+            controlsList="nodownload"
+            poster="assets/images/course-chocolate.png"
+          >
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+
+          <!-- DRM Floating Watermark will be injected here automatically by EuphoriaSecurePlayer -->
+
+          <!-- Security Ribbon Tag -->
+          <div class="absolute top-3 right-3 z-20 pointer-events-none flex items-center gap-1.5 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/10 text-[10px] font-mono text-gray-300">
+            <span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping"></span>
+            <span>DRM Protected • Euphoria Secure Stream</span>
+          </div>
+
+        </div>
+
+        <!-- Lesson Meta & Action Tabs -->
+        <div class="bg-gray-950 rounded-2xl border border-gray-800 p-5 sm:p-6 shadow-xl">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-gray-800">
+            <div>
+              <div class="flex items-center gap-2 mb-1 text-xs">
+                <span class="text-euphoria-red font-bold uppercase tracking-wider" id="active-module-name">Module 1</span>
+                <span class="text-gray-500">•</span>
+                <span class="text-gray-400">Lesson 1 of 4</span>
+              </div>
+              <h2 class="text-lg sm:text-xl font-bold text-white" id="active-lesson-title">
+                Introduction & Kitchen Setup Essentials
+              </h2>
+            </div>
+
+            <button id="toggle-complete-btn" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold rounded-xl shadow transition-colors flex items-center gap-1.5 self-start sm:self-auto">
+              <span>✓</span>
+              <span>Mark Lesson Complete</span>
+            </button>
+          </div>
+
+          <!-- Tabs Header -->
+          <div class="flex items-center gap-6 border-b border-gray-800 mt-4 text-xs font-semibold">
+            <button class="lms-tab active py-3 border-b-2 border-euphoria-red text-white" data-tab="overview">
+              Lesson Overview & Tips
+            </button>
+            <button class="lms-tab py-3 border-b-2 border-transparent text-gray-400 hover:text-gray-200" data-tab="recipes">
+              Formulation & Recipe Sheet (Protected PDF)
+            </button>
+            <button class="lms-tab py-3 border-b-2 border-transparent text-gray-400 hover:text-gray-200" data-tab="certificate">
+              Course Certificate
+            </button>
+          </div>
+
+          <!-- TAB 1: Overview -->
+          <div id="tab-content-overview" class="py-5 text-xs sm:text-sm text-gray-300 leading-relaxed space-y-4">
+            <p>
+              In this session, Chef explains the core principles of temperature control, emulsification, and ingredient weight measuring. Avoid standard volume measuring cups for commercial batches to maintain uniform flavor and moisture retention.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div class="p-3.5 bg-gray-900 rounded-xl border border-gray-800">
+                <div class="font-bold text-white mb-1.5 flex items-center gap-1.5">
+                  <span class="text-amber-400">⚖️</span> Precision Scale Secret
+                </div>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                  Always tare your digital kitchen scale after placing bowls. Maintain ingredient ambient temperatures at 22°C–24°C before mixing.
+                </p>
+              </div>
+              <div class="p-3.5 bg-gray-900 rounded-xl border border-gray-800">
+                <div class="font-bold text-white mb-1.5 flex items-center gap-1.5">
+                  <span class="text-emerald-400">📦</span> Commercial Packaging Tip
+                </div>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                  Allow baked items to cool to room temperature before hermetically sealing in foil pouches with food-grade oxygen absorbers.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: Secure PDF Notes Viewer -->
+          <div id="tab-content-recipes" class="hidden py-5">
+            <div id="secure-pdf-viewer-container">
+              <!-- Rendered via EuphoriaSecureDocViewer -->
+            </div>
+          </div>
+
+          <!-- TAB 3: Certificate Generator -->
+          <div id="tab-content-certificate" class="hidden py-5 text-center">
+            <div class="max-w-md mx-auto p-6 bg-gray-900 rounded-2xl border border-gray-800">
+              <div class="w-14 h-14 rounded-full bg-amber-400/20 text-amber-300 text-2xl flex items-center justify-center mx-auto mb-3">
+                🏆
+              </div>
+              <h3 class="text-base font-bold text-white">Course Completion Certificate</h3>
+              <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">
+                Complete all lessons in this masterclass to unlock your official ISO 9001:2015 accredited Certificate of Completion.
+              </p>
+              <div class="mt-5">
+                <button id="view-cert-btn" class="w-full py-2.5 bg-euphoria-red hover:bg-euphoria-redHover text-white text-xs font-bold rounded-xl shadow transition-colors flex items-center justify-center gap-2">
+                  <span>View & Generate Certificate</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT: LESSON CURRICULUM SIDEBAR (4 cols) -->
+      <div class="lg:col-span-4 bg-gray-950 rounded-2xl border border-gray-800 p-5 shadow-xl sticky top-24">
+        <div class="flex items-center justify-between pb-4 border-b border-gray-800">
+          <div>
+            <h3 class="text-sm font-bold text-white">Course Syllabus</h3>
+            <span class="text-[11px] text-gray-400">4 Modules • 4 Videos</span>
+          </div>
+          <span class="text-[11px] font-bold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">
+            Lifetime Access
+          </span>
+        </div>
+
+        <!-- Lessons List -->
+        <div class="mt-4 space-y-2.5 max-h-[520px] overflow-y-auto pr-1" id="lms-lessons-list">
+          
+          <div class="lesson-item active p-3 bg-gray-900 border border-euphoria-red rounded-xl cursor-pointer transition-all" data-lesson-id="1">
+            <div class="flex items-start gap-3">
+              <input type="checkbox" id="check-1" class="mt-1 accent-euphoria-red rounded cursor-pointer" />
+              <div class="flex-1 min-w-0">
+                <div class="text-xs font-bold text-white flex items-center justify-between">
+                  <span>1. Setup & Tools</span>
+                  <span class="text-[10px] text-gray-400 font-mono">12:30</span>
+                </div>
+                <div class="text-[11px] text-gray-400 mt-0.5">Kitchen Setup & Measuring Secrets</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lesson-item p-3 bg-gray-900/50 hover:bg-gray-900 border border-gray-800 rounded-xl cursor-pointer transition-all" data-lesson-id="2">
+            <div class="flex items-start gap-3">
+              <input type="checkbox" id="check-2" class="mt-1 accent-euphoria-red rounded cursor-pointer" />
+              <div class="flex-1 min-w-0">
+                <div class="text-xs font-bold text-gray-300 flex items-center justify-between">
+                  <span>2. Ingredient Science</span>
+                  <span class="text-[10px] text-gray-400 font-mono">18:45</span>
+                </div>
+                <div class="text-[11px] text-gray-400 mt-0.5">Emulsions & Temperature Control</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lesson-item p-3 bg-gray-900/50 hover:bg-gray-900 border border-gray-800 rounded-xl cursor-pointer transition-all" data-lesson-id="3">
+            <div class="flex items-start gap-3">
+              <input type="checkbox" id="check-3" class="mt-1 accent-euphoria-red rounded cursor-pointer" />
+              <div class="flex-1 min-w-0">
+                <div class="text-xs font-bold text-gray-300 flex items-center justify-between">
+                  <span>3. Hands-on Preparation</span>
+                  <span class="text-[10px] text-gray-400 font-mono">24:10</span>
+                </div>
+                <div class="text-[11px] text-gray-400 mt-0.5">Step-by-step Video Masterclass</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lesson-item p-3 bg-gray-900/50 hover:bg-gray-900 border border-gray-800 rounded-xl cursor-pointer transition-all" data-lesson-id="4">
+            <div class="flex items-start gap-3">
+              <input type="checkbox" id="check-4" class="mt-1 accent-euphoria-red rounded cursor-pointer" />
+              <div class="flex-1 min-w-0">
+                <div class="text-xs font-bold text-gray-300 flex items-center justify-between">
+                  <span>4. Costing & Business</span>
+                  <span class="text-[10px] text-gray-400 font-mono">15:20</span>
+                </div>
+                <div class="text-[11px] text-gray-400 mt-0.5">Commercial Packaging, Shelf Life & Pricing</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-gray-800">
+          <a href="courses.html" class="w-full py-2.5 border border-gray-700 hover:border-gray-600 rounded-xl text-xs font-semibold text-gray-300 hover:text-white transition-colors flex items-center justify-center gap-1.5">
+            <span>← Explore More Courses</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ================= CERTIFICATE MODAL ================= -->
+  <div id="cert-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-white text-gray-900 rounded-2xl max-w-2xl w-full p-8 shadow-2xl relative cert-border animate-fade-in">
+      <button id="close-cert-modal" class="absolute top-4 right-4 text-gray-400 hover:text-gray-900 text-xl">✕</button>
+      
+      <div class="text-center">
+        <div class="text-xs uppercase tracking-widest text-euphoria-red font-bold">Euphoria Live Classes • ISO 9001:2015 Accredited</div>
+        <h2 class="text-2xl sm:text-3xl font-serif-brand font-bold text-gray-900 mt-2">CERTIFICATE OF COMPLETION</h2>
+        <div class="w-16 h-0.5 bg-amber-500 mx-auto my-3"></div>
+        <p class="text-xs text-gray-500">This is to proudly certify that</p>
+        
+        <div class="text-2xl sm:text-3xl font-script-brand font-bold text-euphoria-navy my-3">
+          Priya Sharma
+        </div>
+
+        <p class="text-xs text-gray-600 max-w-md mx-auto leading-relaxed">
+          has successfully completed all practical modules, commercial formulation techniques, and assessments for
+        </p>
+
+        <div class="text-base sm:text-lg font-bold text-gray-900 my-2" id="cert-course-name">
+          Festive Special Laddu Making Online Class
+        </div>
+
+        <div class="mt-6 pt-6 border-t border-gray-100 flex items-center justify-between text-[11px] text-gray-400">
+          <div>
+            <div>Date of Issue: <strong>September 21, 2026</strong></div>
+            <div class="font-mono mt-0.5">Verification Hash: ELC-2026-99214-CERT</div>
+          </div>
+          <div class="text-right">
+            <div class="font-bold text-gray-800">Chef Instructor</div>
+            <div class="text-[10px]">Euphoria Culinary Academy</div>
+          </div>
+        </div>
+
+        <div class="mt-6 flex justify-center gap-3">
+          <button onclick="window.print()" class="px-5 py-2 bg-euphoria-navy text-white text-xs font-bold rounded-xl shadow hover:bg-euphoria-navyLight transition-colors">
+            🖨️ Print / Download PDF
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MOBILE APP BOTTOM NAVIGATION BAR ================= -->
+  <nav class="md:hidden mobile-app-bottom-bar grid grid-cols-5 px-1 py-1">
+    <a href="index.html" class="mobile-nav-tab">
+      <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+      <span>Home</span>
+    </a>
+
+    <a href="courses.html" class="mobile-nav-tab">
+      <div class="relative">
+        <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+        <span class="absolute -top-1 -right-2 bg-euphoria-red text-white text-[9px] font-bold px-1 rounded-full">94</span>
+      </div>
+      <span>Courses</span>
+    </a>
+
+    <a href="free-resources.html" class="mobile-nav-tab">
+      <div class="relative">
+        <svg class="w-5 h-5 mb-0.5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+        <span class="absolute -top-1 -right-2 bg-amber-500 text-white text-[8px] font-extrabold px-1 rounded-full">FREE</span>
+      </div>
+      <span>Resources</span>
+    </a>
+
+    <a href="learn.html" class="mobile-nav-tab active">
+      <svg class="w-5 h-5 mb-0.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <span>Portal</span>
+    </a>
+
+    <a href="courses.html" class="mobile-nav-tab">
+      <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+      <span>Cart</span>
+    </a>
+  </nav>
+
+  <!-- ================= FLOATING WHATSAPP SUPPORT ================= -->
+  <a 
+    href="https://wa.me/916294822573?text=Hi%20Euphoria%2C%20I%20have%20a%20doubt%20with%20my%20enrolled%20class" 
+    target="_blank" 
+    rel="noopener"
+    class="floating-whatsapp-btn flex items-center gap-2 bg-[#25D366] text-white px-3.5 py-2.5 rounded-full font-bold text-xs shadow-lg hover:bg-[#20bd5a] transition-all"
+    aria-label="Direct WhatsApp Support"
+  >
+    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    <span class="hidden sm:inline">WhatsApp Doubt Support</span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/courses-data.js"></script>
+  <script src="js/secure-player.js"></script>
+  <script src="js/secure-pdf-viewer.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const courseId = urlParams.get('id') || 'course-11702';
+      const courses = window.EUPHORIA_COURSES || [];
+      const course = courses.find(c => c.id === courseId) || courses[0];
+
+      if (course) {
+        document.getElementById('lms-course-title').textContent = course.title;
+        document.getElementById('cert-course-name').textContent = course.title;
+      }
+
+      // Initialize DRM Player with Dynamic Floating Watermark
+      const player = new EuphoriaSecurePlayer({
+        container: document.getElementById('secure-video-container'),
+        video: document.getElementById('lms-video-player'),
+        student: {
+          name: 'Priya Sharma',
+          phone: '+91 98765 43210',
+          id: 'ELC-89214',
+          ip: '103.211.54.12'
+        }
+      });
+
+      // Initialize Secure Document Reader
+      const docViewer = new EuphoriaSecureDocViewer({
+        container: document.getElementById('secure-pdf-viewer-container'),
+        student: {
+          name: 'Priya Sharma',
+          phone: '+91 98765 43210',
+          id: 'ELC-89214'
+        }
+      });
+
+      // Tab Controls
+      const tabs = document.querySelectorAll('.lms-tab');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => {
+            t.classList.remove('active', 'border-euphoria-red', 'text-white');
+            t.classList.add('border-transparent', 'text-gray-400');
+          });
+          tab.classList.add('active', 'border-euphoria-red', 'text-white');
+          tab.classList.remove('border-transparent', 'text-gray-400');
+
+          const tabName = tab.dataset.tab;
+          document.getElementById('tab-content-overview').classList.toggle('hidden', tabName !== 'overview');
+          document.getElementById('tab-content-recipes').classList.toggle('hidden', tabName !== 'recipes');
+          document.getElementById('tab-content-certificate').classList.toggle('hidden', tabName !== 'certificate');
+        });
+      });
+
+      // Progress Tracker Logic
+      const checkboxes = document.querySelectorAll('#lms-lessons-list input[type="checkbox"]');
+      const progressPercent = document.getElementById('progress-percent');
+      const progressBarFill = document.getElementById('progress-bar-fill');
+      const toggleCompleteBtn = document.getElementById('toggle-complete-btn');
+
+      function updateProgress() {
+        const total = checkboxes.length;
+        const checked = Array.from(checkboxes).filter(cb => cb.checked).length;
+        const pct = Math.round((checked / total) * 100);
+        progressPercent.textContent = pct;
+        progressBarFill.style.width = `${pct}%`;
+
+        if (pct === 100) {
+          player.showSecurityToast('🎉 Congratulations! You have completed 100% of the lessons. Your certificate is unlocked!');
+        }
+      }
+
+      checkboxes.forEach(cb => {
+        cb.addEventListener('change', updateProgress);
+      });
+
+      toggleCompleteBtn.addEventListener('click', () => {
+        const activeCheck = document.querySelector('.lesson-item.active input[type="checkbox"]');
+        if (activeCheck) {
+          activeCheck.checked = !activeCheck.checked;
+          updateProgress();
+        }
+      });
+
+      // Lesson selection
+      const lessonItems = document.querySelectorAll('.lesson-item');
+      lessonItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+          if (e.target.tagName === 'INPUT') return;
+          lessonItems.forEach(l => {
+            l.classList.remove('active', 'border-euphoria-red');
+            l.classList.add('border-gray-800');
+          });
+          item.classList.add('active', 'border-euphoria-red');
+          item.classList.remove('border-gray-800');
+
+          const titleEl = item.querySelector('.text-xs span');
+          if (titleEl) {
+            document.getElementById('active-lesson-title').textContent = titleEl.textContent;
+          }
+        });
+      });
+
+      // Certificate Modal
+      const certModal = document.getElementById('cert-modal');
+      const viewCertBtn = document.getElementById('view-cert-btn');
+      const closeCertBtn = document.getElementById('close-cert-modal');
+
+      viewCertBtn?.addEventListener('click', () => certModal.classList.remove('hidden'));
+      closeCertBtn?.addEventListener('click', () => certModal.classList.add('hidden'));
+      certModal?.addEventListener('click', (e) => {
+        if (e.target === certModal) certModal.classList.add('hidden');
+      });
+    });
+  </script>
+</body>
+</html>

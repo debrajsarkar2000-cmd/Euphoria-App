@@ -1,0 +1,357 @@
+/* Custom Euphoria Live Classes Stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+:root {
+  --color-primary: #d34a30;
+  --color-primary-hover: #ba3c24;
+  --color-navy: #0e1e38;
+  --color-navy-dark: #091526;
+  --color-cream: #fdfaf5;
+  --color-cream-card: #f9f5ec;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-script: 'Caveat', cursive;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1f2937;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.font-serif-brand {
+  font-family: var(--font-serif);
+}
+
+.font-script-brand {
+  font-family: var(--font-script);
+}
+
+/* Custom shadow effects matching the design */
+.shadow-soft {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.shadow-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.shadow-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px -4px rgba(0, 0, 0, 0.1), 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* Price card styles */
+.price-card-pink {
+  background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+  border: 1px solid #fecaca;
+}
+
+.price-card-blue {
+  background: linear-gradient(135deg, #f0f7ff 0%, #dbeafe 100%);
+  border: 1px solid #bfdbfe;
+}
+
+.price-card-peach {
+  background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+  border: 1px solid #fed7aa;
+}
+
+/* Button glow and transitions */
+.btn-primary {
+  background-color: #d34a30;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ba3c24;
+  box-shadow: 0 4px 14px rgba(211, 74, 48, 0.4);
+}
+
+.btn-blue {
+  background-color: #1d68bd;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.btn-blue:hover {
+  background-color: #155296;
+  box-shadow: 0 4px 14px rgba(29, 104, 189, 0.35);
+}
+
+/* Ray decoration */
+.ray-line {
+  display: inline-block;
+  width: 14px;
+  height: 3px;
+  background-color: #f59e0b;
+  border-radius: 9999px;
+}
+
+/* Testimonial slider transitions */
+.testimonial-slide {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* FAQ accordion animation */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-out, padding 0.35s ease-out;
+}
+
+.faq-content.open {
+  max-height: 250px;
+  padding-bottom: 1rem;
+}
+
+/* Cart slide-over transition */
+#cart-drawer {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#cart-backdrop {
+  transition: opacity 0.3s ease;
+}
+
+/* Mobile menu drawer transition */
+#mobile-menu {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Whisk and note realistic drop shadow */
+.parchment-note {
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Toast alert notification */
+#toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 100;
+  transform: translateY(150%);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#toast.show {
+  transform: translateY(0);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ================= LMS & CONTENT SECURITY STYLES ================= */
+
+/* Floating Dynamic Watermark across Video Player */
+.secure-watermark {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  z-index: 30;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.42);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8), 0 0 1px rgba(0,0,0,0.9);
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(1px);
+  transition: all 1.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Watermark pulse effect to prevent static frame extraction */
+@keyframes watermarkPulse {
+  0% { opacity: 0.35; transform: scale(1); }
+  50% { opacity: 0.65; transform: scale(1.03); }
+  100% { opacity: 0.35; transform: scale(1); }
+}
+
+.secure-watermark-pulse {
+  animation: watermarkPulse 6s ease-in-out infinite;
+}
+
+/* Secure PDF Canvas Container */
+.secure-pdf-container {
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.secure-pdf-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  background: transparent;
+  pointer-events: auto; /* absorbs click & right clicks */
+}
+
+/* Diagonal Overlay Watermark on Document Pages */
+.diagonal-watermark {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 15;
+  overflow: hidden;
+}
+
+.diagonal-watermark-text {
+  transform: rotate(-35deg);
+  font-family: var(--font-sans);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: rgba(211, 74, 48, 0.15);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  user-select: none;
+}
+
+/* Course Card Pill & Badge Highlights */
+.badge-veg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #16a34a;
+  border-radius: 2px;
+  background: #ffffff;
+}
+
+.badge-veg::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background-color: #16a34a;
+}
+
+/* Progress bar animated glow */
+.progress-glow {
+  box-shadow: 0 0 10px rgba(211, 74, 48, 0.5);
+}
+
+/* Certificate frame styling */
+.cert-border {
+  border: 12px solid #0c203b;
+  box-shadow: inset 0 0 0 4px #d34a30, 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* ================= PROFESSIONAL MOBILE APP SYSTEM ================= */
+
+/* Support Mobile Safe Area insets for notch and gesture bar */
+:root {
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+/* Sticky Native Bottom Navigation Bar for Mobile */
+.mobile-app-bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 45;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: max(6px, var(--sab));
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.mobile-nav-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 4px 4px 4px;
+  color: #64748b;
+  font-size: 10px;
+  font-weight: 600;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.mobile-nav-tab.active {
+  color: #d34a30;
+}
+
+.mobile-nav-tab.active svg {
+  transform: translateY(-1px);
+  filter: drop-shadow(0 2px 4px rgba(211, 74, 48, 0.3));
+}
+
+.mobile-nav-tab:active {
+  transform: scale(0.92);
+}
+
+/* Floating WhatsApp VIP Help Pill */
+.floating-whatsapp-btn {
+  position: fixed;
+  bottom: calc(65px + max(10px, var(--sab)));
+  right: 16px;
+  z-index: 40;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.floating-whatsapp-btn:hover, .floating-whatsapp-btn:active {
+  transform: scale(1.06);
+}
+
+/* Mobile App Header Bar */
+.mobile-app-header {
+  padding-top: max(8px, var(--sat));
+}
+
+/* Bottom Sheet Modal animation on mobile */
+@keyframes slideUpBottomSheet {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.bottom-sheet-mobile {
+  animation: slideUpBottomSheet 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Add bottom padding on mobile so content is not obscured by bottom bar */
+@media (max-width: 768px) {
+  main, body > section:last-of-type {
+    padding-bottom: calc(75px + var(--sab));
+  }
+}
+

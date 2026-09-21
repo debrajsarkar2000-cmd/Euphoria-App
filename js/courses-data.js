@@ -1,0 +1,2833 @@
+// Precompiled course catalog from live Euphoria WordPress store
+window.EUPHORIA_COURSES = [
+  {
+    "id": "course-11702",
+    "originalId": 11702,
+    "title": "Festive Special Laddu Making Online Class",
+    "slug": "festive-special-laddu-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/festive-special-laddu-making-online-class/",
+    "category": "Sweets",
+    "rawCategory": "Laddu Making Class",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2026/09/laddu-making-banner-image.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2026/09/laddu-making-banner-image.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 107,
+    "studentsCount": "1.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents a Festive Special Laddu Making Online Class. It is a pre-recorded class. If you are planning to start a new business from home, t...",
+    "description": "Euphoria Live Classes presents a Festive Special Laddu Making Online Class. It is a pre-recorded class. If you are planning to start a new business from home, this is the perfect class for you. For more details, join us on WhatsApp at +91 62948 22573 Course Details: Course Fee: 449/- No. of Videos: 19 Pre-recorded class Course Module: Introduction to Laddu Making Bura Chini Making Besan Laddu Making Moong Dal Laddu Churma Laddu Maida Laddu Panch Mewa Laddu Traditional Wheat Laddu Motichur Laddu Roasted Channa Dal Laddu Traditional Coconut Laddu Suji Laddu Making Diwali Special Suji Laddu Coconut Dry Fruits Laddu Gond Mewa Laddu Channa Dal Laddu Bonus Learning: Marketing & Selling Guide What We Provide: Recordings for lifetime access Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp ) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Note : For any issue, please call or WhatsApp +91 62948 22573 (Calling time: 10:30 am to 7:30 pm; Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-11522",
+    "originalId": 11522,
+    "title": "Mini Cookies & Dips Making Online Class (Veg)",
+    "slug": "mini-cookies-dips-making-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/mini-cookies-dips-making-online-class-veg/",
+    "category": "Cookies",
+    "rawCategory": "Mini Cookies and Dips",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2026/09/mini-cookies-making-image-banner.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2026/09/mini-cookies-making-image-banner.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 47,
+    "studentsCount": "1.6k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Mini Cookies & Dips Making Online Class (Veg). In this class, you can learn the unique method of making mini cookies. Course Deta...",
+    "description": "Euphoria Live Classes presents Mini Cookies & Dips Making Online Class (Veg). In this class, you can learn the unique method of making mini cookies. Course Details: Course Fees: 449/- No of Videos: 20 Videos Pre-Recorded Class Course Modules: Choco-Vanilla Mini Cookies & Dips Chocolate Mini Cookies & Dips Choco-Orange Mini Cookies & Dips Pistachio Mini Cookies & Dips Marble Mini Cookies & Dips Red Velvet Mini Cookies & Dips Coffee Crunch Mini Cookies & Dips Biscoff Mini Cookies & Dips Nutella Mini Cookies & Dips Mini Cookies & Cream Whole Wheat Mini Cookies & Dips Sugar-Free Mini Cookies & Dips Millet Mini Cookies & Dips Types of Dips: Dark Chocolate Dips Milk Chocolate Dips White Chocolate Dips Nutella Dips Biscoff Dips Kiki Dips Sugar-Free Dips Coffee Dips Bonus Learning: Marketing & Selling Guide What We Provide: Recordings for lifetime access Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp ) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Note : For any issue, please call or WhatsApp +91 62948 22573 (Calling time: 10:30 am to 7:30 pm; Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-9691",
+    "originalId": 9691,
+    "title": "Millet Special Cake Making Online Class (Veg)",
+    "slug": "millet-special-cake-veg",
+    "permalink": "https://euphorialiveclasses.com/millet-special-cake-veg/",
+    "category": "Cakes",
+    "rawCategory": "Baking Class",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2025/11/Millet-Cake-Making-Online-Class-Veg-1.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2025/11/Millet-Cake-Making-Online-Class-Veg-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 136,
+    "studentsCount": "1.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Millet Special Cake Making Online Class (Veg). Contact us: Call or WhatsApp: 6294822573 Course Details: Millet Special Cake Cours...",
+    "description": "Euphoria Live Classes presents Millet Special Cake Making Online Class (Veg). Contact us: Call or WhatsApp: 6294822573 Course Details: Millet Special Cake Course Fees: 449/- No. of Recipes: 13 No of Videos: Pre-recorded Class Course Modules: Millet Special Cake Nutri-Millet Nuts Cake Millet Almond Cake Soft & Moist Dates Millet Cake Banana–Walnut Millet Cake Millet Apple Cake Zesty Orange Bliss Millet Cake Millet Plum Cake Choco Burst Millet Chunk Cake Rich Mawa Millet Cake Peanut Butter Millet Cakes Rose-Gulkand Millet Cake Spiced Masala Chai Millet Cake Carrot Millet Bake Royal Pistachio Millet Cake (Only Recipe) Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for lifetime access Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp ) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Note : For any issue, please call or WhatsApp +91 62948 22573 (Calling time: 10:30 am to 7:30 pm; Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-9368",
+    "originalId": 9368,
+    "title": "Designer Candle Making Online Class",
+    "slug": "designer-candle-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/designer-candle-making-online-class/",
+    "category": "Baking",
+    "rawCategory": "Baking",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2025/11/Designer-Candle-Making-Online-Class-2.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2025/11/Designer-Candle-Making-Online-Class-2.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 53,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents ✨ Designer Candle Making Online Class! Join our expert-led 👩‍🍳 online session and master the art of professional candle making. S...",
+    "description": "Euphoria Live Classes presents ✨ Designer Candle Making Online Class! Join our expert-led 👩‍🍳 online session and master the art of professional candle making. Start your own candle business right from your 🏡 home. Don’t miss out — Register Now! For more details, Call or WhatsApp to 6294822573 / 7001770056 Course Details: Designer Candle Making Online Class Course Fees : 449/- Duration : 27 Videos and 1 PDF Pre-Recorded Class Course Module: Designer Candle Making Online Class Note: All are scented candles. Basic Candle Making: (2 Videos) Tealight Candle Making Diya Candle Making Sweet Candle: (6 Videos) Motichur Laddu Candle Coconut Laddu Candle Ametti Candle Roshgulla Candle Gulab Jamun Candle Kaju Katli Candle Glass Candle: (3 Videos) Wine Glass Candle Marble Stone Glass Candle Marvel Effect Glass Candle Christmas Candle: (2 Videos) Santa Candle Bel Candle Shouses Candle Star Candle Decorative Christmas Candle Flower Candle: (4 Videos) Rose Flower Candle Daisy Flower Candle Floating Flower Candle Sunflower Candle Pillar Candle: (3 Videos) Decorative Pillar Candle Rose Flower Pillar Candle Luxury Pillar Candle Other Candles: (6 Videos) Cented Jur Candle Love Candle Bubble Candle Layered Candle Teddy Bear Candle Cupcake Candle Valentine’s Day Special Candle Packaging & Selling Gift Humper making Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for lifetime access Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp ) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Note: For any issue, please call or WhatsApp +91 62948 22573 (Calling time: 10:30 am to 7:30 pm; Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-6059",
+    "originalId": 6059,
+    "title": "Professional Ice Cream Cake Making Online Class (Veg)",
+    "slug": "ice-cream-cake-making-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/ice-cream-cake-making-online-class-veg/",
+    "category": "Cakes",
+    "rawCategory": "Ice Cream Cake Class",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2025/05/ice-cream-cake-making-online-class.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2025/05/ice-cream-cake-making-online-class.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 104,
+    "studentsCount": "4.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes Presents 6-Day Professional Ice Cream Cake Making Course – Only ₹349/-. Learn to Make Bakery-Style Ice Cream Cakes from Scratch . Join our...",
+    "description": "Euphoria Live Classes Presents 6-Day Professional Ice Cream Cake Making Course – Only ₹349/-. Learn to Make Bakery-Style Ice Cream Cakes from Scratch . Join our 6-day hands-on video course and master crafting irresistible ice cream cakes with expert guidance. Course Details: Ice Cream Cake Making Course Fees: 399/- Pre-recorded class Course Schedule: Ice Cream Cake Making Day 1: Bakery-Style Sponge Cake (Using Premix) Ice Cream Base Preparation (Dark & White) Day 2: Homemade Sponge Cake (From Scratch) Ganache Making Mississippi Mud Pie Ice Cream Cake Roll Day 3: Tiramisu Ice Cream Cake Cassata Ice Cream Cake Day 4: Chocolate Temptation Ice Cream Cake Cherry Swirl Ice Cream Cake Day 5: Butterscotch Crunch Ice Cream Cake Creamy Rose Coconut Ice Cream Cake Day 6: Golden Fantasy Ice Cream Cake Cotton Candy Ice Cream Cake Language of Instruction: Hindi Bonus Learning: Marketing & Selling Guide for Home Bakers What You’ll Receive: Lifetime access to Zoom Class Recordings English PDF Course Materials Digital Certificate of Completion Ingredient & Tool Buying Guide Access to a Supportive Learning Community Payment Details: UPI (Google Pay / PhonePe / Paytm): Monalisa Sarkar – 6294822573 Bank Transfer: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 How to Enroll: Make the payment of the course fees Send your payment receipt via WhatsApp: 6294822573 Access the videos & PDFs through the Euphoria Live Classes App Receive your certificate after course completion Need Help or Have Questions? Call or WhatsApp: 6294822573",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-5394",
+    "originalId": 5394,
+    "title": "Commercial Jam Making Live Class (Veg)",
+    "slug": "commercial-jam-making-live-class-veg",
+    "permalink": "https://euphorialiveclasses.com/commercial-jam-making-live-class-veg/",
+    "category": "Baking",
+    "rawCategory": "Jam Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2025/04/jam-making-banner.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2025/04/jam-making-banner.jpg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 159,
+    "studentsCount": "3.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Commercial Jam Making Live Class (Veg) Euphoria Live Classes presents Commercial Jam Making Live Class (Veg). Whether you’re a home cook, food enthusiast, or as...",
+    "description": "Commercial Jam Making Live Class (Veg) Euphoria Live Classes presents Commercial Jam Making Live Class (Veg). Whether you’re a home cook, food enthusiast, or aspiring jam entrepreneur, this 3 -day live session will teach you the secrets of crafting delicious, preservative-free jams right in your kitchen. Join our WhatsApp or class us: +91 62948 22573 In this Online class, you’ll learn: ✅ The perfect fruit combinations for rich, flavourful jams ✅ Special techniques for achieving ideal texture & consistency ✅ Natural preservation methods for longer shelf life ✅ Unique & exotic jam flavours that will impress everyone! Class Details: Jam Making Date: 10 th ,11th & 12 th April 2025 (3 Days) Time: 5 pm onwards Class Fees: 399/- Class Modules: Jam Making Day 1: Fruity Bliss & Classic Delights 🍓 Berrylicious Strawberry Jam 🥭 Golden Sunshine Mango Jam 🍍 Tropical Fusion: Apricot-Pineapple Jam 🍎 Mixed Fruit Magic Jam Day 2: Zesty Twists & Exotic Blends 🍊 Citrus Elegance: Orange Marmalade Jam 🌶️ Fiery & Sweet: Spicy Papaya Jam 🍋 Tangy Heat: Lemon-Chili Jam 🥭 Exotic Goodness: Quie Jam Day 3: Unique Creations & Gourmet Jams 🍏 Autumn Harvest Apple Jam 🍇 Velvety Grape Bliss Jam 🥕 Sweet Surprise Carrot Jam 🍅 Bold & Spicy Tomato Jam Teaching language: Hindi Extra Learning: Marketing & Selling Guide What We Provide: Recordings for a Lifetime Practice Related Support Course Materials as PDFs Course Completion Certificate Lifetime Support (call or WhatsApp) Ingredients & Tools Buying Guide Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Videos will be accessible through the Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-5147",
+    "originalId": 5147,
+    "title": "Commercial Ice Cream Premix & Ice Cream Making Online Class (Veg)",
+    "slug": "commercial-ice-cream-premix-making",
+    "permalink": "https://euphorialiveclasses.com/commercial-ice-cream-premix-making/",
+    "category": "Desserts & Beverages",
+    "rawCategory": "Ice Cream Premix Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2025/03/Commercial-Ice-Cream-Premix-Ice-Cream-Making-Online-Class-Veg.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2025/03/Commercial-Ice-Cream-Premix-Ice-Cream-Making-Online-Class-Veg.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 152,
+    "studentsCount": "1.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents a Commercial Ice Cream Premix & Ice Cream Making Online Class (Veg) . It’s a PRE-RECORDED CLASS Join us to learn more details. Cl...",
+    "description": "Euphoria Live Classes presents a Commercial Ice Cream Premix & Ice Cream Making Online Class (Veg) . It’s a PRE-RECORDED CLASS Join us to learn more details. Click on the link below: WhatsApp or call us at 6294822573 Course details: Ice Cream Premix Making Online Class: Course Fees: 449/- Number of Videos: 24 Pre-Recorded class Course Contents: Ice Cream Premix Making Online Class: Caramel Sugar Making Vanilla Ice Cream Premix Chocolate Ice Cream Premix Strawberry Ice Cream Premix Fruits & Nuts Ice Cream Premix Pineapple Ice Cream Premix Red Velvet Ice Cream Premix Rose Pistachio Ice Cream Premix Black Currant Ice Cream Premix Paan Ice Cream Premix Coconut Ice Cream Premix Orange Ice Cream Premix Tiramisu Ice Cream Premix Mango Ice Cream Premix Butterscotch Ice Cream Premix Caramel Ice Cream Premix Anzir-Badam Ice Cream Premix Banana Ice Cream Premix Pista Ice Cream Premix (Only Recipe) Rashmalai Ice Cream Premix Peppermint Ice Cream Premix Coffee Ice Cream Premix (Only Recipe) Lamon Ice Cream Premix Guava Ice Cream Premix Extra Learning: Marketing & Selling Guide What we provide: Recordings for a Lifetime Practice Related Support Course Materials as PDFs Course Completion Certificate Lifetime Support (call or WhatsApp) Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Videos will be accessible through the Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-3967",
+    "originalId": 3967,
+    "title": "Pure Chocolate Making Online Class (Veg)",
+    "slug": "pure-chocolate-making",
+    "permalink": "https://euphorialiveclasses.com/pure-chocolate-making/",
+    "category": "Chocolates",
+    "rawCategory": "Chocolate Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2025/01/Recodingsu.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2025/01/Recodingsu.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 52,
+    "studentsCount": "2.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Advanced Pure Chocolate Making Online Class Recordings for 6 days. This class will show chocolate making with couverture gems. It...",
+    "description": "Euphoria Live Classes presents Advanced Pure Chocolate Making Online Class Recordings for 6 days. This class will show chocolate making with couverture gems. It is a pure professional chocolate-making class. For any query, please click the below link: Call or WhatsApp +91 62948 22573 Course Details: Course Fees: 399/- Duration: 6 Days Course Modules: Day-1: Introduction to Chocolate Making Difference between Compound & Couverture Tempering Technique Applying colors to chocolates Applying Flavors to Chocolate Day-2: Chocolate Barks Crunchy Chocolate Marshmallow Barks Candid Fruits White Chocolate Barks Over Loaded Nuts Chocolate Barks Marble Effect Chocolate Barks Day-3: Assorted Chocolate Bars Potato Chips Chocolate Bars Dark Chocolate Mango Paradise Milk Chocolate Hazel Nuts Toast Fruits Cocktail Chocolate Bars Pinacolada Chocolate Bars Day-4: Chocolate Spheres Designer Chocolate Spheres (Cake Toppers) Hot Chocolate Bomb Chocolate Cigarette Rolls Day-5: Gummy Candy Chocolates Mango Flavoured Orange Flavoured Pineapple Flavoured Strawberry Flavoured Day-6: Bon Bon Chocolates Bon Bon Chocolate with Ganache Bon Bon Chocolate with Peanut Butter Sticky Centre Irish Chocolate Gianduja Chocolate What we provide: Class Recordings for a Lifetime Course Materials as PDFs Course Completion Certificate Community Support Customer Support (Call or WhatsApp) Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-3352",
+    "originalId": 3352,
+    "title": "Cafe Style / New York Style Cookies Making Online Class (Veg)",
+    "slug": "cafe-style-cookies-making",
+    "permalink": "https://euphorialiveclasses.com/cafe-style-cookies-making/",
+    "category": "Cookies",
+    "rawCategory": "Cookies Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/12/Cafe-Style-New-York-Style-Cookies-Making-Online-Class-Veg.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/12/Cafe-Style-New-York-Style-Cookies-Making-Online-Class-Veg.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 157,
+    "studentsCount": "2.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Cafe / New York Style Cookies Making Online Class (Veg) . This class teaches you how to make Cafe style big and giant cookies. Yo...",
+    "description": "Euphoria Live Classes presents Cafe / New York Style Cookies Making Online Class (Veg) . This class teaches you how to make Cafe style big and giant cookies. You can start your own cookies-making business with our guidance. It’s an extremely professional class. Call or WhatsApp: +91 62948 22573 Course Details: Cafe Style Cookies Making: Course Fees: 449/- No of Recipes: 21 Course Modules: Cafe Style Cookies Making: Vanilla Chocochips Cookies Chocolate Over Loaded Cookies Chocolate-Filled Crinkle Cookies Fruits and Nuts Cookies Cardamom Pistachio Cookies Cream Cheese Cookies Dates Cookies Cappuccino Cookies Nutella Stuffed Cookies Walnut Caramel Cookies Oatmeal Chocolate Cookies Fudgy Brownie Cookies Marshmallow Cookies Orio Chunks Cookies Ginger Cookies Coconut Macaroons Cookies Chai Spiced Cookies Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Lifetime Support (Call or WhatsApp) Course Completion Certificate Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-3260",
+    "originalId": 3260,
+    "title": "Crush Syrup and Squash Making Online Class (Veg)",
+    "slug": "crush-syrup-and-squash-making",
+    "permalink": "https://euphorialiveclasses.com/crush-syrup-and-squash-making/",
+    "category": "Baking",
+    "rawCategory": "Baking",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/11/Crush_syrup_squase.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/11/Crush_syrup_squase.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 65,
+    "studentsCount": "2.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Crush Syrup and Squash Making Online Class for 5 Days. It is a professional class perfect for those who want to start a home busi...",
+    "description": "Euphoria Live Classes presents Crush Syrup and Squash Making Online Class for 5 Days. It is a professional class perfect for those who want to start a home business. All recipes are explained in detail by an experienced trainer. So, join now. Please click on the below link: Call or WhatsApp: +91 62948 22573 Course Details: Crush Syrup and Squash Making: Course Fee: 349/- Class Duration: 5 Days Pre-recorded course Course Modules: Crush Syrup and Squash Making: Day-1: Crush Making: Strawberry Crush making Mixed Fruit Crush Making Mango Crush Making Pineapple Crush Making Day-2: Crush Making: Butterscotch Crush Rash Malai Crush Dry Fruits Crush Day-3: Syrup Making: Kala Khatta Syrup Rooh Afza Syrup Blue Curacao Syrup Mojito Syrup Day-4: Khas Syrup Grenadine Syrup Chocolate Syrup Kacchi Keri Syrup Rose Syrup Day-5: Orange Squash Lemon Squash Ginger-Lemon Squash Language of Teaching: Hindi Extra Learning: • Marketing & Selling Guide What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Videos will be shared through Euphoria Live Classes App A certificate will be shared at the end of the course. Note: For any issue, please call or WhatsApp us at +91 70017 70056 (Except on holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-3184",
+    "originalId": 3184,
+    "title": "Christmas Special Cakes and Bakes (With Premix) Online Class (Veg)",
+    "slug": "christmas-special-cakes-and-bakes",
+    "permalink": "https://euphorialiveclasses.com/christmas-special-cakes-and-bakes/",
+    "category": "Cakes",
+    "rawCategory": "Christmas Special Cake making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/11/Christmas-Special-Cakes-and-Bakes-Online-Class-With-Premix-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/11/Christmas-Special-Cakes-and-Bakes-Online-Class-With-Premix-Veg.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 109,
+    "studentsCount": "2.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Christmas Special Cakes and Bakes (With Premix) Online Class (Veg) . It is a professional class perfect for those who want to sta...",
+    "description": "Euphoria Live Classes presents Christmas Special Cakes and Bakes (With Premix) Online Class (Veg) . It is a professional class perfect for those who want to start a home business. All recipes are explained in detail by an experienced trainer. So, join now. Please click on the below link: Call or WhatsApp: +91 62948 22573 Course Details: Christmas Special Cakes and Bakes: Course Fee: 449/- No of Recipes: 15 Pre-recorded course Course List: Christmas Special Cakes and Bakes: Christmas Special Plum Cake Instant Christmas Cake Christmas Special Fruit Cake Christmas Special Rum Cake Rum & Raisin Cake Christmas Chocolate Cake Marvel Cake Moist Chocolate Cake Walnut Cake Apple Cake Carrot Raisin Cake Moist Orange Cake Pumpkin Spice Cake Christmas Dates Cake Christmas Cinnamon Cake (Only Recipe) Extra Learning: Marketing & Selling Guide What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Videos will be shared through Euphoria Live Classes App A certificate will be shared at the end of the course. Note: For any issue, please call or WhatsApp us at +91 70017 70056 (Except on holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-2535",
+    "originalId": 2535,
+    "title": "Naan Roti and Kulcha Making Online Class (Veg)",
+    "slug": "naan-roti-and-kulcha-making",
+    "permalink": "https://euphorialiveclasses.com/naan-roti-and-kulcha-making/",
+    "category": "Baking",
+    "rawCategory": "Baking",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/12/Naan-Roti-Kulcha-Making-Online-Class-Veg-2.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/12/Naan-Roti-Kulcha-Making-Online-Class-Veg-2.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 60,
+    "studentsCount": "1.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Naan Roti and Kulcha Making Online Class (Veg) . It is a professional class perfect for those wanting to start a home business. A...",
+    "description": "Euphoria Live Classes presents Naan Roti and Kulcha Making Online Class (Veg) . It is a professional class perfect for those wanting to start a home business. All recipes are explained in detail by an experienced trainer. So, join now. Please click on the below link: Call or WhatsApp: +91 62948 22573 Course Details: Naan Roti and Kulcha Making: Course Fee: 449/- No of Recipes: 20 Pre-recorded course Course List: Naan Roti and Kulcha Making: Naans: Plain Naan Butter Naan Garlic Butter Naan Cheese-Chili Garlic Baby Naan Roghni Naan Peshwari Naan Kashmiri Naan Roties: Tandoori Roti Laccha Roti Fulka Chapati Missi Roti Kulcha: Aloo / Masala Kulcha Onion Kulcha Amritsari Kulcha Paratha : Kerala Paratha Layered Paratha Others: Bajra /Jowar Bhakri Ragi /Rice Bhakri Bhatura Extra Learning: Marketing & Selling What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Videos will be shared through Euphoria Live Classes App A certificate will be shared at the end of the course. Note: For any issue, please call or WhatsApp us at +91 70017 70056 (Except on holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-2443",
+    "originalId": 2443,
+    "title": "Festival Special Modak and Gujiya Making Online Class",
+    "slug": "modak-and-gujiya-making",
+    "permalink": "https://euphorialiveclasses.com/modak-and-gujiya-making/",
+    "category": "Baking",
+    "rawCategory": "Modak and Gujia Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/08/Modak-and-Gujia-Making-Online-Class.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/08/Modak-and-Gujia-Making-Online-Class.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 88,
+    "studentsCount": "3.8k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Class presents Festival Special Modak and Gujiya Making Online Class for 5 days @ 349/- . It’s a professional class. Join now. Call or WhatsApp +9...",
+    "description": "Euphoria Live Class presents Festival Special Modak and Gujiya Making Online Class for 5 days @ 349/- . It’s a professional class. Join now. Call or WhatsApp +91 62948 22573 Course Details: Modak and Gujiya Making: Course Fees: 349/- Each Class Duration: 60 to 90 min Pre-recoded class Course Module: Modak and Gujiya Making: Day-1: Modak Base Making Classic Mawa Modak Gulabi Gulkand Modak Day-2: Ukadiche Modak (Steamed Modak) Mocha Chocolate Modak Day-3: Fried Modak Sugar-Free Diabetic Modak Day-4: Satrangee Modak Pinacolada Modak Blue Velvet Cream Cheese Modak Day-5: Eliche Mawa Gujiya with Sugar Syrup Baked Gujiya without Sugar Syrup Extra Learning: Marketing & Selling Guide What we provide: Pre-recorded videos for a lifetime Course Materials as PDFs (Available in ALL Languages) Course Completion Certificate Lifetime Support (Call or WhatsApp) Community support Language of Teaching: Hindi Note : For any help, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-2307",
+    "originalId": 2307,
+    "title": "Exclusive Brownie and Blondie Making Online Class (Veg)",
+    "slug": "brownie-and-blondie-making",
+    "permalink": "https://euphorialiveclasses.com/brownie-and-blondie-making/",
+    "category": "Baking",
+    "rawCategory": "Brownie and Blondie Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/08/Exclusive-Brownies-and-Blondies-Making-Online-Class-Veg.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/08/Exclusive-Brownies-and-Blondies-Making-Online-Class-Veg.jpg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 72,
+    "studentsCount": "3.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes introduced an Exclusive Brownie and Blondie Making Online Class (Veg) @ 399/- only. It’s a professional class. Join now. Call or WhatsApp ...",
+    "description": "Euphoria Live Classes introduced an Exclusive Brownie and Blondie Making Online Class (Veg) @ 399/- only. It’s a professional class. Join now. Call or WhatsApp +91 62948 22573 Course Details: Brownie and Blondie Making: Course Fees: 449/- No of Recipes: 18 No of Videos: 18 Pre-recorded class Course Modules: Brownie and Blondie Making: Fudgy Brownie Chocolate Walnut Brownie Chocolate Cream Cheese Brownie Nutella Brownie Tiled Brownie S’mores Brownie Monster Brownie Chocolate Overloaded Brownie Nutella Brownie Instant Sizzlers Brownie Strawberry Cookie Dough Blondie Printed Mango Blondie Almond Rose Blondie Coconut Blondie Pistachio Almond Blondie (Recipe only) Red Velvet Brownie (Recipe only) Bischoff Brownie (Recipe only) Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: 1. Make a payment of the course fees 2. Share the Payment Receipt on WhatsApp (7001770056) 4. PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime 5. A certificate will be shared at the end of the course. Note: For any issues, please call us at 7001770056 (10 AM to 8 PM), except on holidays.",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-1709",
+    "originalId": 1709,
+    "title": "Sugar and Gluten Free Teatime Cake (Diabatic Cake) Online Class (Veg)",
+    "slug": "sugar-and-gluten-free-teatime-cake",
+    "permalink": "https://euphorialiveclasses.com/sugar-and-gluten-free-teatime-cake/",
+    "category": "Cakes",
+    "rawCategory": "Sugar & Gluten-Free Teatime Cake",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/jpeg-optimizer_Sugar-Gluten-Free-Teatime-Cake-Making-Online-Class-Veg.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/jpeg-optimizer_Sugar-Gluten-Free-Teatime-Cake-Making-Online-Class-Veg.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 74,
+    "studentsCount": "4.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Sugar and Gluten Free Teatime Cake (Diabatic Cake) Online Class (Veg) for 5 Days. Learn the secret recipes of Healthy Sugar & Glu...",
+    "description": "Euphoria Live Classes presents Sugar and Gluten Free Teatime Cake (Diabatic Cake) Online Class (Veg) for 5 Days. Learn the secret recipes of Healthy Sugar & Gluten Free Teatime Cake. Join now. For more details, Call or WhatsApp: 6294-822-573 / 7001-770-056 Course Details: Sugar and Gluten Free Teatime Cake: Course Fees: ₹399/- Each Class Duration: 60-90 Mins Pre-recorded Class Course Module: Sugar and Gluten Free Teatime Cake: Day-1: Sugar-Free Vanilla Cake Sugar-Free Chocolate Choco-Chunks Cake Day-2: Sugar-Free Christmas Special Fruit Cake Sugar-Free Mawa Cake Day-3: Sugar-Free Orange Cake Sugar-Free Coconut Cake Sugar-Free Rose Pistachio Cake Day-4: Sugar-Free Rice Semolina Cake Sugar-Free Carrot Cake Sugar-Free Almond Cake Day-5: Sugar-Free Coffee Cake Sugar-Free Chocolate Mango Cake Sugar-Free Chai Masala Cake Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: 1. Make a payment of the course fees 2. Share the Payment Receipt on WhatsApp (7001770056) 4. PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime 5. A certificate will be shared at the end of the course. Note: For any issue, please call us at 7001770056 (10 AM to 8 PM) except on holidays.",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-1562",
+    "originalId": 1562,
+    "title": "Bakery Style Cookies Making Online Class (Veg)",
+    "slug": "bakery-style-cookies-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/bakery-style-cookies-making-online-class/",
+    "category": "Cookies",
+    "rawCategory": "Cookies Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/06/jpeg-optimizer_Cont-91-62948-22573.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/06/jpeg-optimizer_Cont-91-62948-22573.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 47,
+    "studentsCount": "1.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Bakery Style Cookies Making Online Class (Veg) . It is a professional class that is perfect for those who want to start a busines...",
+    "description": "Euphoria Live Classes presents Bakery Style Cookies Making Online Class (Veg) . It is a professional class that is perfect for those who want to start a business from home. All recipes are explained in detail by an experienced trainer. So, join now. Please click on the below link: Call or WhatsApp: +91 62948 22573 Course Details: Bakery Style Cookies Making Online Class: Course Fee: 449/- Duration: 19 videos Pre-recorded course Course List: Bakery Style Cookies Making Online Class: Chocolate Choco-Chunks Cookies Coconut Crunch Cookies Jam Cookies Whole Wheat Cookies Karachi Biscuits Butter Biscuits Chocolate Biscuits Coffee-Butter Biscuits Kaara Biscuits Osmania Biscuits Almond-Badam Cookies Jeera Cookies Peanut Biscuits Orio-Cream Biscuits Barbon Biscuits Good Day Biscuits Extra Learning: Marketing & Selling What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: 1. Make a payment of the course fees 2. Share the Payment Receipt on WhatsApp 3. PDFs & Videos will be shared through Euphoria Live Classes App 4. A certificate will be shared at the end of the course. Note: For any issue, please call or WhatsApp us at +91 70017 70056 (Except on holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-1093",
+    "originalId": 1093,
+    "title": "Crackers Making Online Class (Veg)",
+    "slug": "crackers-making",
+    "permalink": "https://euphorialiveclasses.com/crackers-making/",
+    "category": "Baking",
+    "rawCategory": "Crackers Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/jpeg-optimizer_Untitled-design-13-1-3.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/jpeg-optimizer_Untitled-design-13-1-3.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 58,
+    "studentsCount": "3.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Crackers Making 𝐎𝐧𝐥𝐢𝐧𝐞 𝐂𝐥𝐚𝐬𝐬 (𝐕𝐞𝐠) with 17 recipes. 100% full-proof recipe. Start your own business with our guidance. Join now. ...",
+    "description": "Euphoria Live Classes presents Crackers Making 𝐎𝐧𝐥𝐢𝐧𝐞 𝐂𝐥𝐚𝐬𝐬 (𝐕𝐞𝐠) with 17 recipes. 100% full-proof recipe. Start your own business with our guidance. Join now. Call or WhatsApp 062948 22573 Course Details: Crackers Making • Course Fees: 449/- • Duration: 19 videos • Pre-recorded class List of Items: Crackers Making Salty Coriander Crackers Sweet and Salty Crackers Jeera Crackers Ajwain crackers Jowar Crackers Bajra Crackers Nachni Crackers Gluten-Free Crackers Chocolate Crackers Graham Crackers Cheese Crackers Cheese-Garlic Crackers Chili-Palak Crackers Peri Peri Crackers Kasuri Methi Crackers Onion Crackers Italian Crackers Extra Learning: Marketing & Selling What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: 1. Make a payment of the course fees 2. Share the Payment Receipt on WhatsApp 3. PDFs & Videos will be shared through Euphoria Live Classes App 4. A certificate will be shared at the end of the course. Note: If any issue, please call or WhatsApp us at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-621",
+    "originalId": 621,
+    "title": "Iyengar Bakery Style Cake Making Online Class (With Eggs)",
+    "slug": "iyengar-bakery-style-cake",
+    "permalink": "https://euphorialiveclasses.com/iyengar-bakery-style-cake/",
+    "category": "Cakes",
+    "rawCategory": "Iyengar Bakery Cake (With Egg)",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Iyengar-Style-2_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Iyengar-Style-2_11zon.jpg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 66,
+    "studentsCount": "2.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Iyengar Bakery Style Cake Making Online Class (With Eggs). Those who are interested with teatime cake or dry cake recipe with eggs, this is the perfect class fo...",
+    "description": "Iyengar Bakery Style Cake Making Online Class (With Eggs). Those who are interested with teatime cake or dry cake recipe with eggs, this is the perfect class for you. We follow extremely traditional recipes. It is a most demanding cake and perfect for start up a home bakery business. Join now. Call or WhatsApp +91 62948 22573 Course Details: Iyengar Bakery Style Cake No of Videos: 17 Pre-recorded Class Course Module: Iyengar Bakery Style Cake Mod-1: Vanilla Cake Chocolate Cake Marble Cake Mod-2: Pineapple Cake Ribbon Cake Rose Honey Bell Cake Mod-3: Plum Cake Khejur Badam Cake Rava Badam Cake Mod-4: Mixed Fruits Cake Walnut Cake (Recipe Only) Malai Cake Mod-5: Pistachio Cake Rava Cake Mawa Cake Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call on +91 70017 70056 (Except Holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-158",
+    "originalId": 158,
+    "title": "Homemade Fondant Making and Fondant Cake  Making Online Class (Veg)",
+    "slug": "homemade-fondant-making-and-fondant-cake",
+    "permalink": "https://euphorialiveclasses.com/homemade-fondant-making-and-fondant-cake/",
+    "category": "Cakes",
+    "rawCategory": "Cake Class",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/fondant-cake-making.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/fondant-cake-making.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 83,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Homemade Fondant Making and Fondant Cake Making Online Class (Veg) for 6 days. Our Homemade Fondant is Just Like Market Fondant. ...",
+    "description": "Euphoria Live Classes presents Homemade Fondant Making and Fondant Cake Making Online Class (Veg) for 6 days. Our Homemade Fondant is Just Like Market Fondant. It is a unique recipe, only available to us. Fondant making cost @ Rs.125 / Kg maximum. Join us to know more details. Click on the below link: Call or WhatsApp to +91 62948 22573 Course Details: Homemade Fondant Making and Fondant Cake: Course Fees: 449/- Duration: 6 Days Pre-Recorded Class Course Modules: Homemade Fondant Making and Fondant Cake: Day-1: Homemade Fondant Preparation & Frosting with Ganache: Introduction to Fondant-Making Tools & Ingredients Homemade Fondant Preparation Sugar Paste & Gum Paste Making Ganache Preparation Frosting & Icing with Ganache How to Store Fondant & Fondant Cakes Day-2: Jungle Theme Cake & Animal Figure Making Covering with Fondant Glue making Colouring of Fondant (Red, Skin & Black) Day-3: Anniversary Theme / Engagement Theme Cake Figure Making Day-4: Barbie Theme Cake (Doll Cake) Frill making Day-5: Baby Shower Theme Baby Frock Making Additional Learning: Colour Fondant Making Techniques Red, Black & Skin Colour Fondant Making Fondant Cake Covering Techniques Grass & Tree Making Technique How to Store Fondant Figures Couple Figure Making Technique Ribbon & Lace Making Doll Theme Fondant Cake Doll Frill-Making Techniques Flower Making with & without Plunger Edible Glue Making Baby Figure Making Makeup Articles Making Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course is finished Note: For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-134",
+    "originalId": 134,
+    "title": "Commercial Style Dry Gravy Premix Making Online Class (Veg)",
+    "slug": "dry-gravy-premix",
+    "permalink": "https://euphorialiveclasses.com/dry-gravy-premix/",
+    "category": "Baking",
+    "rawCategory": "Dry Gravy Premix",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/jpeg-optimizer_Recordings-│PDFs-│Certificate-│Lifetime-Support-5.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/jpeg-optimizer_Recordings-│PDFs-│Certificate-│Lifetime-Support-5.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 59,
+    "studentsCount": "4.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Commercial Style Dry Gravy Premix Making Online Class (Veg) for 5 days. Start your own business of dry premix making. We will gui...",
+    "description": "Euphoria Live Classes presents Commercial Style Dry Gravy Premix Making Online Class (Veg) for 5 days. Start your own business of dry premix making. We will guide you about packaging, marketing, and selling. Join our WhatsApp Group for more course details: Call or WhatsApp to +91 62948 22573 Course Details: Dry Gravy Premix: Course Fees: 399/- Duration: 5 Modules Pre-recorded Class Course Modules: Dry Gravy Premix Day-1: White Gravy Premix Red Gravy Premix Green Gravy Premix Yellow Gravy Premix Day-2: Kadai Gravy Premix Chole Masala / Rajma Masala Premix Pav Bhaji Premix Day- 3: Biriyani Premix Nun Premix Dal Makhani Premix Day-4: All-Purpose Gravy Premix Dhaba Style Gravy Premix Shev Bhaji Premix Mughlai Gravy Premix Day-5: Chole Masala Making with Dry Premix Biriyani Making with Dry Premix Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & video will be accessible through Euphoria Live Classes App for a lifetime The certificate will be shared at the end of the course. Note : If any issue, please call or WhatsApp to +91 70017 70056",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-381",
+    "originalId": 381,
+    "title": "Healthy Stuffed Dates Making Online Class (Veg)",
+    "slug": "healthy-stuffed-dates",
+    "permalink": "https://euphorialiveclasses.com/healthy-stuffed-dates/",
+    "category": "Baking",
+    "rawCategory": "Stuffed Dates Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Healthy-Stuffed-Dates-Making-Online-Class-Veg-2.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Healthy-Stuffed-Dates-Making-Online-Class-Veg-2.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 66,
+    "studentsCount": "2.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "🌟🍰 Healthy Stuffed Dates Making Online Class (Veg) 🍰🌟 🍽️ Explore the art of creating Healthy Stuffed Dates in our 5-day Online class (Veg). 👩‍🍳 In this professi...",
+    "description": "🌟🍰 Healthy Stuffed Dates Making Online Class (Veg) 🍰🌟 🍽️ Explore the art of creating Healthy Stuffed Dates in our 5-day Online class (Veg). 👩‍🍳 In this professional class, you’ll learn: 🔸 The art of choosing the finest dates 🔸 Creative and nutritious stuffing ideas 🔸 Pro tips to elevate your presentation 🔸 And much more! 📌 For more details, 📞 Call or WhatsApp: 6294-822-573 / 7001-770-056 👉 Course Details: 💰 Course Fees: ₹399/- ⏰ Duration: 5 Modules 📺 Prerecorded Class 📚 Course Module: Mod-1: Dry Fruits Stuffed Dates Paan Bahar Stuffed dates Chocolate Walnut Stuffed Dates Mod-2: Cashew Stuffed Dates Nutella Hazelnut Stuffed Dates Ruffalo Stuffed Dated Mod-3: Choco Delight Stuffed Dates Multi Seeds & Nuts Stuffed Dates Peanut Snickers Stuffed Dates Mod-4: Sesame Stuffed Dates Caramelised Stuffed Dates Creamy Mango Stuffed Dates Mod-5: Pistachio Stuffed Dates Cream Cheese Stuffed Dates Malai Stuffed Dates Gulkand Stuffed dates 📖 Extra Learning: 📈 Marketing & Selling Guide 🎁 What We Provide After the Course: 📹 Live Class Recordings for a lifetime 📜 Course Materials as PDFs 🏆 Course Completion Certificate 📞 Lifetime Support (Call or WhatsApp) 💬 Community Support 🛒 Ingredients & Tools Buying Guide 🗣️ Language of Communication: 🗨️ Hindi",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-377",
+    "originalId": 377,
+    "title": "Healthy Special Baked Snacks Making Online Class (Veg)",
+    "slug": "baked-snacks-making-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/baked-snacks-making-online-class-veg/",
+    "category": "Baking",
+    "rawCategory": "Baked Snacks Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Healthy-Special-Baked-Snacks-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Healthy-Special-Baked-Snacks-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 62,
+    "studentsCount": "1.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "🌟 Healthy Special Baked Snacks Making 🎥 Online Class (Veg) . You can learn how to make Baked Snacks without frying in Oil. This is an extremely professional cla...",
+    "description": "🌟 Healthy Special Baked Snacks Making 🎥 Online Class (Veg) . You can learn how to make Baked Snacks without frying in Oil. This is an extremely professional class. Anyone can start a business after doing this class. Join now🌟 🎉 Don’t let this golden opportunity slip away! Reserve your spot now. 📝🎈 📌 For more details, 📞 Call or WhatsApp: 6294-822-573 / 7001-770-056 👉 Course Details: Baked Snacks Making: Course Fees: 399/- Duration: 5 Days Pre-recorded class Course Modules: Baked Snacks Making: Day-1: Baked Dry Kachori Baked Mini Dry Samosa Day-2: Baked Shakarpara Baked Namkeen Pare Baked Kaju Shakarpara Day-3: Baked Chewra Baked Bhakarwadi Day-4: Baked Chakli Baked Gujia Day-5: Baked Shev Baked Masala Shev Baked Mathri 📖 Extra Learning: Marketing & Selling Guide 🎁 What We Provide After the Course: Class Recordings for a Lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide 🗣️ Language of Teaching: Hindi Note: For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-373",
+    "originalId": 373,
+    "title": "Traditional Nankhatai Making Online Class (Veg)",
+    "slug": "nankhatai-making",
+    "permalink": "https://euphorialiveclasses.com/nankhatai-making/",
+    "category": "Baking",
+    "rawCategory": "Nankhatai Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Traditional-Nankhatai-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Traditional-Nankhatai-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 58,
+    "studentsCount": "3.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "🌟 Traditional Nankhatai Making Online Class (Veg) with 5 modules. Learn the variety of Nankhatai recipes traditionally. Join this class now🌟 📌 For more details,...",
+    "description": "🌟 Traditional Nankhatai Making Online Class (Veg) with 5 modules. Learn the variety of Nankhatai recipes traditionally. Join this class now🌟 📌 For more details, 📞 Call or WhatsApp: 6294-822-573 / 7001-770-056 👉 Course Details: Nankhatai Making: Course Fee: 399/- Duration: 5 Modules Pre-recorded class 👉 Course Modules: Nankhatai Making: Mod-1: Traditional Nankhatai Besan Nankhatai Whole Wheat Nankhatai Mod-2: Rose-Pistachio Nankhatai Cashew Nankhatai Coconut Nankhatai Mod-3: Gluten-Free Nankhatai Oats Nankhatai Finger Millet Nankhatai Mod-4: Vegan Nankhatai Mango Nankhatai Coffee Nankhatai Mod-5: Chocolate Nankhatai Nutella Nankhatai Almond Nankhatai Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide 🗣️ Language of Teaching: 🗨️ Hindi 📌 Note: For any issue, please call 7001770056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-364",
+    "originalId": 364,
+    "title": "Cheesecake Making Making Class (Veg)",
+    "slug": "cheesecake-making-making-class",
+    "permalink": "https://euphorialiveclasses.com/cheesecake-making-making-class/",
+    "category": "Cakes",
+    "rawCategory": "Cheesecake Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Cheesecake_Image_SQ_11zon.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Cheesecake_Image_SQ_11zon.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 49,
+    "studentsCount": "2.0k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Cheesecake Making OnlineClass for 5 Days Join us to learn more details. Click on the below link: Call or WhatsApp +91 62948 22573...",
+    "description": "Euphoria Live Classes presents Cheesecake Making OnlineClass for 5 Days Join us to learn more details. Click on the below link: Call or WhatsApp +91 62948 22573 Course Details: Cheesecake Making Making Class: Course Fees: 349/- Duration: 5 Days Each Class Duration: 60 to 90 min Course Modules: Cheesecake Making Making Class: Day-1: Introduction to Cheesecake Ingredients & Tools Baked & Non-Baked Cheesecake Baking Temperature & Timing (OTG, Microwave Oven & Gas) Non-Baked Setting Time & Technique Blueberry Baked Cheesecake making Day-2: Non-Baked Cheesecake: Kaju Katli Mini Cheesecake Mini Lemon Cheesecake Day-3: Baked Cheesecake: Chocolate Mousse Cheesecake Mousse Preparation Ganache Preparation Homemade Cheese Cream Preparation Day-4: Chocolate Mint Cheesecake Strawberry Non-Baked Cheesecake Day-5: Red Velvet Cheesecake Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through the Euphoria Live Classes App The certificate will be shared after the course is finished Note: If any issues, please call or WhatsApp +91 70017 70056",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-360",
+    "originalId": 360,
+    "title": "Millet Special Cookies Making Online Class (Veg)",
+    "slug": "millet-special-cookies",
+    "permalink": "https://euphorialiveclasses.com/millet-special-cookies/",
+    "category": "Cookies",
+    "rawCategory": "Millet Cookies",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2026/03/Millet-Cookies-Making-Online-Class-Veg.jpg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2026/03/Millet-Cookies-Making-Online-Class-Veg.jpg.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "studentsCount": "1.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "100% Millet Special Cookies Making Online Class (Veg) 🌟 🌟 Join our live class, led by an experienced 👩‍🍳 instructor, and improve your professional skills in 100...",
+    "description": "100% Millet Special Cookies Making Online Class (Veg) 🌟 🌟 Join our live class, led by an experienced 👩‍🍳 instructor, and improve your professional skills in 100% Millet Cookies 🍪 making. Start a lucrative Millet Cookies business from the comfort of your 🏡 home. Seize this opportunity! Register Now. For more details, Call or WhatsApp to 6294822573 / 7001770056 Course Details: Millet Special Cookies Making Course Fees: 449/- Duration: 19 Videos and 1 PDF Product Buying Link → Course Module: Millet Special Cookies Making Finger Millet Cookies (Ragi Flour) Sorghum Hazelnut Cookies (Joar Flour) Perl Millet Nutty Cookies (Bajra Flour) Salty-Jeera Millet Cookies (Joar Flour) Amaranth Marble Cookies (Rajgira Flour) Kodo Millet Cookies Chocolate Choco Chunks Millet Cookies Buckwheat (Kuttu Flour) Orange Cookies Ajwain Salt Millet Cookies (Kangni Flour) Salty-Pepper Millet Cookies (Recipe Only / Follow Salty-Jeera Millet Cookies) Foxtail (Kangni) Peanut Butter Cookies Proso Millet Cookies (Chena Flour) Quinoa Nutty Cookies Almond Millet Cookies Crunchy Coconut Millet Cookies Millet Nankhatai Chocolate Nutty Little Millet Cookies Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp ) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Note: For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-353",
+    "originalId": 353,
+    "title": "Pocky Sticks Making Online Class (Veg)",
+    "slug": "pocky-sticks-making",
+    "permalink": "https://euphorialiveclasses.com/pocky-sticks-making/",
+    "category": "Baking",
+    "rawCategory": "Pocky Sticks Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Pocky-Sticks-Making-Online-Class_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Pocky-Sticks-Making-Online-Class_11zon.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 158,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Pocky Sticks Making Online Class (Veg) 🌟Pocky Sticks Making Online Class (Veg) 🌟Learn Japanese snacks, Pocky Sticks making traditional recipes. It’s a prerecord...",
+    "description": "Pocky Sticks Making Online Class (Veg) 🌟Pocky Sticks Making Online Class (Veg) 🌟Learn Japanese snacks, Pocky Sticks making traditional recipes. It’s a prerecorded class. 🌟 Join our live class, led by an experienced 👩‍🍳 instructor, and improve your professional skills in 100% Millet Cookies 🍪 making. Start a lucrative Millet Cookies business from the comfort of your 🏡 home. Seize this opportunity! Register Now. For more details, Call or WhatsApp 6294822573 / 7001770056 👉 Course Details: ⏰Date: Pre-recorded class 📚 Course Module: Mod-1: • 🍽️ Classic Vanilla Pocky Sticks • 🍪 Dark Chocolate Pocky Sticks • 🌾 Trutti-Fruity Pocky Sticks Mod-2: • 🥜Roasted Nutty Pocky Sticks • 🌰Cookies & Cream Pocky Sticks • 🍫 Chocolate Walnut Pocky Sticks (Recipe Only) Mod-3: • 💪 Nutella Hazelnut Pocky Sticks • 🥥 Pineapple Pocky Sticks • 🥑 Coffee Pocky Sticks Mod-4: • 🌰 Peanut Butter Pocky Sticks • 🥜 Rashmalai Pocky Sticks • 🍫 Cranberry Cashew Pocky Sticks Day-5: • 🌱 Pink Strawberry Pocky Sticks • 🌾 Red Velvet Pocky Sticks • 🍘 Mint Flavour Pocky Sticks 📖 Extra Learning: • 📈 Marketing & Selling Guide 🎁 What We Provide After the Course: • 📹 Recordings for a lifetime • 📜 Course Materials as PDFs • 🏆 Course Completion Certificate • 📞 Lifetime Support (Call or WhatsApp) • 💬 Community Support • 🛒 Ingredients & Tools Buying Guide 🗣️ Language of Communication: • 🗨️ Hindi",
+    "modules": [
+      "Mod-1:",
+      "🍽️ Classic Vanilla Pocky Sticks",
+      "🍪 Dark Chocolate Pocky Sticks",
+      "🌾 Trutti-Fruity Pocky Sticks Mod-2:",
+      "🥜Roasted Nutty Pocky Sticks",
+      "🌰Cookies & Cream Pocky Sticks",
+      "🍫 Chocolate Walnut Pocky Sticks (Recipe Only) Mod-3:",
+      "💪 Nutella Hazelnut Pocky Sticks"
+    ]
+  },
+  {
+    "id": "course-163",
+    "originalId": 163,
+    "title": "Bakery Style Bread Buns Pav Making Online Class (Veg)",
+    "slug": "bread-buns-pav-making",
+    "permalink": "https://euphorialiveclasses.com/bread-buns-pav-making/",
+    "category": "Breads & Snacks",
+    "rawCategory": "Bread Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Bread_Image_SQ1-1.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Bread_Image_SQ1-1.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 88,
+    "studentsCount": "3.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Bakery Style Bread Buns Pav Making Online Class (Veg) Join us to learn more details. Click on the below link: WhatsApp or call us...",
+    "description": "Euphoria Live Classes presents Bakery Style Bread Buns Pav Making Online Class (Veg) Join us to learn more details. Click on the below link: WhatsApp or call us at 6294822573 Course details: Bread Buns Pav Making: Course Fees: 399/- No of Videos: Pre-Recorded class NOTE: We will show only preparations with Yeast Course Contains: Bread Buns Pav Making: Measuring Tools Moulds, Rings and Tins Baking Process About Yeast Ladi Pav Dough Making Ladi Pav Making Burger Ban & Hotdog Dough Making Burger Ban & Hotdog Making Ladi Pav & Hotdog Baking & Demoulding Milk Bread & Sweet Ban Making Croissant Making Burger Ban, Hotdog, Sweet Ban & Croissant Baking Sunflower Bread Making 14. Dinner Roll Making Nutella Bread 16. Soup Sticks Making Sandwich Bread Dough Making Whole Wheat Bread Multigrain Bread Cheese-Garlic Bread Extra Learning: Marketing & Selling Guide What we Provide: Recordings for a Lifetime Practice Related Support Course Materials as PDFs Course Completion Certificate Customer Support Chat Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-160",
+    "originalId": 160,
+    "title": "Domino’s Style Pizza Making Course [Veg]",
+    "slug": "pizza-making-course",
+    "permalink": "https://euphorialiveclasses.com/pizza-making-course/",
+    "category": "Breads & Snacks",
+    "rawCategory": "Pizza Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Dominos-Style-Pizza-Making-Course-_Veg_-Euphoria-Live-Classes-1667959350.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Dominos-Style-Pizza-Making-Course-_Veg_-Euphoria-Live-Classes-1667959350.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 85,
+    "studentsCount": "3.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents DOMINOS STYLE PIZZA MAKING CLASS for 5 days. 100% full-proof recipe. Click the below link for more details: Call or WhatsApp +91 ...",
+    "description": "Euphoria Live Classes presents DOMINOS STYLE PIZZA MAKING CLASS for 5 days. 100% full-proof recipe. Click the below link for more details: Call or WhatsApp +91 62948 22573 Course Details: Pizza Making: Course Fees: 349/- Duration: 5 Days Each Class Duration: 60 to 90 min Course Includes: Pizza Making: Day-1: Regular & Whole Wheat Pizza Dough & Sauce Making • Introduction to Pizza Making Ingredients & Tools • Regular Pizza Base Dough Making (With / Without Yeast) • Whole Wheat Pizza Base Dough Making • Pizza Sauce Making Day-2: Regular Base: • Tandoori Paneer Cheese Burst Pizza • Farmhouse Pizza Making • Tandoori Paneer Preparation Day-3: Veg Zingy Parcel & Makhani Sauce: • Zingy Paneer Parcel • Makhani Sauce Making • Pizza Base Making Day-4: Pan Pizza: • Corn Kabab Pizza with a twist of Spicy Makhani Sauce • Grilled Corn Kabab Day-5: Thin Crust Pizza & Frozen Pizza: • Thin Crust Base with Margherita Pizza • Frozen Pizza Making Extra Learning: Marketing & Selling What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Videos will be shared through Euphoria Live Classes App A certificate will be shared at the end of the course. Note : If you have any issues, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-159",
+    "originalId": 159,
+    "title": "Halwai Style Sweet Making Online Class",
+    "slug": "halwai-style-sweet-making-live-course",
+    "permalink": "https://euphorialiveclasses.com/halwai-style-sweet-making-live-course/",
+    "category": "Sweets",
+    "rawCategory": "Halwai Style Sweets Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Bengal-Famous-Sweets.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Bengal-Famous-Sweets.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 84,
+    "studentsCount": "3.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Halwai Style Sweet Making Online Class for 5 days @ 349/- Click the below link to join Our WhatsApp Group Call or WhatsApp +91 62...",
+    "description": "Euphoria Live Classes presents Halwai Style Sweet Making Online Class for 5 days @ 349/- Click the below link to join Our WhatsApp Group Call or WhatsApp +91 62948 22573 Course Details: Sweet Making: Fees: 349/- Duration: 5 Days Pre-Recorded Class Course Contains: Sweet Making: Day-1: Introduction to Bengal Famous Mithai Ingredients Requirement Proper Chenna Making for Sweets Malai Sandwich Cham Cham Day-2: Bengal Famous Rashogolla Baked Rashogolla Rashomalai Day-3: Gulab Jamun Ice Cream Sandesh Day-4: Misti Dahi Bhapa Dahi Mango Bhapa Dahi Day-5: Kaju Barfi Kalakand Extra Learning: Marketing & Selling Guide What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp Group PDFs & Zoom Link will be accessible through Euphoria Live Classes Android App A certificate will be shared at the end of the course. Note: For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-156",
+    "originalId": 156,
+    "title": "Exclusive Cupcake Making Online Class (Veg)",
+    "slug": "exclusive-cupcake-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/exclusive-cupcake-making-online-class/",
+    "category": "Cakes",
+    "rawCategory": "Cupcake Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Exclusive-Cupcake-Making-Online-Class-Veg.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Exclusive-Cupcake-Making-Online-Class-Veg.jpg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 81,
+    "studentsCount": "2.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Class presents Exclusive Cupcake Making Online Class (Veg). Join us to learn more details. Click on the link below: Call or WhatsApp +91 62948 225...",
+    "description": "Euphoria Live Class presents Exclusive Cupcake Making Online Class (Veg). Join us to learn more details. Click on the link below: Call or WhatsApp +91 62948 22573 Course details: Exclusive Cupcake Making Online Class (Veg): Course Fees: 449/- Number of Recipes: 23 Pre-recorded class Course Included: Exclusive Cupcake Making Online Class (Veg): Frosting & Decoration: Butter Cream Making Chocolate Buttercream Making Ganache Making Cupcakes with Fillings: Classic Vanilla Cupcakes Cherry Blust Vanilla Cupcakes Chocolate Cupcakes Choco Filled Cupcakes Cocolava Cupcakes Red Velvet Cupcakes filled with Cream Cheese Nutella Filled Cupcakes Pineapple Cream Cheese Cupcakes Cookies & Cream Cupcakes Mawa Malai Cupcake Spicy Chilli Carrot Cupcakes Mango Castard Cupcakes Tangy Choco Orange Cupcakes Cherry Blust Vanilla Cupcakes Biscoff Filled Cupcakes (Only Recipe) Boston Creampie Cupcakes Baklava Cupcakes Cotton Candy Cupcakes Motichoor Laddu Cupcakes Salted Caramel Cupcakes Extra Learning: Marketing & Selling Guide What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support Community Support Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (6294822573) PDFs & Videos will be accessible through the Euphoria Live Classes App A certificate will be shared at the end of the course. Note : For any issues, please call or WhatsApp +91 70017 70056",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-152",
+    "originalId": 152,
+    "title": "Restaurant Style Chicken Starters & Kababs [Non-Veg]",
+    "slug": "restaurant-style-chicken-starters-kababs-non-veg",
+    "permalink": "https://euphorialiveclasses.com/restaurant-style-chicken-starters-kababs-non-veg/",
+    "category": "Baking",
+    "rawCategory": "Chicken Starter & Kabab",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Restaurant-Style-Chicken-Starter-Kabab-Online-Class.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Restaurant-Style-Chicken-Starter-Kabab-Online-Class.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 77,
+    "studentsCount": "1.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes Presents RESTAURANT STYLE CHICKEN STARTERS & KABABS [NON-VEG] for 5 days @ 399/- Click the below link to join this course +916294822573 Co...",
+    "description": "Euphoria Live Classes Presents RESTAURANT STYLE CHICKEN STARTERS & KABABS [NON-VEG] for 5 days @ 399/- Click the below link to join this course +916294822573 Course Fees: 39 9/- Duration: 5 Days Each Class Duration: 1 hr 30 Min Course Details: Day-1: Chicken Tikka Malai Tikka Hariyali Tikka Day-2: KFC Style Chicken KFC Style Popcorn Chicken Fuljhari Day-3: Chicken Cheese Patte KFC Style Burger Chicken Cheese Ball Day-4: Chicken Tandoori Peri-Peri Chicken Day-5: Chicken Lollipop Seekh Kabab Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp Group PDFs & Video will be shared through Euphoria Live Classes App for lifetime Certificate will be shared at the and of the course. Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-151",
+    "originalId": 151,
+    "title": "Homemade Special Class for Jam, Crush, Syrup, Sauces and Spicy Masala",
+    "slug": "jams-crushes-sauces-and-spicy-masala",
+    "permalink": "https://euphorialiveclasses.com/jams-crushes-sauces-and-spicy-masala/",
+    "category": "Baking",
+    "rawCategory": "Live Course",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Homemade-Special_11zon.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Homemade-Special_11zon.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 76,
+    "studentsCount": "1.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Homemade Special Class for Jam, Crush, Syrup, Sauces and Spicy Masala with 5 modules. To join this course, click on the below lin...",
+    "description": "Euphoria Live Classes presents Homemade Special Class for Jam, Crush, Syrup, Sauces and Spicy Masala with 5 modules. To join this course, click on the below link: Call or WhatsApp to +91 62948 22573 Course Details: Jams, Crushes, Sauces and Spicy Masala: Course Fees: 349/- Duration: 5 Modules Pre-recorded class Course Modules: Jams, Crushes, Sauces and Spicy Masala: Mod-1: Mango Jam Mixed Fruit Jam Orange Marmalade Preservation Techniques Mod-2: Chocolate Syrup (Hershey’s’ Style) Caramel Syrup (Hershey’s’ Style) Rose Syrup Mod-3: Orange Crush Mango Crush Pineapple Crush Mod-4: Schezwan Sauce Burger Sauce Mayonnaise Cheese Spread Mod-5: Garam Masala Sambar Masala Chat Masala Biriyani Masala Chai Masala Sabji Masala Extra Learning: Marketing & Selling Cost Calculation What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi & English Mixing Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-149",
+    "originalId": 149,
+    "title": "Cheesecakes Tea Time Cake Doughnuts Making Online Class (Veg)",
+    "slug": "cheesecakes-tea-time-cake-doughnuts-making",
+    "permalink": "https://euphorialiveclasses.com/cheesecakes-tea-time-cake-doughnuts-making/",
+    "category": "Cakes",
+    "rawCategory": "Cheesecake",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Cheesecake-Doughnut-Teatime-Cake-Making.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Cheesecake-Doughnut-Teatime-Cake-Making.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 74,
+    "studentsCount": "4.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Cheesecakes Tea Time Cake Doughnuts Making Online Class (Veg) for 5 days To join this course, click on the below link: Call or Wh...",
+    "description": "Euphoria Live Classes presents Cheesecakes Tea Time Cake Doughnuts Making Online Class (Veg) for 5 days To join this course, click on the below link: Call or WhatsApp +91 62948 22573 Course Details: Cheesecakes Tea Time Cake Doughnuts Making: Course Fees: 349/- Duration: 5 Days Each Class Duration: 60 to 90 Min Course Details: Cheesecakes Tea Time Cake Doughnuts Making: Day-1: Cheese-Based Cakes: Baked Blueberry Cheese Cake (Baked) Chocolate Mousse Cheese Cake (Baked) Day-2: Cheese-Based Cakes: Blueberry Cheese Cake Decoration Chocolate Cheese Cake Decoration Mango Cheese Cake Bites (No Baked) Day-3: Tea Time Cake: Orange & Nuts Tea Time cake Chocomud Cake Day-4: Doughnuts Base: Chocolate Doughnuts Base Vanilla Doughnut Base ##Ganache Preparation: Dark Chocolate Ganache Day-5: Chocolate Doughnuts Old Fashion Sugar Cinnamon Doughnuts Caramel Doughnuts Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issues, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-147",
+    "originalId": 147,
+    "title": "Restaurant Style Veg Gravies and Sabjis Online Class",
+    "slug": "veg-gravies-and-sabjis",
+    "permalink": "https://euphorialiveclasses.com/veg-gravies-and-sabjis/",
+    "category": "Baking",
+    "rawCategory": "Veg Gravies & Sabjis Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Restaurant-Style.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Restaurant-Style.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 72,
+    "studentsCount": "3.6k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Restaurant Style Veg Gravies and Sabjis Online Class for 5 days. For more details, please click the below link: Call or WhatsApp ...",
+    "description": "Euphoria Live Classes presents Restaurant Style Veg Gravies and Sabjis Online Class for 5 days. For more details, please click the below link: Call or WhatsApp +9162948 22573 Course Details: Veg Gravies and Sabjis: Course Fees: 399/- Duration: 5 Days Each Class Duration: 1 hr 30 min Course Module: Veg Gravies and Sabjis: Day-1: Paneer Tikka Gravy Making Paneer Tikka Masala Making Day-2: Instant Red Gravy Making Dum Aloo Making Day-3: White Gravy Making Malai Kofta Making Day-4: Green Gravy Making Hyderabadi Harially Sabji Day-5: Brown Gravy Making Yellow Gravy Making Onion-Tomato Gravy Variety of Uses Extra Learning: Marketing & Selling Guide How to store Gravies? What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Customer Support Chat Community Support Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime The certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp at 7001770056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-146",
+    "originalId": 146,
+    "title": "Bakery Style Khari Puff and Pattie Making Online Class (Veg)",
+    "slug": "khari-puff-and-pattie-making",
+    "permalink": "https://euphorialiveclasses.com/khari-puff-and-pattie-making/",
+    "category": "Baking",
+    "rawCategory": "Khari & Puff",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Khari_Image_SQ.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Khari_Image_SQ.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 71,
+    "studentsCount": "3.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Class presents Bakery Style Khari Puff and Pattie Making Online Class (Veg) for 5 days. To join this course, please click on the below link: Call ...",
+    "description": "Euphoria Live Class presents Bakery Style Khari Puff and Pattie Making Online Class (Veg) for 5 days. To join this course, please click on the below link: Call or WhatsApp +91 62948 22573 Course Details: Khari Puff and Pattie Making: Course fees: 349/- Duration: 5 Days Each Class Duration: 60 to 90 min Pre-recorded Class Course Modules: Khari Puff and Pattie Making: Day-1: Introduction to Khari & Puff Making Khari & Puff Dough Making Khari & Puff Sheet Making How to store Khari & puff Sheet Day-2: Types of Khari Making: Plain Khari Making Twisted Khari Making Masala Khari Making Palmier Khari Making Day-3: Aloo Petties Making Making of Potato sabzi Jam Danish Making Day-4: Paneer Puff Making Pizza Puff Making Day-5: Cream Roll Making Coconut Strips Making Extra Learning: Marketing & Selling Guide What you get from us: Recordings for a lifetime Course Materials in PDF form Course Completion Certificate. Lifetime support (Call or WhatsApp) Guide on buying ingredients & tools Language of Communication: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp Group (7001770056) PDFs & Videos will be accessible through the Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note: For any issue, please Call or WhatsApp at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-145",
+    "originalId": 145,
+    "title": "Market Style Cake Premix and Sponge Making Online Class (Veg)",
+    "slug": "cake-premix-and-sponge-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/cake-premix-and-sponge-making-online-class/",
+    "category": "Cakes",
+    "rawCategory": "Cake Premix",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Cake-Premix-Sponge-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Cake-Premix-Sponge-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 70,
+    "studentsCount": "3.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Market Style Cake Premix and Sponge Making Online Class . It is a professional course with 100% full-proof recipes. Anyone can do...",
+    "description": "Euphoria Live Classes presents Market Style Cake Premix and Sponge Making Online Class . It is a professional course with 100% full-proof recipes. Anyone can do premix business after doing this class. Join us to know more details. Click on the below link: Call or WhatsApp +91 62948 22573 Course Details: Cake Premix and Sponge Making Online Class • Course Fees: 399/- • Each Class Duration: 60 to 90 min • Pre-recorded class Course Modules: Cake Premix and Sponge Making Online Class: Day-1: • Market Style Vanilla Cake Premix • Market Style Chocolate Cake Premix • Vanilla Sponge Making with Premix Day-2: • Market Style Red Velvet Cake Premix • Market Style Brownie Cake Premix • Red Velvet Sponge Making with Premix Day-3: • Whole Wheat Cake Premix • Sugar-Free Cake Premix • Sponge Making with Whole Wheat Premix Day-4: • Vanilla Cupcake Premix • Chocolate Cupcake Premix • Cupcake with Premix Day-5: • Multigrain Cake Premix (Gluten-Free) • Sponge Making with Multigrain Premix Sponge Making: Brownie Making with Premix Vanilla Sponge Making with Premix Red Velvet Sponge Making with Premix Cupcake with Premix Discussing another Flavour Cake Premix Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056",
+    "modules": [
+      "Cake Premix and Sponge Making Online Class: Day-1:",
+      "Market Style Vanilla Cake Premix",
+      "Market Style Chocolate Cake Premix",
+      "Vanilla Sponge Making with Premix Day-2:",
+      "Market Style Red Velvet Cake Premix",
+      "Market Style Brownie Cake Premix",
+      "Red Velvet Sponge Making with Premix Day-3:",
+      "Whole Wheat Cake Premix"
+    ]
+  },
+  {
+    "id": "course-143",
+    "originalId": 143,
+    "title": "Bengal Famous Sweet Making Online Class",
+    "slug": "bengal-famous-sweet-making",
+    "permalink": "https://euphorialiveclasses.com/bengal-famous-sweet-making/",
+    "category": "Sweets",
+    "rawCategory": "Bengal Famous Sweets",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/For-5-Days-@-299-_11zon.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/For-5-Days-@-299-_11zon.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 68,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Bengal Famous Sweet Making Online Class with 5 modules. Start your sweet making business with our guidance. Click the below link ...",
+    "description": "Euphoria Live Classes presents Bengal Famous Sweet Making Online Class with 5 modules. Start your sweet making business with our guidance. Click the below link to join Our WhatsApp Group Call or WhatsApp to +91 62948 22573 Course Details: Sweet Making: Fees: 399/- Duration: 5 Modules Pre-recorded class Course Contains: Sweet Making: Day-1: Introduction to Ingredients for Sweet Making Proper Chenna Making Technique for Sweets Sugar Syrup Making Chom Chom Making Day-2: Bengal Famous Rashogolla Raj Bhog Day-3: Pinacolada Squares Gulab Jamun Day-4: Misti Dahi Bhapa Dahi Rash Malai Day-5: Kaju Barfi Kalakand Sandesh Making Extra Learning: Marketing & Selling Guide What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Zoom Link will be accessible through Euphoria Live Classes Android App Certificate will be shared at the and of the course. Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-139",
+    "originalId": 139,
+    "title": "Doughnuts and Eclairs Making Online Class (Veg)",
+    "slug": "doughnuts-and-eclairs-making",
+    "permalink": "https://euphorialiveclasses.com/doughnuts-and-eclairs-making/",
+    "category": "Baking",
+    "rawCategory": "Doughnuts & Eclairs",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/3_11zon.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/3_11zon.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 64,
+    "studentsCount": "2.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Veg Doughnuts and Eclairs Making Online Class (Veg) with 5 modules. Join us to know more details. Click on the below link: Call o...",
+    "description": "Euphoria Live Classes presents Veg Doughnuts and Eclairs Making Online Class (Veg) with 5 modules. Join us to know more details. Click on the below link: Call or WhatsApp to +91 62948 22573 Course Details: Doughnuts and Eclairs Making: Course Fees: 349/- Duration: 5 Modules Pre-Recorded Class Course Modules: Doughnuts and Eclairs Making: Day-1: Fried Vanilla Doughnut Fried Chocolate Doughnut Fried Vanilla Eclairs Fried Chocolate Eclairs Old Fashion Sugar Coated Doughnuts Day-2: Gluten-Free Doughnuts Red Velvet Doughnuts & Eclairs Ganache Preparation: Dark Chocolate Ganache White Chocolate Ganache Milk Chocolate Ganache Day-3: Sugar-Free Doughnuts Baked Chocolate Doughnuts Baked Vanilla Doughnuts Day-4: Chocolate Over Loaded Doughnuts Mango-Vanilla Doughnuts Strawberry Doughnuts Chocolate Orio Doughnuts Day-5: Tiramisu Eclairs Blueberry Eclairs Chocolate Caramel Eclairs Red Velvet Eclairs Butter Cream Preparation Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recordings for a Lifetime PDF Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Video will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-138",
+    "originalId": 138,
+    "title": "Restaurant Style Chinese Veg Class",
+    "slug": "chinese-veg-class",
+    "permalink": "https://euphorialiveclasses.com/chinese-veg-class/",
+    "category": "Baking",
+    "rawCategory": "Chinese Veg Cooking",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Restaurant-Style-4.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Restaurant-Style-4.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 63,
+    "studentsCount": "1.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Restaurant Style Chinese Veg Class for 5 days. Call or WhatsApp to +91 62948 22573 Course Details: Chinese Veg Class: Course Fees...",
+    "description": "Euphoria Live Classes presents Restaurant Style Chinese Veg Class for 5 days. Call or WhatsApp to +91 62948 22573 Course Details: Chinese Veg Class: Course Fees: 349/- Duration: 5 Days Pre-recorded class Course Modules: Chinese Veg Class: Day-1: Veg Fried Rice Veg Hakka Noodles Schezwan Fried Rice Day-2: Paneer Chili Veg Manchurian Day-3: Veg Lollipop Spring Roll Day-4: American Chop Suey Veg Crispy Day-5: Manchow Soup Crispy Chilli Potato Honey Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (+91 70017 70056) PDFs & Videos will be accessible through Euphoria Live Classes App for a lifetime The certificate will be shared at the end of the course. Note : If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-137",
+    "originalId": 137,
+    "title": "Restaurant Style Veg Starter and Kabab Online Class",
+    "slug": "veg-starter-and-kabab",
+    "permalink": "https://euphorialiveclasses.com/veg-starter-and-kabab/",
+    "category": "Baking",
+    "rawCategory": "Veg Starter and Kabab",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Veg_Starter_Image_SQ1.png",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Veg_Starter_Image_SQ1.png"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 62,
+    "studentsCount": "1.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Restaurant Style Veg Starter and Kabab Online Class with 5 modules. Please Click on Below Link to Join this Class: Call or WhatsA...",
+    "description": "Euphoria Live Classes presents Restaurant Style Veg Starter and Kabab Online Class with 5 modules. Please Click on Below Link to Join this Class: Call or WhatsApp to +91 62948 22573 Course details: Veg Starter and Kabab: Course Fees: 349/- Duration: 5 Modules Pre-recorded class Course Modules: Veg Starter and Kabab: Mod-1: Kurkure Mint Paneer Tikka Kali Mirch Tikka Pahari Tikka Paneer Tikka Mod-2: Crispy Corn Masala Baby Corn Fritters Cron Croquette Mod-3: Sikh Kebab Hara Bhara Kebab Dahi Kebab Laccha Salad Mod-4: Alu Nazakat Cheese Cigar Cheese Stuff Mushroom Mod-5: Cutlet Paneer 65 Dahi Chatni Mint Dahi Chatni Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recordings for a Lifetime PDF (English) Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-135",
+    "originalId": 135,
+    "title": "Restaurant Style Chinese Non Veg Class",
+    "slug": "restaurant-style-chinese-non-veg-class",
+    "permalink": "https://euphorialiveclasses.com/restaurant-style-chinese-non-veg-class/",
+    "category": "Baking",
+    "rawCategory": "Chinese Non-Veg Class",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Restaurant-Style-1.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Restaurant-Style-1.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 60,
+    "studentsCount": "1.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Restaurant Style Chinese Non Veg Class for 3 Days. If you are planning to start a Chinese food business, this class is absolutely...",
+    "description": "Euphoria Live Classes presents Restaurant Style Chinese Non Veg Class for 3 Days. If you are planning to start a Chinese food business, this class is absolutely perfect for you. To know about the course details, join our WhatsApp Group: Call or WhatsApp +916294822573 Course Details: Chinese Non Veg Class: Course Fees: 349/- Duration: 3 Days Each Class Duration: 2 hr 30 min Pre-recorded class Course Contain: Chinese Non Veg Class: Day-1: Mixed Fried Rice Chicken Hakka Noodles Day-2: Chicken Manchurian Chicken Kung Pao Chicken Day-3: Chicken Manchow Soup Chicken Spring Roll Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (+91 70017 70056) PDFs & Videos will be shared through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note: For any issue, please call or WhatsApp at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-130",
+    "originalId": 130,
+    "title": "Instant Breakfast Premix Making Online Class (Veg)",
+    "slug": "breakfast-premix-making",
+    "permalink": "https://euphorialiveclasses.com/breakfast-premix-making/",
+    "category": "Baking",
+    "rawCategory": "Breakfast Premix Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Copy-of-Breakfast_Image_SQ1.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Copy-of-Breakfast_Image_SQ1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 55,
+    "studentsCount": "3.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Instant Breakfast Premix Making Online Class (Veg) for 5 days . It is a professional course with 100% full proof recipes. Anyone ...",
+    "description": "Euphoria Live Classes presents Instant Breakfast Premix Making Online Class (Veg) for 5 days . It is a professional course with 100% full proof recipes. Anyone can do premix business after doing this full course. Click on the below link to join this course: Call or WhatsApp +91 62948 22573 Course Details: Breakfast Premix Making: Course Fees: 399/- Each Class Duration: 60 to 90 Min Pre-recorded class Course Modules: Breakfast Premix Making: Day-1: Idli Premix Dosa Premix Sambar Premix Day-2: Idli Making Sambar Making Coconut Chatni Premix Day-3: Dhokla Premix Poha Premix Upma Premix Day-4: Dokhla Making Poha Making Medu Vada Premix Day-5: Moong Dal Halwa Premix Jalebi Premix Moong Dal Halwa Making Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please Call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-128",
+    "originalId": 128,
+    "title": "Exclusive Chocolate Special Cake Baking Online Class (Veg)",
+    "slug": "chocolate-special-cake-baking",
+    "permalink": "https://euphorialiveclasses.com/chocolate-special-cake-baking/",
+    "category": "Chocolates",
+    "rawCategory": "Chocolate Special Cake",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Exclusive-Chocolate-special.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Exclusive-Chocolate-special.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 53,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Exclusive Chocolate Special Cake Baking Online Class (Veg) for 6 days @ 349/-. Almost all trending cakes will be shown in this cl...",
+    "description": "Euphoria Live Classes presents Exclusive Chocolate Special Cake Baking Online Class (Veg) for 6 days @ 349/-. Almost all trending cakes will be shown in this class. Join us to know more details. Click on the below link: Call or WhatsApp +91 62948 22573 Course Details: Chocolate Special Cake Baking : Course Fees: 349/- Duration: 6 Days Each Class Duration: 60 to 90 min Pre-recorded class Course Modules: Chocolate Special Cake Baking : Day-1: Chocolate Almond Praline Cake: Chocolate Melting Technique Baking Technique (OTG, Microwave Oven & Gas) Sugar Syrup Making Bakery Style Sponge Making Decoration Technique Day-2: Chocolate KitKat Cake with Ganache: Layering of Sponge Homemade Chocolate Cake Sponge Ganache Preparation Frosting with Ganache Glazing Technique Chocolate Toppers for Decoration Day-3: Belzium Chocolate Cake (Couverture Chocolate): Using Technique of Pure Chocolate Finishing in Chocolate Cake Chocolate Toppers Making Garnishing with Chocolate Toppers Sharp Edges Day-4: Mississippi Mud Pie: Making of Mississippi Mud Pie Cake Decoration Technique Day-5: Mocha Toffee Cake: Coffee Sponge Making Garnishing with Chocolate Toppers Glazing with Marble Effect Day-6: Choco-Strawberry Lemonade cake: Mirror Glazing Technique Different Types of Decoration technique Garnishing With Different Chocolate Toppers Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through the Euphoria Live Classes App The certificate will be shared after the course finished Note: For any issue, please Call or WhatsApp at 7001770056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-127",
+    "originalId": 127,
+    "title": "McDonald Style Burger and Buns Making Online Class (Veg)",
+    "slug": "burger-and-buns-making",
+    "permalink": "https://euphorialiveclasses.com/burger-and-buns-making/",
+    "category": "Breads & Snacks",
+    "rawCategory": "Burger & Buns",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Burger_Image_SQ.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Burger_Image_SQ.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 52,
+    "studentsCount": "2.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents McDonald Style Burger and Buns Making Online Class (Veg). Join us to know more details. Click on the below link: Call or WhatsApp...",
+    "description": "Euphoria Live Classes presents McDonald Style Burger and Buns Making Online Class (Veg). Join us to know more details. Click on the below link: Call or WhatsApp: +91 62948 22573 Note: With Yeast Recipes Only Course Details: Burger and Buns Making: Course Fees: 449/- Duration: 5 Days Pre-recorded class Course Modules: Burger and Buns Making: Day-1: Introduction to Ingredients & Tools Burger Buns Dough Making Burger Buns Making Baking Process in OTG, Microwave Oven & Gas Dips & Sauces Making: Burger Spread Chipotle Sauce Hummus Sauce Day-2: Cheese Meltdown Burger: Slurry Making Pattie Making Burger Making Technique Day-3: Peri-Peri Burger Soya Chap Burger Pattie Making Day-4: Railway Cutlet Burger Pattie Making Cutlet Making Assembling Day-5: Pav Bhaji Masala Making Pav Bhaji Burger making Tanduri Burger Language of Communication: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Video will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-126",
+    "originalId": 126,
+    "title": "Bakery Style Pastry and Swiss Roll Making Course (Veg)",
+    "slug": "pastry-and-swiss-roll-making",
+    "permalink": "https://euphorialiveclasses.com/pastry-and-swiss-roll-making/",
+    "category": "Baking",
+    "rawCategory": "Pastry Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Pastry_Video_SQ.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Pastry_Video_SQ.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 51,
+    "studentsCount": "2.4k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Bakery Style Pastry and Swiss Roll Making Course (Veg) . It is completely a professional course. Anyone can start a pastry-making...",
+    "description": "Euphoria Live Classes presents Bakery Style Pastry and Swiss Roll Making Course (Veg) . It is completely a professional course. Anyone can start a pastry-making business after doing this course. Join us to know more details. Click on the below link: Call or WhatsApp: +91 62948 22573 Course Details: Pastry and Swiss Roll Making: Course Fees: 349/- Duration: 5 Days Pre-recorded class Course Modules: Pastry and Swiss Roll Making: Day-1: Chocolate Mango Delight Pastry: Bakery Style Chocolate Sponge Making (Premix) Discussed Vanilla Sponge & Coffee Sponge Perfect Baking Temperature & Time (OTG / Microwave / Gas) Sponge Layering Technique Whipping Cream Beating Technique Icing & Frosting Technique Cutting in Pastry Shape Decoration Technique Glazing Technique Day-2: Chocolate Truffle Pastry: Sheet Making Round Shape Cutting Technique Chocolate Garnishing Toppers Making Chocolate Truffle Pastry Making Truffle Sauce Making Icing & Frosting Technique Decoration Day-3: Swiss Roll Making: Kesar-Elaichi Sponge Making Ganache Preparation Swiss Roll Making Swiss Roll Filling, Cutting & Setting Technique Decoration Black Current Log Pastry: Icing Teaching Sponge Rolling Technique Cutting Technique Black Current Log Pastry Day-4: Kesar-Elaichi Pastry: Homemade Chocolate Sponge Making Discussed Vanilla Sponge Making Semi-Circle Shape Cutting Technique Icing & Decoration Kesar-Elaichi Pastry Making Vanilla-Strawberry Rounder: Icing & Decoration Vanilla-Strawberry Rounder Day-5: Chocolate Coffee-Caramel Pastry: Icing & Decoration Chocolate Coffee-Caramel Pastry Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Course Completion Certificate Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-123",
+    "originalId": 123,
+    "title": "Bakery Style Macarons Making Online Class (Veg)",
+    "slug": "macarons-making",
+    "permalink": "https://euphorialiveclasses.com/macarons-making/",
+    "category": "Baking",
+    "rawCategory": "Macrons Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Macarons_Image_LS_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Macarons_Image_LS_11zon.jpg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 48,
+    "studentsCount": "1.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Bakery Style Macarons Making Online Class (Veg) with 5 modules. Please click on the below link to join this class: Call or WhatsA...",
+    "description": "Euphoria Live Classes presents Bakery Style Macarons Making Online Class (Veg) with 5 modules. Please click on the below link to join this class: Call or WhatsApp to +91 62948 22573 Course details: Macarons Making: Course Fees: 349/- Duration: 5 Modules Pre-recorded class Course Modules: Macarons Making: Mod-1: Red Velvet Cream Cheese Macarons Chocolate Snickers Flavoured Macarons Mod-2: Cotton Candy Macarons (Unicorn Theme) Cookies & Cream Macarons (Teddy Bear Theme) Mod-3: Bubble Gum Flavoured Macarons (Sail Theme) Tiramisu Macarons Mod-4: Blueberry Lemonade Macarons (Flower Theme) Nutella Macarons (Kitty Theme) Mod-5: Fruits & Nuts macarons (Heart Theme) Chocolate Truffle macarons Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Video will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-122",
+    "originalId": 122,
+    "title": "Healthy Cake Making Online Class (Veg / No Maida)",
+    "slug": "healthy-cake-making",
+    "permalink": "https://euphorialiveclasses.com/healthy-cake-making/",
+    "category": "Cakes",
+    "rawCategory": "Healthy Cake Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Healthy-Cake-making-2.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Healthy-Cake-making-2.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 47,
+    "studentsCount": "1.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Healthy Cake Making Online Class (Veg / Without Flour). All cakes are flourless (No Maida). Please click on the link below to joi...",
+    "description": "Euphoria Live Classes presents Healthy Cake Making Online Class (Veg / Without Flour). All cakes are flourless (No Maida). Please click on the link below to join this class: Call or WhatsApp +91 62948 22573 Course details: Healthy Cake Making Course Fees: 399/- Duration: 5 Days Each Class Duration: 60 to 90 min Pre-recorded class Course Modules: Healthy Cake Making Day-1: Mediterranean Choco Orange Cake Multigrain Dates Cake Day-2: Finger Millet Choco Chips Cake Strawberry Bliss Cake Day-3: Tutti-Fruity Dry Fruits Cake German Apple Day-4: Dark Chocolate Quinoa Nutella Swirl Cake Day-5: Strudel Brownie Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Lifetime Support (Call or WhatsApp) Course Completion Certificate in digital form. Guide on buying ingredients & tools Community Support Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through the Euphoria Live Classes App The certificate will be shared upon buying the course. Note: For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-120",
+    "originalId": 120,
+    "title": "Toast and Rusk Making Online Class (Veg)",
+    "slug": "toast-and-rusk-making",
+    "permalink": "https://euphorialiveclasses.com/toast-and-rusk-making/",
+    "category": "Baking",
+    "rawCategory": "Toast & Rusk Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Toast_Image_SQ_11zon.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Toast_Image_SQ_11zon.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 45,
+    "studentsCount": "1.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Class presents Toast and Rusk Making Online Class (Veg) with 5 modules. To join this course, please click on the below link: Call or WhatsApp to +...",
+    "description": "Euphoria Live Class presents Toast and Rusk Making Online Class (Veg) with 5 modules. To join this course, please click on the below link: Call or WhatsApp to +91 62948 22573 Course Details: Toast and Rusk Making Course Fees: 349/- Duration: 5 Modules Pre-recorded class Course Module: Toast and Rusk Making Mod-1: Cake Rusk Tutti Fruiti Wheat Toast Cake Rusk Mod-2: Milk Elaichi Toast Sesame Toast Mod-3: Cheesy Italian Toast Chili Masala Toast Mod-4: Multigrain Toast Wheat Toast Mod-5: Spicy Tea Rusk Karachi Tea Rusk Extra Learning: Marketing & Selling Guide What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Customer Support Chat Language of Communication: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp Group (7001770056) PDFs & Video will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-119",
+    "originalId": 119,
+    "title": "Truffle and Fudge Making Online Class (Veg)",
+    "slug": "truffle-and-fudge-making",
+    "permalink": "https://euphorialiveclasses.com/truffle-and-fudge-making/",
+    "category": "Chocolates",
+    "rawCategory": "Truffle & Fudge Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Truffle_Image_SQ1_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Truffle_Image_SQ1_11zon.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 164,
+    "studentsCount": "4.0k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Truffle and Fudge Making Online Class (Veg) with 5 modules. Please click on the below link to join this class: Call or WhatsApp t...",
+    "description": "Euphoria Live Classes presents Truffle and Fudge Making Online Class (Veg) with 5 modules. Please click on the below link to join this class: Call or WhatsApp to +91 62948 22573 Course details: Course Fees: 349/- Duration: 5 Modules Pre-recorded class Course Modules: Mod-1: Fudge Making: Cappuccino Fudge Wafer Chocolate Walnut Fudge Cotton Candy Fudge Mod-2: Flavoured Fudge: Banarasi Paan Fudge Rashmalai Fudge Orange Orio Layer Fudge Mod-3: Cookies Fudge: Hazelnut Brownie Fudge Orio Red Velvet Fudge Mod-4: Truffle Making: Bailey’s Truffle Almond Crunch Truffle Black Forest Truffle Mod-5: Rose Pistachio Truffle Coconut Cream Cheese Truffle Tangy Orange Truffle Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except Holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-118",
+    "originalId": 118,
+    "title": "Instant Lassi Premix Making Online Class",
+    "slug": "lassi-premix-making",
+    "permalink": "https://euphorialiveclasses.com/lassi-premix-making/",
+    "category": "Baking",
+    "rawCategory": "Instant Lassi Premix",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Recordings-│PDFs-│Certificate-│Lifetime-Support-2.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Recordings-│PDFs-│Certificate-│Lifetime-Support-2.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 163,
+    "studentsCount": "3.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Instant Lassi Premix Making Online Class for 5 days @ 349/-. Starting from 16th March 2022 Please click on the below link to join...",
+    "description": "Euphoria Live Classes presents Instant Lassi Premix Making Online Class for 5 days @ 349/-. Starting from 16th March 2022 Please click on the below link to join this class: Call or WhatsApp +91 62948 22573 Course details: Lassi Premix Making: Course Fees: 349/- Duration: 5 Days Each Class Duration: 60 to 90 min Pre-recorded class Course Modules: Lassi Premix Making: Day-1: Punjabi Lassi Premix Masala Lassi Premix Mango Lassi Premix Lassi Making with Premix Day-2: Chocolate Lassi Premix Rose lassi Premix Kasar Pista Lassi Premix Lassi Making with Premix Day-3: Roohabsa Lassi Premix Blue Curacao Lassi Premix Expresso Lassi Premix Lassi Making with Premix Day-4: Coconut Lassi Premix Kaju-Mawa lassi Premix Butterscotch Lassi Premix Lassi Making with Premix Day-5: Orange Lassi Premix Strawberry Lassi Premix Red Velvet Lassi Premix Lassi Making with Premix Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Community Support Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: For any issue, please call at 7001770056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-116",
+    "originalId": 116,
+    "title": "Frozen Foods and Snacks Making Online Class (Veg)",
+    "slug": "frozen-foods-and-snacks-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/frozen-foods-and-snacks-making-online-class/",
+    "category": "Baking",
+    "rawCategory": "Frozen Foods",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/06/jpeg-optimizer_Untitled-design-15.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/06/jpeg-optimizer_Untitled-design-15.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 161,
+    "studentsCount": "3.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Market Style Frozen Foods and Snacks Making Online Class for 5 Days. Please Click on Below Link to Join this Class: Call or Whats...",
+    "description": "Euphoria Live Classes presents Market Style Frozen Foods and Snacks Making Online Class for 5 Days. Please Click on Below Link to Join this Class: Call or WhatsApp to +91 62948 22573 Course details: Frozen Foods and Snacks Making Online Class: Course Fees: 349/- Pre-recorded class Duration: 5 Days Course Modules: Frozen Foods and Snacks Making Online Class: Day-1: Mexican Style French Fries Smilies Chili Garlic Potato Bytes Potato Cheese Shots Harb Coated Potato Wedges Tornado potato Day-2: Nuggets Veg Cheese Nuggets Masala Paneer Nuggets Cheese Chili Nuggets Day-3: McDonald Style Puff Maggie Puff Corn Cheese Croquettes Day-4: Momos Paneer Pizza Roll Paneer Thread Roll Mozzarella Sticks Day-5: Mini Patie Cheese Samosa Frozen Paratha Mushroom Duplex Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recordings for a Lifetime PDF (English) Course Materials Course Completion Certificate in digital form. Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Call or WhatsApp)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-115",
+    "originalId": 115,
+    "title": "Masala Powder and Seasoning Making Online Class",
+    "slug": "masala-powder-and-seasoning-making",
+    "permalink": "https://euphorialiveclasses.com/masala-powder-and-seasoning-making/",
+    "category": "Baking",
+    "rawCategory": "Masala Powder Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Copy-of-Masala_Image_SQ1.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Copy-of-Masala_Image_SQ1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 160,
+    "studentsCount": "3.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Masala Powder and Seasoning Making Online Class with 5 modules. Click on the below link to join this class: Call or WhatsApp to +...",
+    "description": "Euphoria Live Classes presents Masala Powder and Seasoning Making Online Class with 5 modules. Click on the below link to join this class: Call or WhatsApp to +91 62948 22573 Course details: Masala Powder and Seasoning Making Course Fees: 349/- Duration: 5 Modules Pre-recorded class Course Modules: Masala Powder and Seasoning Making Mod-1: Seasoning & Masala Onion Powder Garlic Powder Ginger Powder Tomato Powder Mod-2: Cheese Powder Chili Flakes Pizza Seasoning Peri-Peri Powder Mod-3: Maggi Magic Masala Mexican Seasoning Jaljira Powder Pani Puri Masala Mod-4: Kitchen King Masala Momos Masala Tandoori Masala Frankie Masala Mod-5: Kasuri Methi Powder Lollipop Masala Achar masala Veg Kabab Masala Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-113",
+    "originalId": 113,
+    "title": "Exclusive Soap Making Online Class (Pour and Melt)",
+    "slug": "soap-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/soap-making-online-class/",
+    "category": "Baking",
+    "rawCategory": "Soap making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Untitled-design-6.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Untitled-design-6.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 158,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Exclusive Soap Making Online Class (pour and melt) for 5 Days. Please Click on Below Link to Join this Class: Call or WhatsApp to...",
+    "description": "Euphoria Live Classes presents Exclusive Soap Making Online Class (pour and melt) for 5 Days. Please Click on Below Link to Join this Class: Call or WhatsApp to +91 62948 22573 Course details: Soap Making Online Class: Course Fees: 349/- Duration: 5 days Pre-recorded class Course Modules: Soap Making Online Class: Day-1: Introduction to Soap Base Soaps Suitable for Oily Skins Soap Making from Soap Base Use of Herbal & Homemade Products on Soaps Day-2: Soaps for Dry & Sensitive Skins Soap Making with Colours & Fragrance Baby Soap Making Use of Rose Petals, Marigold Petals, Neem Powder, etc. Day-3: Soaps for Allergic Skins Adding Different Powders & Clay Soap making with Charcoal & Multani Coffee Turmeric Soap & Milk Honey Soap Day-4: Designing Soap Making Layer Soap Making Soaps for Combination Skins Day-5: Photo Print Soap Making Packaging Technique Pricing & Marketing Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recordings for a Lifetime PDF (English) Course Materials Course Completion Certificate Guide on buying ingredients & tools lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-110",
+    "originalId": 110,
+    "title": "Delicious Cookie Cake Making Online Class (Veg)",
+    "slug": "cookie-cake-making-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/cookie-cake-making-online-class-veg/",
+    "category": "Cakes",
+    "rawCategory": "Cake Class",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/06/jpeg-optimizer_Making-Veg.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/06/jpeg-optimizer_Making-Veg.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 155,
+    "studentsCount": "2.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents the Delicious Cookie Cake Making Online Class (Veg) for 5 Days Please Click on the Below Link to Join this Class: Call or WhatsAp...",
+    "description": "Euphoria Live Classes presents the Delicious Cookie Cake Making Online Class (Veg) for 5 Days Please Click on the Below Link to Join this Class: Call or WhatsApp +91 62948 22573 Course details: Cookie Cake Making: Course Fees: 399/- Duration: 5 days Pre-recorded class Course Modules: Cookie Cake Making: Day-1: Mini Choco Chips Vanilla Cookie Cake Choco Chunks Mini Cookie Cake Day-2: Mango Cookie Cake Orange Cookie cake Day-3: Red Velvet Cookie Cake Gluten-Free & Vegan Cookie Cake Day-4: Skillet Cookie Cookie Cake Pistachio Cookie Cake Day-5: Orio Pineapple Cookie Cake Nutella Cookie Cake Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recordings for a Lifetime PDF (English) Course Materials Course Completion Certificate Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through the Euphoria Live Classes App The certificate will be shared after the course is finished Note: If you have any issue, please call or WhatsApp +91 70017 70056",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-109",
+    "originalId": 109,
+    "title": "Vegan & Gluten-Free Cake Making Online Class",
+    "slug": "vegan-gluten-free-cake-making-live-class",
+    "permalink": "https://euphorialiveclasses.com/vegan-gluten-free-cake-making-live-class/",
+    "category": "Cakes",
+    "rawCategory": "Vegan and Gluten Free Cake",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Vegan_Image_SQ1.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Vegan_Image_SQ1.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 154,
+    "studentsCount": "2.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Vegan & Gluten-Free Cake Making Online Class for 5 Days. Please Click on Below Link to Join this Class: https://chat.whatsapp.com...",
+    "description": "Euphoria Live Classes presents Vegan & Gluten-Free Cake Making Online Class for 5 Days. Please Click on Below Link to Join this Class: https://chat.whatsapp.com/EWABntzvaAKGGntL0u7nv5 Course details: Course Fees: 349/- Each Class Duration: 60 to 90 min Course Modules: Day-1: Making of Gluten-Free Flour Gluten-Free Choco Orange Cake Day-2: Gluten-Free Brownie Gluten-Free Chocolate Cake Gluten-Free Coconut Cake Day-3: Gluten-Free & Vegan Banana Loaf Gluten-Free Coffee Cake Day-4: Vegan Apple Cake Vegan Blueberry Cake Vegan & Gluten-Free Frosting Day-5: Vegan Lamington Cake Vegan Madeline Vegan Rich Chocolate Cake Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recordings for a Lifetime PDF (English) Course Materials Lifetime Support (Call or WhatsApp) Course Completion Certificate in digital form. Guide on buying ingredients & tools Community Support Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please Call or WhatsApp at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-106",
+    "originalId": 106,
+    "title": "Restaurant Style Soup Premix Making Online Class (Veg)",
+    "slug": "restaurant-style-soup-premix-making-live-class-veg",
+    "permalink": "https://euphorialiveclasses.com/restaurant-style-soup-premix-making-live-class-veg/",
+    "category": "Baking",
+    "rawCategory": "Soup Premix Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Soup_Premix_VDO_SQ.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Soup_Premix_VDO_SQ.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 151,
+    "studentsCount": "1.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Restaurant Style Soup Premix Making Online Class (Veg) for 5 Days @ 349/- Please Click on Below Link to Join this Class: https://...",
+    "description": "Euphoria Live Classes presents Restaurant Style Soup Premix Making Online Class (Veg) for 5 Days @ 349/- Please Click on Below Link to Join this Class: https://chat.whatsapp.com/GwnPJ9RbPlcH90sxDvXHjy Course details: Course Fees: 349/- Duration: 5 Days Each Class Duration: 60 to 90 min Course Modules: Day-1: Sweet Corn Soup Premix Mexican Tomato Corn Premix Clear Soup Premix Soup Making Day-2: Garlic Mushroom Soup Premix Thai Special Soup Premix Manchow Soup Premix Soup Making Day-3: Vegetable Creamy Soup Hot & Sour Soup Minestrone Soup Premix Soup Making Day-4: French Peas Soup Premix Mulligatawny Soup Premix Tibetan Soup Premix Soup Making Day-5: Carrot Soup Premix Tomato Soup Premix Palak Soup Premix Soup Making Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Lifetime Support (Call or WhatsApp) Course Completion Certificate in digital form. Guide on buying ingredients & tools Community Support Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-105",
+    "originalId": 105,
+    "title": "Summer Special Mocktail Making Online Class (Veg)",
+    "slug": "summer-special-mocktail-making-live-class-veg",
+    "permalink": "https://euphorialiveclasses.com/summer-special-mocktail-making-live-class-veg/",
+    "category": "Desserts & Beverages",
+    "rawCategory": "Mocktail Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Mocktail_Image_SQ.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Mocktail_Image_SQ.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 150,
+    "studentsCount": "1.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Summer Special Mocktail Making Online Class (Veg) for 5 Days @ 349/- Please Click on Below Link to Join this Class: https://chat....",
+    "description": "Euphoria Live Classes presents Summer Special Mocktail Making Online Class (Veg) for 5 Days @ 349/- Please Click on Below Link to Join this Class: https://chat.whatsapp.com/CUAx54JO7JkLSKbC172BJq Course details: Course Fees: 349/- Each Class Duration: 60 to 90 min Live Class on ZOOM App Course Modules: Day-1: Blue Lagoon Mocktail Virgin Mojito Mocktail Sundowner Mocktail Lady Lip Mocktail Day-2: Pina Colada Mocktail Fruit Punch Mocktail Orange Punch Mocktail Ice Tea Day-3: Green Goddess Mocktail Shurley Temple Mocktail Blue Ocean Mocktail Sangria Mocktail Day-4: Red Fountain Mocktail Tri-Colour Mocktail Chocolate Mocktail Ginger Mocktail Day-5: Blue Heaven Mocktail Blue Glory Mocktail Virgin Mary Mocktail Pink Panther Mocktail Black Current Mocktail Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Live Class & Zoom Recording (Lifetime) PDF (English) Course Materials Course Completion Certificate in digital form. Guide on buying ingredients & tools Community Support Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) We will add you to a paid WhatsApp Group PDFs & videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: Class timings and Dates may change with the decision of Euphoria Live Classes at any time with two hours prior notice. Once the Course Fees are paid should not refund back.",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-104",
+    "originalId": 104,
+    "title": "A to Z Complete Baking Online Class (Veg)",
+    "slug": "baking-online-class",
+    "permalink": "https://euphorialiveclasses.com/baking-online-class/",
+    "category": "Baking",
+    "rawCategory": "Baking Class",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/06/jpeg-optimizer_Videos-Recipes.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/06/jpeg-optimizer_Videos-Recipes.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 149,
+    "studentsCount": "4.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents A to Z Complete Baking Online Class (Veg) Please click on the below link to join this class: Call or WhatsApp to +91 62948 22573 ...",
+    "description": "Euphoria Live Classes presents A to Z Complete Baking Online Class (Veg) Please click on the below link to join this class: Call or WhatsApp to +91 62948 22573 Course details: Baking Online Class: Course Fees: 349/- Duration: 5 Days Pre-recorded class Course Modules: Baking Online Class: Day-1: Fresh Fruits Cake & Vanilla Sponge: Sponge Making (Vanilla Flavoured) Baking & Temperature Icing & Frosting Sharp Edges Day-2: Bakery Style Cookies Making: Jam Filled Cookies Melting Moment Cookies Day-3: Tea-Time Cake Making (Britania Style): Vanilla Chocolate Marble Cake Pineapple Slice Cake Day-4: Cupcake & Muffins Making: Banana & Walnut Muffins Mango Cupcake Day-5: Bakery Style Bread Making: Milk Bread Making Dough Making Proofing & Baking Technique Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recordings for a Lifetime PDF (English) Course Materials Course Completion Certificate Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-102",
+    "originalId": 102,
+    "title": "Professional Chocolate Making Online Class",
+    "slug": "professional-chocolate-making-live-class",
+    "permalink": "https://euphorialiveclasses.com/professional-chocolate-making-live-class/",
+    "category": "Chocolates",
+    "rawCategory": "Chocolate Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Recordings-│PDFs-│Certificate-│Lifetime-Support.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Recordings-│PDFs-│Certificate-│Lifetime-Support.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 147,
+    "studentsCount": "3.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Professional Chocolate Making Online Class . In this class, we will show you chocolate preparation with the compound as well as w...",
+    "description": "Euphoria Live Classes presents Professional Chocolate Making Online Class . In this class, we will show you chocolate preparation with the compound as well as with couverture (Pure Chocolate). Click the below link to join our WhatsApp Group: https://chat.whatsapp.com/GfZNXAvjaNcLRTasIRa78O Course Details: Course Fees: 399/- Duration: 5 Days Each Class Duration: 60 to 90 min Course Modules: Day-1: Chocolate Making with Cocoa Powder, Compounds & Couverture: Introduction to Chocolate Making Ingredients & Tools Chocolate Melting & Tempering Chocolate Making from Cocoa Powder Chocolate Making from Compounds Shaping & Designing with Moulds Designer Chocolate Pops Making Hot & Spicy Chocolate Crazy Crunch Chocolate Day-2: Coloring & Flavouring of Chocolate: How to Color Chocolates? Flavoring of Chocolates Red Velvet Chocolate Chi-Masala Chocolate Marble Effect Chocolate Mango Delight Chocolate Bubble Gum Flavoured Chocolate Day-3: Rakhi Special & Market Style Chocolates: Kit Kat Chocolate. Five Star Chocolate Snickers Chocolate Printed Chocolate Rakhi Special Chocolate Caramel Sauce Making Day-4: Designer Chocolate Bar Making: Dairy Milk Dairy Milk Crackle Orio Bar Chocolate Rashmalai Bar Crunchy Fruits & Nuts Bar Designer Bar Day-5: Rocher Chocolate Making: Ferrero Rocher Rondnoir Rocher Raffaello Rocher Filling Chocolates: Liquor Chocolates Bounty Chocolate Irish Coffee Centre Filling Chocolate Peanut Butter Chocolate Extra Learning: How to store Chocolates? Marketing & Selling Guide How to calculate the cost? Attractive Packaging Techniques Language of Teaching: Hindi & English Mixing What you get from us: Digital Course Materials in PDF form Recordings for a lifetime Course Completion Certificate in digital form. Course-related support Guide on buying ingredients & tool Community Support Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App only for a lifetime. A certificate will be issued after the course end. Note: If any issue, please Call or WhatsApp at 7001770056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-101",
+    "originalId": 101,
+    "title": "Rich Butter Cream Cake Making Online Class (Veg)",
+    "slug": "rich-butter-cream-cake-making-live-class",
+    "permalink": "https://euphorialiveclasses.com/rich-butter-cream-cake-making-live-class/",
+    "category": "Cakes",
+    "rawCategory": "Butter Cream Cake",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Rich-Butter-Cream-Cake-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Rich-Butter-Cream-Cake-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 146,
+    "studentsCount": "3.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Rich Butter Cream Cake Making Online Class (Veg) . Learn the unique and delicious recipes of making butter cream cake. Join now. ...",
+    "description": "Euphoria Live Classes presents Rich Butter Cream Cake Making Online Class (Veg) . Learn the unique and delicious recipes of making butter cream cake. Join now. Please click on the below link to join this class: Call or WhatsApp: +91 62948 22573 Note: In this course, we covered 5 days recipes in 2 Days. Course details: Butter Cream Cake Making: Course Fees: 349/- Duration: 2 Days Pre-recorded class Course Modules: Butter Cream Cake Making: Day-1: Professional Style Sponge Making Butter Cream Preparation Layering Technique Sharp Edges Technique Chocoberry Butter Cream Cake Homemade Sponge Making Lemon Card Butter Cream Cake Nozzle Works Day-2: Orio Butter Cream Cake Flower Making Leaf Making Chocolate Butter Cream Cake Finishing & Decoration Pineapple Butter Cream Cake Finishing & Decoration Language of Teaching: Hindi Extra Learning: Marketing & Selling Guide What you get from us: Recording for a Lifetime PDF (English) Course Materials Course Completion Certificate Guide on buying ingredients & tools Lifetime Support (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & Videos will be accessible through Euphoria Live Classes App The certificate will be shared after the course finished Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-100",
+    "originalId": 100,
+    "title": "Shahi Mughlai Cooking Online Class (Veg)",
+    "slug": "mughlai-cooking-online-class",
+    "permalink": "https://euphorialiveclasses.com/mughlai-cooking-online-class/",
+    "category": "Baking",
+    "rawCategory": "Veg Cooking",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Sashi-Mughlai-Cooking.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Sashi-Mughlai-Cooking.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 145,
+    "studentsCount": "3.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Shahi Mughlai Cooking Online Class (Veg) . In this class, you can learn just like restaurant cooking. Start your own food busines...",
+    "description": "Euphoria Live Classes presents Shahi Mughlai Cooking Online Class (Veg) . In this class, you can learn just like restaurant cooking. Start your own food business with our guidance. Click the below link to join our WhatsApp Group: Call or WhatsApp +91 62948 22573 Course Details: Mughlai Cooking Online Class: Course Fees: 349/- Duration: 5 Days Pre-recorded class Each Class Duration: 60 to 90 min Course Modules: Mughlai Cooking Online Class: Day-1: Mughlai Paneer Paneer Khurchan Day-2: Nawabi Paneer Paneer Kaleji Day-3: Veg Mughlai Shahi Mughlai Aloo Day-4: Nargisi Kofta Mushroom Angara Masala Day-5: Dal Mughlai Gobi Musallam Language of Teaching: Hindi What you get from us: Recording for a lifetime Course Materials in PDF form Course Completion Certificate in digital form. Lifetime support (Call or WhatsApp) Guide on buying ingredients & tool Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App only for a lifetime. A certificate will be issued after the course ends. Note: For any issue, please Call or WhatsApp at 7001770056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-99",
+    "originalId": 99,
+    "title": "Commercial Style Loaf Cake Making Online Class (Veg)",
+    "slug": "loaf-cake-making",
+    "permalink": "https://euphorialiveclasses.com/loaf-cake-making/",
+    "category": "Cakes",
+    "rawCategory": "Loaf Cake Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Commercial-Loaf-Cake-Making-Online-Class-Veg.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Commercial-Loaf-Cake-Making-Online-Class-Veg.jpg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 144,
+    "studentsCount": "3.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents an exclusive Commercial Style Loaf Cake Making Online Class (Veg) with 100% foolproof recipes. This is a PRE-RECORDED CLASS Conta...",
+    "description": "Euphoria Live Classes presents an exclusive Commercial Style Loaf Cake Making Online Class (Veg) with 100% foolproof recipes. This is a PRE-RECORDED CLASS Contact us: Call or WhatsApp: +91 6294822573 Course Overview: Commercial Style Loaf Cake Making Original Course Fees: ₹999 ( Special Offer Price: 449/- ) 15 Loaf Cake Recipes 19 Loaf Cake Videos Key Features: Commercial-Style Loaf Cake Making 100% foolproof recipes Lifetime access to recorded lessons Course materials are available in PDF format Course completion certificate Lifetime support via Call or WhatsApp Comprehensive ingredients and tools buying guide Loaf cake preservation guide Baking temperature and timing guidelines Marketing and selling tips Packaging and selling strategies Language of instruction: Hindi Course Modules: Commercial Style Loaf Cake Making Introduction to Loaf Cake Making Measuring Tools Guide Baking Process Explained Packaging & selling Loaf Cake Recipes: Honey Bell Loaf Orange Chocolate Delight Loaf Pineapple Dream Slice Loaf Chocolate Overloaded Loaf Almond Coconut Bliss Carrot Nutty Crunch Loaf Oreo Chunks Loaf Lemony Cream Loaf Rose Pistachio Loaf Crunchy Apple Loaf Milky Mawa Loaf Three-Layered Loaf Classic Strawberry Loaf Mawa Dates/Fig Loaf Nutty Banana Loaf What We Provide: Lifetime access to course recordings Course materials as PDFs Course completion certificate Ongoing support via Call or WhatsApp Ingredients & tools buying guide Payment Options: Google Pay / Phone Pay / Paytm : Monalisa Sarkar – +91 6294822573 Bank Transfer : Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Complete the payment for the course. Share the payment receipt via WhatsApp at +91 70017 70056. Access course PDFs & videos via the Euphoria Live Classes app. Receive your course completion certificate at the end. Note: For any queries or issues, please call or WhatsApp us at +91 70017 70056.",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-98",
+    "originalId": 98,
+    "title": "Rakhi Special Sweet Making Online Class",
+    "slug": "rakhi-special-sweet-making",
+    "permalink": "https://euphorialiveclasses.com/rakhi-special-sweet-making/",
+    "category": "Sweets",
+    "rawCategory": "Rakhi Special Sweets Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Rakhi-Special_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Rakhi-Special_11zon.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 143,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Rakhi Special Sweet Making Online Class with 5 modules. Click the below link to join Our WhatsApp Group Call or WhatsApp to +91 6...",
+    "description": "Euphoria Live Classes presents Rakhi Special Sweet Making Online Class with 5 modules. Click the below link to join Our WhatsApp Group Call or WhatsApp to +91 62948 22573 Course Details: Sweet Making: Fees: 349/- Duration: 5 Modules Pre-recorded class Course Contains: Sweet Making: Day-1: Introduction to Sweet Making Ingredients Gulab Jamun Besan Laddu Day-2: Balushai Karachi Halwa Day-3: Chocolate Mawa Barfi Mohanthal Day-4: khobra Vadi Bengali Sandesh Day-5: Kaju Apple Kaju Pista Roll Kaju Katli Extra Learning: Marketing & Selling Guide What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on the WhatsApp PDFs & Zoom Link will be accessible through Euphoria Live Classes Android App A certificate will be shared at the end of the course. Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-95",
+    "originalId": 95,
+    "title": "Commercial Cake Sponge Making Online Class (Veg)",
+    "slug": "commercial-cake-sponge-making-veg",
+    "permalink": "https://euphorialiveclasses.com/commercial-cake-sponge-making-veg/",
+    "category": "Cakes",
+    "rawCategory": "Cake Sponge Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/cake-sponge-making.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/cake-sponge-making.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 140,
+    "studentsCount": "2.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Commercial Cake Sponge Making Online Class (Veg). If you want to learn perfect cake sponge-making techniques, join this class. Re...",
+    "description": "Euphoria Live Classes presents Commercial Cake Sponge Making Online Class (Veg). If you want to learn perfect cake sponge-making techniques, join this class. Register now. Course Details: Cake Sponge Making: Duration: 3 1/2 hrs Course Fees: 399/- Pre-recorded class Course Included: Chocolate Sponge Vanilla Sponge Red Velvet Sponge Rashmalai Sponge Pistachio Sponge Sponge with Premix Course Features: Recordings for a lifetime PDFs as a recipe book Course completion Certificate Support for Lifetime (Call or WhatsApp) Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Note: If you have any queries, please call or WhatsApp 7001770056 (Except on holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-94",
+    "originalId": 94,
+    "title": "Commercial Cake Sponge Making with Eggs Online Class",
+    "slug": "cake-sponge-making-with-eggs",
+    "permalink": "https://euphorialiveclasses.com/cake-sponge-making-with-eggs/",
+    "category": "Cakes",
+    "rawCategory": "Cake Sponge Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Commercial-Cake-Sponge-Making-with-Eggs.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Commercial-Cake-Sponge-Making-with-Eggs.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 139,
+    "studentsCount": "2.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents a Commercial Cake Sponge Making with Eggs Online Class . Register now—perfect cake sponge-making recipe, just like the market. Jo...",
+    "description": "Euphoria Live Classes presents a Commercial Cake Sponge Making with Eggs Online Class . Register now—perfect cake sponge-making recipe, just like the market. Join our WhatsApp Group for more details: Call or WhatsApp +91 62948 22573 Course Details: Class Fees: 399/- Class Duration: 1 day Pre-recorded class Course Includes: Vanilla Cake Sponge Chocolate Sponge Red Velvet Sponge Special Fruits Cake What we Provide: 1. Recording for Lifetime 2. PDFs as Study Material 3. Course Completion Certificate 4. Lifetime Support (call or WhatsApp) Payment Method: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 Note : For any issues, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-91",
+    "originalId": 91,
+    "title": "Professional Style Paratha Making Online Class (Veg)",
+    "slug": "paratha-making",
+    "permalink": "https://euphorialiveclasses.com/paratha-making/",
+    "category": "Baking",
+    "rawCategory": "Baking",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Paratha-Making.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Paratha-Making.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 136,
+    "studentsCount": "1.4k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Professional Style Paratha Making Online Class (Veg) for 5 days. Learn the professional tips and tricks for paratha making. Regis...",
+    "description": "Euphoria Live Classes presents Professional Style Paratha Making Online Class (Veg) for 5 days. Learn the professional tips and tricks for paratha making. Register now. Join us to know more details. Click on the below link: Call or WhatsApp +91 62948 22573 Course details: Paratha Making: Course Fees: 349/- Duration: 5 Days Pre-recorded class Course Contains: Paratha Making: Day-1: Aloo Paratha Cheese paratha Paneer paratha Day-2: Palak Paratha Mughlai Paratha Corn Cheese paratha Day-3: Gobi Paratha Royal Paratha Dilkush Paratha Day-4: Chatpata Sev Paratha Momos Paratha Sweet Arabic Paratha Day-5: Puran Poli Sattu Paratha Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & Videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-64",
+    "originalId": 64,
+    "title": "Diwali Special Chocolate Crackers and Gift Hamper Making Online Class",
+    "slug": "chocolate-crackers-and-gift-hamper-making",
+    "permalink": "https://euphorialiveclasses.com/chocolate-crackers-and-gift-hamper-making/",
+    "category": "Chocolates",
+    "rawCategory": "Chocolate Class",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Chocolate-Crackers-and-Gift-Hamper-Making.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Chocolate-Crackers-and-Gift-Hamper-Making.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 109,
+    "studentsCount": "2.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Diwali Special Chocolate Crackers and Gift Hamper Making Online Class. Register now. For more details, please call or WhatsApp +9...",
+    "description": "Euphoria Live Classes presents Diwali Special Chocolate Crackers and Gift Hamper Making Online Class. Register now. For more details, please call or WhatsApp +91 62948 22573 Course Details: Chocolate Crackers and Gift Hamper Making: Course Fee: 399/- Pre-recorded class 14 Videos 2 PDFs Course Includes: Chocolate Crackers and Gift Hamper Making: Chocolate Melting & Tempering Process Anar Chocolate Crackers Making Hot & Spicy Chakkri Chocolate Crackers Making Ladi Bomb Chocolate Crackers Making Marble Effect Ladi Bomb Chocolate Crackers Gulkand Laxmi Bomb Chocolate Crackers Making Crunchy Rocket Patakha Chocolate Crackers Currency Chocolate Crazy Crunch Ladi Bomb Chocolate Choco Orange Sutli Bomb Chocolate Cookie Chocolate Jamin Chakkar Chocolate Crackers Making Dia Cholate making (Shining Effect) Diwali Special Designer Chocolate Bar Gift Humper Making Wrapping & Packaging Cost & Selling Price Calculations Payment Details: Google Pay, PhonePe & Paytm – 6294822573 (Monalisa Sarkar / Euphoria Live Classes) Note : For any query, please call or WhatsApp at 070017 70056",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-63",
+    "originalId": 63,
+    "title": "Christmas Special Cakes and Bakes Online Class (Veg)",
+    "slug": "christmas-special-cakes",
+    "permalink": "https://euphorialiveclasses.com/christmas-special-cakes/",
+    "category": "Cakes",
+    "rawCategory": "Christmas Special Cake Class",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/11/Christmas-banner-1x1-1.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/11/Christmas-banner-1x1-1.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 108,
+    "studentsCount": "1.8k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents a Christmas Special Cakes and Bakes Online Class (Veg) for 5 Days. 100% full-proof recipe. For more details, call or WhatsApp +91...",
+    "description": "Euphoria Live Classes presents a Christmas Special Cakes and Bakes Online Class (Veg) for 5 Days. 100% full-proof recipe. For more details, call or WhatsApp +91 62948 22573 Course Details: Christmas Special Cakes: Course Fees: 449/- Each Class Duration: 60 to 90 min Pre-recorded class Course Includes: Christmas Special Cakes: Day-1: Christmas Special Fruit Cake Christmas Special Plum Cake Day-2: Christmas Special Ram Cake Moist Dates & Fig Cake Day-3: Zinger Bread Cookies Christmas Special Pudding Day-4: Christmas Special Ball (With & Without Ram) Coconut Macarons Day-5: Sponge Making Christmas Special Whipped Cream Cake Extra Learning: Marketing & Selling What we provide: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Ingredients & Tools Buying Guide Language of Communication Hindi & English Mixing Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (+91 70017 70056) PDFs & Videos will be shared through Euphoria Live Classes App A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-61",
+    "originalId": 61,
+    "title": "Festive Season Tub Cake Making Online Class (Veg)",
+    "slug": "tub-cake-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/tub-cake-making-online-class/",
+    "category": "Cakes",
+    "rawCategory": "Tubcake",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Tub-Cakw-Making-Online-Class.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Tub-Cakw-Making-Online-Class.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 106,
+    "studentsCount": "1.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents a Festive Season Tub Cake Making Online Class (Veg) for 5 Days. Learn how to make delicious Tub Cakes before this festive season....",
+    "description": "Euphoria Live Classes presents a Festive Season Tub Cake Making Online Class (Veg) for 5 Days. Learn how to make delicious Tub Cakes before this festive season. All are professional recipes. For more details, please call or WhatsApp +91 62948 22573 Course Details: Tub Cake Making Online Class: Course Fees: 349/- Duration: 5 days Each Class Duration: 60 to 90 min Course Modules: Tub Cake Making Online Class: Day-1: Vanilla Sponge Chocolate Sponge Red Velvet Sponge Coffee Sponge Day-2: Malai barfi Tub Cake Cotton Candy Tub Cake Chocolate Cherry Tub Cake Red Velvet Tub Cake Day-3: Mixed Fruits Cocktail Mango Delight Tub Cake Blueberry Tub Cake Day-4: Cassata Tub Cake Tiramisu Tub Cake Paan Masala Tub Cake Chocolate Tub Cake Day-5: Gulab Jamun Tub Cake Matichur Tub Cake Snickers Tub Cake Ferrao Rocher Tub Cake Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-60",
+    "originalId": 60,
+    "title": "Yummy Masala Cookies Making Online Class (Veg)",
+    "slug": "masala-cookies-making",
+    "permalink": "https://euphorialiveclasses.com/masala-cookies-making/",
+    "category": "Cookies",
+    "rawCategory": "Masala Cookies Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Ymmy_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Ymmy_11zon.jpg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 105,
+    "studentsCount": "1.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes present Yummy Masala Cookies Making Online Class (Veg) with 5 modules. In this class, we maintain absolutely professional recipes. To join...",
+    "description": "Euphoria Live Classes present Yummy Masala Cookies Making Online Class (Veg) with 5 modules. In this class, we maintain absolutely professional recipes. To join this course, please click on the below link: Call or WhatsApp to +91 62948 22573 Course Details: Masala Cookies Making Course Fees: 399/- Duration: 5 Modules Pre-recorded Class Course Module: Masala Cookies Making Mod-1: Masala Cookies Ajwain Cookies Cheese & Black Pepper Cookies Mod-2: Chilli Chaska Cookies Curry Patta Cookies Potato Rose Merry Cookies Mod-3: Sweet & Salty Cookies Peri Peri Cookies Italian Spiced Cookies Mod-4: Kasoori Methi Cookies Cheesy Garlic Cookies Cheesy Onion Cookies Mod-5: Tomato Basil Cookies Jeera Cookies Chatpata Mint Cookies Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-59",
+    "originalId": 59,
+    "title": "Baklava and Kunefe Making Online Class (Turkish Dessert / Veg)",
+    "slug": "baklava-and-kunefe-making",
+    "permalink": "https://euphorialiveclasses.com/baklava-and-kunefe-making/",
+    "category": "Baking",
+    "rawCategory": "Baklava and Kunefe Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Baklava-Kunefe-Turkish-Recipes_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Baklava-Kunefe-Turkish-Recipes_11zon.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 104,
+    "studentsCount": "4.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes present Baklava and Kunefe Making Online Class (Turkish Dessert / Veg) with 5 modules. In this class, we maintain absolutely professional ...",
+    "description": "Euphoria Live Classes present Baklava and Kunefe Making Online Class (Turkish Dessert / Veg) with 5 modules. In this class, we maintain absolutely professional recipes. To join this course, please click on the below link: Call or WhatsApp to +91 62948 22573 Course Details: Baklava and Kunefe Making: Course Fees: 399/- Duration: 5 Modules Pre-recorded class Course Module: Baklava and Kunefe Making: Mod-1: Phyllo Sheet Making Sugar Syrup with Perfect Consistency Mod-2: Pistachio Baklava Chocolate Cashew Baklava Mod-3: Baklava Cigar Baklava Tart Mod-4: Baklava Cheesecake Nutella Hazelnut Baklava Mussule Baklavs Mod-5: Cream Cheese Kunefe Mini Hazelnut Nutella Kunefe Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-53",
+    "originalId": 53,
+    "title": "Commercial Style Street Foods, Chutneys & Chats Making Online Class (Veg)",
+    "slug": "commercial-style-street-foods-chutneys-chats-making-live-class-veg",
+    "permalink": "https://euphorialiveclasses.com/commercial-style-street-foods-chutneys-chats-making-live-class-veg/",
+    "category": "Baking",
+    "rawCategory": "street food making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Todays-Offer-199-Only.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Todays-Offer-199-Only.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 98,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Commercial Style Street Foods, Chutneys & Chats Making Online Class (Veg) for 6 Days @ 349/- Learn Street food making in a profes...",
+    "description": "Euphoria Live Classes presents Commercial Style Street Foods, Chutneys & Chats Making Online Class (Veg) for 6 Days @ 349/- Learn Street food making in a professional way from an experienced trainer. Enjoy homemade Street Foods or start a business or open a street food café. Start a profitable street food making business from home. Register Now. For more details, click on the below link: Join Our WhatsApp Chat Course Details: Course Fees: 349/- Duration: 6 + 4 Days Each Class Duration: 60 to 90 min Course Module: Day-1: Red Chili-Garlic Chutney Making Green Chutney Making Date (Khajur) Chutney Making Thikha Pani Making Mitha Pani Making Day-2: Puri Making (Pani Puri) Velpuri Making Dahi Vhalla making Day-3: Bread Pakora Making Pav Bhaji Making Bada Pav Making Daveli Making Stuffed Mirchi Pakora Making Day-4: Samosa Making Kachori Making Ragda Patties Making Day-5: Papri Chat Making Samosa Chat Making Katori Chat Making Sev Puri Making Day-6: Dahi Sev Puri Making Pani Puri Making Chocolate Pani Puri Making Extra Learning: Marketing & Selling Guide What we Provide after the Course: Live Class & Recordings Live Q n A Session Course Materials as PDFs Course Completion Certificate Customer Support Chat Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) We will add you to another WhatsApp Group PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : Class date & timing may change with the decision of the Euphoria Live Classes Team at any time with two hours prior notice.",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-52",
+    "originalId": 52,
+    "title": "Commercial Farsan and Namkin Making Online Class (Veg)",
+    "slug": "farsan-and-namkin-making-live-class-veg",
+    "permalink": "https://euphorialiveclasses.com/farsan-and-namkin-making-live-class-veg/",
+    "category": "Baking",
+    "rawCategory": "Farsan Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/jpeg-optimizer_Commercial.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/jpeg-optimizer_Commercial.jpg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 97,
+    "studentsCount": "2.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Commercial Farsan and Namkin Making Online Class (Veg) with 6 modules. Learn snack food making professionally from an experienced...",
+    "description": "Euphoria Live Classes presents Commercial Farsan and Namkin Making Online Class (Veg) with 6 modules. Learn snack food making professionally from an experienced trainer. Start a profitable food-making business from home. Register Now. For more details, click on the below link: Call or WhatsApp +91 62948 22573 Course Details: Farsan and Namkin Making: Course Fees: 399/- Duration: 6 + 2 Modules Pre-recorded class Course Module: Farsan and Namkin Making: Mod-1: Bhakarwari Dry Kachuri Mini Samosa Mod-2: Sev Spicy Sev Lasuni Sev Aloo Sev Mod-3: Fried Tikha Mator Fried Chana Dal Fried Masoor Dal Mod-4: Lasuni Farsan Tikha Farsan Rice Chakli Mod-5: Khatta-Mitha Chiwda Makai Chiwda Papadi Mod-6: Bundi Gathiya Jeera Mathari Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-50",
+    "originalId": 50,
+    "title": "Café Style Momos and Chutneys Making Online Class (Veg)",
+    "slug": "momos-and-chatneys-making",
+    "permalink": "https://euphorialiveclasses.com/momos-and-chatneys-making/",
+    "category": "Baking",
+    "rawCategory": "Momos Making Class",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Cafe-Style-1_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Cafe-Style-1_11zon.jpg"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 95,
+    "studentsCount": "2.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Café Style Momos and Chutneys Making Online Class (Veg) with 5 modules. Learn Momos making in a professional way from an experien...",
+    "description": "Euphoria Live Classes presents Café Style Momos and Chutneys Making Online Class (Veg) with 5 modules. Learn Momos making in a professional way from an experienced trainer. Start a profitable Momos making business from home or open a momos café. We will guide about Marketing & Selling. Register Now. For more details, click on the below link: Call or WhatsApp on +91 62948 22573 Course Details: Momos and Chutneys Making: Course Fees: 399/- Duration: 5 Modules Pre-recorded class Course Module: Momos and Chutneys Making: Mod-1: Green Chutney Red Chutney Momos Chatni Momos Dough Making Mod-2: Veg Momos Fried Momos Paneer Momos Mod-3: Corn Cheese Momos Tandoori Momos Schezwan Momos Mod-4: Soya Momos Kurkure Momos Afghani Momos Mod-5: Thukpa Momos Chocolaty Momos Pizza Momos Gyoza Momos Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / PhonePe / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through the Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-49",
+    "originalId": 49,
+    "title": "Brownies and Blondies and Premix Making Online Class (Veg)",
+    "slug": "brownies-and-blondies-and-premix",
+    "permalink": "https://euphorialiveclasses.com/brownies-and-blondies-and-premix/",
+    "category": "Baking",
+    "rawCategory": "Brownies & Blondies Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Brownies-Blondies-Making.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Brownies-Blondies-Making.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 94,
+    "studentsCount": "2.0k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Brownies and Blondies and Premix Making Online Class (Veg) for 5 Days. Learn Brownies & Blondies making professionally from an ex...",
+    "description": "Euphoria Live Classes presents Brownies and Blondies and Premix Making Online Class (Veg) for 5 Days. Learn Brownies & Blondies making professionally from an experienced trainer. Also, learn Brownies & Blondies Premix Making. Start a profitable food-making business from home. Register Now. For more details, click on the link below: Call or WhatsApp +91 62948 22573 Course Details: Brownies and Blondies and Premix: Course Fees: 349/- Each Class Duration: 60 to 90 Min Pre-recorded class Course Module: Brownies and Blondies and Premix: Day-1: Basic Brownie Premix Choco Chips Brownie Premix Orio Blondie Premix Brownie Making & Decoration Day-2: Chocolate Walnut Brownie Premix Red Velvet Brownie Premix Sugar-Free Brownie Premix Brownie Making & Decoration Day-3: Gluten-Free Brownie Premix Coconut Blondie Premix Almond Blondie Premix Blondie Making & Decoration Day-4: Mango Blondie Premix Kaju Katli Blondie Premix Pistachio Blondie Premix Blondie Making & Decoration Day-5: Chocolate Overloaded Brownie Premix Chocolate Chunks Brownie Premix Extra Learning: Marketing & Selling Guide What we provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through the Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-46",
+    "originalId": 46,
+    "title": "Pancake Toppings and Premix Making Online Class (Veg)",
+    "slug": "pancake-toppings-and-premix-making",
+    "permalink": "https://euphorialiveclasses.com/pancake-toppings-and-premix-making/",
+    "category": "Cakes",
+    "rawCategory": "Pancake Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Pancake-Toppings-and-Premix-Making.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Pancake-Toppings-and-Premix-Making.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 91,
+    "studentsCount": "1.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Pancake Toppings and Premix Making Online Class (Veg) for 5 Days. Learn Pancake, Toppings & Premix making professionally from an ...",
+    "description": "Euphoria Live Classes presents Pancake Toppings and Premix Making Online Class (Veg) for 5 Days. Learn Pancake, Toppings & Premix making professionally from an experienced trainer. Start a profitable Pancake, Toppings & premix-making business from home. Register Now. For more details, click on the below link: Call or WhatsApp +91 62948 22573 Course Details: Pancake Toppings and Premix Making: Course Fees: 349/- Each Class Duration: 60 to 90 Min Pre-recorded class Course Module: Pancake Toppings and Premix Making: Day-1: Vanilla Pancake Premix Chocolate Pancake Premix Sugar-Free Vanilla Pancake Premix Sugar-Free Chocolate Pancake Premix Day-2: Red Velvet Pancake Premix Healthy Pancake Premix Gluten Free pancake Premix Oats pancake Premix Vegan Pancake Premix Day-3: Flavoured Pancake Premix Mix Herbs Pancake Premix Tiramisu Pancake Premix Semolina Pancake Premix Day-4: Different Pancake Toppings (8 Types) Day-5: Different Types of Pancake Making Nutella Filled Pancake Making Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Methodology: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-45",
+    "originalId": 45,
+    "title": "Frankie and Roll Making Online Class (Veg)",
+    "slug": "frankie-and-roll-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/frankie-and-roll-making-online-class/",
+    "category": "Baking",
+    "rawCategory": "Frankie & Roll Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Frankey-and-Roll-Making-Online-Class.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Frankey-and-Roll-Making-Online-Class.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 90,
+    "studentsCount": "1.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Frankie and Roll Making Online Class (Veg) for 5 Days. Learn Frankie & Roll making professionally from an experienced trainer. St...",
+    "description": "Euphoria Live Classes presents Frankie and Roll Making Online Class (Veg) for 5 Days. Learn Frankie & Roll making professionally from an experienced trainer. Start a profitable Frankie & Roll-making business from home. Register Now. For more details, please call or WhatsApp +91 62948 22573 Course Details: Frankie and Roll Making Online Class: Course Fees: 349/- Each Class Duration: 60 to 90 Min Pre-recorded class Course Module: Frankie and Roll Making Online Class: Day-1: Frankie Roti Shawarma Roti Frankie Masala Green Chatni Shawarma Spread Day-2: Cafe Style Paneer Tikka Roll Street Style Khathi Roll Day-3: Mushroom Roll Malai Roll Sezwan Roll Day-4: Indo-Chinese Manchurian Frankie Hariyali Frankie Day-5: Veg Shawarma Soyabean Roll Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Teaching: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-44",
+    "originalId": 44,
+    "title": "Frozen Chicken Starter & Kabab Making Online Class (Non-Veg)",
+    "slug": "frozen-chicken-starter-kabab-making-live-class",
+    "permalink": "https://euphorialiveclasses.com/frozen-chicken-starter-kabab-making-live-class/",
+    "category": "Baking",
+    "rawCategory": "Frozen Chicken & Starter Class",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Recordings-│PDFs-│Certificate-│Lifetime-Support-4.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Recordings-│PDFs-│Certificate-│Lifetime-Support-4.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 89,
+    "studentsCount": "4.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "3Euphoria Live Classes presents Frozen Chicken Starter & Kabab Making Online Class (Non-Veg) for 6 Days @ 399/- Learn Frozen Chicken recipes in a professional w...",
+    "description": "3Euphoria Live Classes presents Frozen Chicken Starter & Kabab Making Online Class (Non-Veg) for 6 Days @ 399/- Learn Frozen Chicken recipes in a professional way from an experienced trainer. Also learn how to store frozen chicken items for business purpose. Start a profitable food making business from home. Register Now. For more details, click on the below link: Join Our WhatsApp Chat Course Details: Course Fees: 399/- Duration: 6 Days Each Class Duration: 60 to 90 Min Pre-Recorded Class Course Module: Day-1: Frozen Chicken Popcorn Frozen Chicken Tandoori Sikh Kabab Day-2: Frozen Chicken Gola Kabab Frozen Chicken Nuggets Day-3: Frozen Chicken Kofta Balls Frozen Chicken Burger Pattie Day-4: Frozen Chicken Sausages Frozen Chicken Salami Day-5: Frozen Chicken Tikka Frozen Chicken Lolli Pop Day-6: Frozen Chicken Cheese Shots Frozen Chicken Fingers Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : If any issue, please call or WhatsApp at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-43",
+    "originalId": 43,
+    "title": "Instant Sarbat Shake Dessert and Premix Making Online Class (Veg)",
+    "slug": "sarbat-shake-dessert-and-premix-making",
+    "permalink": "https://euphorialiveclasses.com/sarbat-shake-dessert-and-premix-making/",
+    "category": "Baking",
+    "rawCategory": "Shake & Dessert Premix Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Instant-Sarbat-Shake-Desserts.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Instant-Sarbat-Shake-Desserts.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 88,
+    "studentsCount": "3.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Instant Sarbat, Shake, Dessert and Premix Making Online Class (Veg). Learn Instant Sarbat, Shake & Dessert Premix making in a pro...",
+    "description": "Euphoria Live Classes presents Instant Sarbat, Shake, Dessert and Premix Making Online Class (Veg). Learn Instant Sarbat, Shake & Dessert Premix making in a professional way from an experienced trainer. Start a profitable Sarbat Premix making business from home. Register Now. For more details, click on the below link: Call or WhatsApp to +91 62948 22573 Course Details: Sarbat Shake Dessert and Premix Making: Course Fees: 349/- Duration: 5 Days Pre-recorded class Course Module: Sarbat Shake Dessert and Premix Making: Day-1: Kala khatta Sarbat Premix & Sarbat Making Red Rose Sarbat Premix & Sarbat Making Kacchi Keri Sarbat Premix & Sarbat Making Rasna Premix & Rasna Making Day-2: Mango Sarbat Premix & Sarbat Making Bubble Gum Sarbat Premix & Sarbat Making Paan Bahar Sarbat Premix & Sarbat Making Thandai Premix & Thandai Making Day-3: Butterscotch Shake Premix & Shake Making Pinacolada Shake Premix & Shake Making Hot & Clod Chocolate Shake Premix & Shake Making Instant Orio Shake Premix & Shake Badam Shake Premix & Shake Making Day-4: Kulfi Premix & Kulfi Making Faluda Premix & Faluda making Chocolate Mousse Premix & Mousse Making Mango Mousse Premix & Mousse Making Instant Coffee Caramel Shake Premix & Shake Making Day-5: Basundi Premix & Basundi Making Lemonade Making Fresh Lime Soda Premix & Soda Making Jeera masala Premix & Masala Soda Making Rooh Afza Premix & Rooh Afza Making Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Recipe eBook as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-41",
+    "originalId": 41,
+    "title": "Commercial & Natural Ice Cream & Kulfi Making Online Class (Veg)",
+    "slug": "commercial-natural-icecream-kulfi-making-live-class-veg",
+    "permalink": "https://euphorialiveclasses.com/commercial-natural-icecream-kulfi-making-live-class-veg/",
+    "category": "Desserts & Beverages",
+    "rawCategory": "Icecream & Coolfi Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Commercial-Natural-Icecream-kulfi-Making-Online-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Commercial-Natural-Icecream-kulfi-Making-Online-Veg.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 86,
+    "studentsCount": "3.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Commercial & Natural Ice Cream & Kulfi Making Online Class (Veg) for 5 Days @ 399/- Learn Ice Cream & Kulfi making professionally...",
+    "description": "Euphoria Live Classes presents Commercial & Natural Ice Cream & Kulfi Making Online Class (Veg) for 5 Days @ 399/- Learn Ice Cream & Kulfi making professionally from an experienced trainer. Start a profitable Ice Cream & Kulfi-making business from home. Register Now. For more details, click on the below link: Join Our WhatsApp Chat Course Details: Course Fees: 399/- Duration: 5 Days Mode of Course: Pre-recorded Class Each Class Duration: 60 to 90 Min Course Module: Day-1: Natural Ice Cream Base Making Vanilla Base Making Chocolate Base Making Commercial Ice Cream Base Making Vanilla Base Making Chocolate Base Making Sugar-Free Ice Cream Base Making Day-2: Different Flavoured Ice Cream Vanilla Ice Cream Chocolate Ice Cream Black Forest Ice Cream Butterscotch Ice Cream Crunchy Cookies & Cream Ice Cream Kesar Pista Ice Cream Tender Coconut Ice Cream Day-3: Tiramisu Ice Cream Raj Bhog Ice Cream Nolen Gur Ice Cream Cotton Candy Ice Cream Pineapple Ice Cream Fruits Overloaded Ice Cream Tangy Orange Ice Cream Day-4: Kulfi Making Instant Kulfi Malai Mawa Kulfi Kesar Pista Badam Kulfi Chocolate Overloaded Kulfi Mango Special Kulfi Special Matka Kulfi Malai Cut Kufi Day-5: Ice Cream Cone Making Nutty Chocobar Making Butterscotch Ice Cream Cone Orio Chocolate Ice Cream Cone Lollies Making (Mango & Orange Lollies) Extra Learning: Marketing & Selling Guide What we Provide after the Course: Class Recordings for a Lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) We will add you to another WhatsApp Group PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : Class date & timing may change with the decision of the Euphoria Live Classes Team at any time with two hours prior notice.",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-40",
+    "originalId": 40,
+    "title": "Achar & Murabba Making Online Class (Veg)",
+    "slug": "achar-murabba-making-live-class-veg",
+    "permalink": "https://euphorialiveclasses.com/achar-murabba-making-live-class-veg/",
+    "category": "Baking",
+    "rawCategory": "Achar & Morobba Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Achar-Morobba-Making-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Achar-Morobba-Making-Veg.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 85,
+    "studentsCount": "3.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents Achar & Murabba Making Online Class (Veg) for 5 Days @ 349/- Learn Achar & Murabba making in a professional way from an experienc...",
+    "description": "Euphoria Live Classes presents Achar & Murabba Making Online Class (Veg) for 5 Days @ 349/- Learn Achar & Murabba making in a professional way from an experienced trainer. Start a profitable Achar & Murabba making business from home. Register Now. For more details, click on the below link: Join Our WhatsApp Chat Course Details: Course Fees: 349/- Duration: 5 Days Each Class Duration: 60 to 90 Min Course Module: Day-1: Aam Achar Panjabi Style Mango Achar Mitha Aam Achar Dry Mango Pickle Day-2: Ginger Chili-Garlic Pickle Instant Green Chili Pickle Hari Mirch Achar Day-3: Khatta Mitha Nimbu Achar Nimbu Achar Mixed Pickle Amla Achar Day-4: Paniwala Achar Laisun Achar Andra Style Pickles Day-5: Mango Murabba Amla Murabba Tomato Pickle Hing Flavoured Achar Extra Learning: Marketing & Selling Guide What we Provide after the Course: Class Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : For any issue, please call on +91 70017 70056 (Except Holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-39",
+    "originalId": 39,
+    "title": "Traditional Papad Making Online Class (Veg)",
+    "slug": "papad-making",
+    "permalink": "https://euphorialiveclasses.com/papad-making/",
+    "category": "Baking",
+    "rawCategory": "Papad Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Copy-of-Traditional-Papad-Making-Veg_11zon.jpg",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/05/Copy-of-Traditional-Papad-Making-Veg_11zon.jpg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 84,
+    "studentsCount": "3.0k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Traditional Papad Making Online Class (Veg) with 5 modules. Learn crispy & testy papad making in a professional way from an exper...",
+    "description": "Euphoria Live Classes presents Traditional Papad Making Online Class (Veg) with 5 modules. Learn crispy & testy papad making in a professional way from an experienced trainer. Start a profitable papad making business from home. Register Now. For more details, click on the below link: Call or WhatsApp to +91 62948 22573 Course Details: Papad Making: Course Fees: 399/- Duration: 5 Modules Pre-recorded class Course Module: Papad Making: Mod-1: Urad Dal Papad Rice papad Semolina Papad Mod-2: Moong Dal Papad Besan Papad Masala Papad Mod-3: Sabudana Papad Palak Papad Tomato Papad Mod-4: Potato Papad Gujrati Khichiya Papad Wheat papad Mod-5: Bhagar / Varai Sama Papad Gluten Free Papad Poha Papad Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-38",
+    "originalId": 38,
+    "title": "Sandwich and Dips Making Online Class (Veg)",
+    "slug": "sandwich-and-dips-making",
+    "permalink": "https://euphorialiveclasses.com/sandwich-and-dips-making/",
+    "category": "Baking",
+    "rawCategory": "Sandwich Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Tea-Coffee-Premix-Making-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/jpeg-optimizer_Tea-Coffee-Premix-Making-Veg.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 83,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Sandwich and Dips Making Online Class (Veg). Learn Sandwich & Dips making in a professional way from an experienced trainer. Star...",
+    "description": "Euphoria Live Classes presents Sandwich and Dips Making Online Class (Veg). Learn Sandwich & Dips making in a professional way from an experienced trainer. Start a profitable Sandwich & Dips making business from home. Register Now. For more details, click on the below link: Call or WhatsApp: +91 62948 22573 Course Details: Sandwich and Dips Making: Course Fees: 349/- Duration: 5 days Pre-recorded class Course Module: Sandwich and Dips Making: Day-1: Red Sandwich Chatni Green Sandwich Chatni Chili Mayo Dips Mayo Master Dips Mint Mayo Dips Garlic Mayo Dips Sandwich Special Dips Day-2: Bombay Grilled Cheesy Sandwich Spicy Aloo Masala Sandwich Italian Focaccia Sandwich Day-3: Coleslaw Mayo Sandwich Greek Sandwich Lebanese Sandwich Day-4: Mexican Footlong Sandwich Smokey Grilled Paneer Sandwich Cheesy Palak Corn Sandwich Day-5: Chocolate Sandwich Peri Peri Panini Sandwich Healthy Protein Sandwich Extra Learning: Marketing & Selling Guide What we Provide after the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees Share the Payment Receipt on WhatsApp (7001770056) PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime A certificate will be shared at the end of the course. Note : If any issue, please call on +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-37",
+    "originalId": 37,
+    "title": "Basic to Advanced Cake Sponge Making Icing and Decoration Masterclass (Veg)",
+    "slug": "cake-sponge-making-icing-and-decoration-masterclass",
+    "permalink": "https://euphorialiveclasses.com/cake-sponge-making-icing-and-decoration-masterclass/",
+    "category": "Cakes",
+    "rawCategory": "Baking Class",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Basic-to-Advanced-Cake-Icing-Decoration-Masterclass.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Basic-to-Advanced-Cake-Icing-Decoration-Masterclass.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 82,
+    "studentsCount": "2.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents Basic to Advanced Cake Sponge Making Icing and Decoration Masterclass (Veg) . It is a complete professional course, that includes...",
+    "description": "Euphoria Live Classes presents Basic to Advanced Cake Sponge Making Icing and Decoration Masterclass (Veg) . It is a complete professional course, that includes videos, and PDFs. There is no need for any prior knowledge for this course. Course Includes: Cake Sponge Making Icing and Decoration Masterclass : • 20 Videos & 2 PDFs (Lifetime Access) • Course Fees: 449/- • Course Completion Certificate • Support for a lifetime • Marketing & Selling Guide (How to start a business from home?) • Documentation Guide (For Starting a Business) • Ingredients & Tools Buying Guide Course Modules: Cake Sponge Making Icing and Decoration Masterclass: 1. Introduction to Cake Making 2. Baking Process in OTG, Microwave & Gas 3. Chocolate Melting Process 4. Vanilla Sponge Making 5. Chocolate Sponge Making 6. Red Velvet Sponge Making 7. Sponge Making with Premix 8. Sponge Cutting & Layering 9. Whipping Cream Beating Technique 10. Ganache Making 10 Innovative Cake Designs 1. Marble Effect Cake 2. Glass Effect Cake Making 3. Chocolate Truffle Cake Making 4. Dutch Chocolate Ganache Cake Making 5. Faultline Cake Making 6. Gel Curving Cake Making 7. Red Velvet Cake Making 8. Texture Effect Cake Making 9. Barbie Doll Cake Making 10. Two Tier Cake Making Extra Learning: • Marketing & Selling Guide What we Provide after the Course: • Recordings for a lifetime • Course Materials as PDFs • Course Completion Certificate • Lifetime Support (Call or WhatsApp) • Community Support • Ingredients & Tools Buying Guide Language of Communication • Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: 1. Make a payment of the course fees 2. Share the Payment Receipt on WhatsApp 4. PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime 5. A certificate will be shared at the end of the course. Note: For any issue, please call us at 7001770056 (10 AM to 8 PM) except on holidays.",
+    "modules": [
+      "Cake Sponge Making Icing and Decoration Masterclass:",
+      "Introduction to Cake Making",
+      "Baking Process in OTG, Microwave & Gas",
+      "Chocolate Melting Process",
+      "Vanilla Sponge Making",
+      "Chocolate Sponge Making",
+      "Red Velvet Sponge Making",
+      "Sponge Making with Premix"
+    ]
+  },
+  {
+    "id": "course-31",
+    "originalId": 31,
+    "title": "Eggless Muffins Making Online Class",
+    "slug": "eggless-muffins-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/eggless-muffins-making-online-class/",
+    "category": "Baking",
+    "rawCategory": "Muffins Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Eggless-Muffins-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Eggless-Muffins-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 76,
+    "studentsCount": "1.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes offers an Eggless Muffins Making Online Class with 17 pre-recorded videos. Learn in a professional way. Start a muffins making business fr...",
+    "description": "Euphoria Live Classes offers an Eggless Muffins Making Online Class with 17 pre-recorded videos. Learn in a professional way. Start a muffins making business from home with our guidance. Join Now. ✅Contact us: 📞 Call or WhatsApp +91 70017 70056 / 62948 22573 App Link: https://setht.courses.store/366284?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp Facebook Page: https://facebook.com/euphorialiveclasses Instagram: https://instagram.com/euphorialiveclasses Course Details: Muffins Making: Course Fees: 449/- Duration: 18 Videos Recipe Note: 1 PDF Pre-recorded class Course Modules: Muffins Making: Introduction Measuring Tools Pineapple Muffins Pistachio Muffins Christmas Special Muffins Carrot-Raisin Muffins Tutti-Frutti Muffins Chocolate Overloaded Muffins Coconut Muffins Cookies & Cream Muffins Blueberry Muffins Chocolate Choco Chunks Muffins Mawa Pistachio Muffins Mango Custard Muffins Apple Strudel Muffins Zesty Orange Muffins Banana Nutella Muffins Packaging Technique Extra Learning: Marketing & Selling guide ✅Here are some of the benefits of taking this class: Get access to step-by-step instructions and video demonstrations Ask questions and get feedback from the instructor (Call or WhatsApp) Bake delicious muffins and start your own business from home Lifetime Video Access & Support from the instructor Don’t miss out on this opportunity to learn how to make delicious, eggless muffins! Sign up today! Join our WhatsApp to learn more. Note: For more details, please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-30",
+    "originalId": 30,
+    "title": "Belgian Waffle Making Online Class (Veg)",
+    "slug": "belgian-waffle-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/belgian-waffle-making-online-class/",
+    "category": "Breads & Snacks",
+    "rawCategory": "Waffle Making Online Class",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Belzian-Waffle-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Belzian-Waffle-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 75,
+    "studentsCount": "1.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "Euphoria Live Classes presents a Belgian Waffle Making Online Class (Veg). It’s a professional Class. Call or WhatsApp for more details. Click the below link fo...",
+    "description": "Euphoria Live Classes presents a Belgian Waffle Making Online Class (Veg). It’s a professional Class. Call or WhatsApp for more details. Click the below link for more details: https://chat.whatsapp.com/HeY7SmcXnvUEIrS5Jh4xMZ Course Details: Belgian Waffle Making Online Class (Veg) Course Fees – 449/- No of Videos – 19 Language: Hindi Course Modules: Belgian Waffle Making Online Class (Veg) Introduction Introduction to Waffle Maker Vanilla Premix & Waffle Making Chocolate Premix & Waffle Making Red Velvet Premix & Waffle Making SugarFree Premix & Waffle Making Healthy Premix & Waffle Making Waffle Toppings Making Rich Chocolaty Waffle Nutella & Hazelnut Waffle Black Forest Waffle Orio-KitKat Waffle Coffee Caramel Waffle Butterscotch Crunchy Waffle Strawberry-Cream Cheese Waffle Red Velvet Cream Cheese Waffle Waffle Candy Brownie Chocolate Waffle Pizza Blackout Waffle What do we provide after the course? Recoding for lifetime access PDFs as study material Course completion certificate Lifetime support Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Note: Once the course fees are paid, they cannot be refunded. If you have any queries, please call or WhatsApp at +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-28",
+    "originalId": 28,
+    "title": "Tea Premix Making Online Class (Veg)",
+    "slug": "tea-premix-making-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/tea-premix-making-online-class-veg/",
+    "category": "Desserts & Beverages",
+    "rawCategory": "Tea Premix Making",
+    "price": 449,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Tea-Premix-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Tea-Premix-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 73,
+    "studentsCount": "3.8k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "Euphoria Live Classes presents Tea Premix Making Online Class (Veg) . Call or WhatsApp for more details Click the below link for more details: https://chat.what...",
+    "description": "Euphoria Live Classes presents Tea Premix Making Online Class (Veg) . Call or WhatsApp for more details Click the below link for more details: https://chat.whatsapp.com/HeY7SmcXnvUEIrS5Jh4xMZ ✅ Course Details: 📌Course Fees – 449/- 📌No of Videos – 14 📌Language: Hindi ✅ Course Modules: 📌Introduction 📌Introduction to Tea Powder 📌Basic Tea Premix Making 📌Bombay Tea Premix Making 📌Chai Latte Premix Making 📌Chocolate Tea Premix Making 📌Elaichi Tea Premix Making 📌Ginger Tea Premix Making 📌Ice Tea Premix Making 📌Jaggary Tea Premix 📌Kesar Masala Chai Premix 📌Lemon Tea Premix 📌Masala Chai Premix 📌Tulsi Tea Premix What do we provide after the course? Recoding for lifetime access PDFs as study material Course completion certificate Lifetime support Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Note: Once the course fees paid cannot be refunded back.",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-27",
+    "originalId": 27,
+    "title": "Professional Flavoured Nuts & Makhana Online Class (Veg)",
+    "slug": "professional-flavoured-nuts-makhana-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/professional-flavoured-nuts-makhana-online-class-veg/",
+    "category": "Baking",
+    "rawCategory": "Nuts and Makhana",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Professional-Flavoured-Nuts-Makhana-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Professional-Flavoured-Nuts-Makhana-Making-Online-Class-Veg.webp",
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Professional-Flavoured-Nuts-Makhana-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 72,
+    "studentsCount": "3.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Euphoria Live Classes presents 𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐅𝐥𝐚𝐯𝐨𝐮𝐫𝐞𝐝 𝐍𝐮𝐭𝐬 & 𝐌𝐚𝐤𝐡𝐚𝐧𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐂𝐥𝐚𝐬𝐬 (𝐕𝐞𝐠). ✅𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙪𝙨 𝙛𝙤𝙧 𝙢𝙤𝙧𝙚 𝙙𝙚𝙩𝙖𝙞𝙡𝙨, 📞𝘾𝙖𝙡𝙡 𝙤𝙧 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝙖𝙩 6294822573 / 7001770...",
+    "description": "Euphoria Live Classes presents 𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐅𝐥𝐚𝐯𝐨𝐮𝐫𝐞𝐝 𝐍𝐮𝐭𝐬 & 𝐌𝐚𝐤𝐡𝐚𝐧𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐂𝐥𝐚𝐬𝐬 (𝐕𝐞𝐠). ✅𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙪𝙨 𝙛𝙤𝙧 𝙢𝙤𝙧𝙚 𝙙𝙚𝙩𝙖𝙞𝙡𝙨, 📞𝘾𝙖𝙡𝙡 𝙤𝙧 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝙖𝙩 6294822573 / 7001770056 𝐀𝐩𝐩 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤: https://setht.courses.store/366284?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞: https://facebook.com/euphorialiveclasses 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: https://instagram.com/euphorialiveclasses ✅ Course Details: 📌Course Fees – 399/- 📌No of Videos – 17 📌Language: Hindi ✅ Course Modules: 📌Makhana Roasting Process 📌Caramelised Makhana 📌Cheesy Herb Makhana 📌Cheesy Tomato Makhana 📌Chocolate Makhana 📌Benarasi Paan Makhana 📌Blue Curacao Makhana 📌Peri Peri Makhana 📌Tangy Orange Makhana 📌Caramelized Honey Almond 📌Chatpate Peanuts 📌Cheesy Cashew 📌Flavoured Mixed Nuts 📌Masala Cashew 📌Tandoori Flavoured Sunflower Seeds 📌Tangy Pumpkin Seeds 📌Tangy Sunflower Seeds ✅ What do we provide after the course? 1. Recoding for lifetime access 2. PDFs as study material 3. Course completion certificate 4. Lifetime support ✅ Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 ✅ Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Important Note: Course fees are non-refundable once paid. If you have any query, please call or WhatsApp us to 7001770056",
+    "modules": [
+      "📌Makhana Roasting Process 📌Caramelised Makhana 📌Cheesy Herb Makhana 📌Cheesy Tomato Makhana 📌Chocolate Makhana 📌Benarasi Paan Makhana 📌Blue Curacao Makhana 📌Peri Peri Makhana 📌Tangy Orange Makhana 📌Caramelized Honey Almond 📌Chatpate Peanuts 📌Cheesy Cashew 📌Flavoured Mixed Nuts 📌Masala Cashew 📌Tandoori Flavoured Sunflower Seeds 📌Tangy Pumpkin Seeds 📌Tangy Sunflower Seeds ✅ What do we provide after the course?",
+      "Recoding for lifetime access",
+      "PDFs as study material",
+      "Course completion certificate",
+      "Lifetime support ✅ Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 ✅ Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Important"
+    ]
+  },
+  {
+    "id": "course-25",
+    "originalId": 25,
+    "title": "Swiss Roll Making Online Class (Veg)",
+    "slug": "swiss-roll-making-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/swiss-roll-making-online-class-veg/",
+    "category": "Baking",
+    "rawCategory": "Swiss Roll Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Contact-91-6294822573-7001770056.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Contact-91-6294822573-7001770056.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 70,
+    "studentsCount": "3.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "🎉 Euphoria Live Classes Presents: Swiss Roll Making Online Class (Veg) 🍰 🌟 Learn the Art of Swiss Roll Making in Just 5 Days @ ₹399/- 🌟 👨‍🍳 Join our live class ...",
+    "description": "🎉 Euphoria Live Classes Presents: Swiss Roll Making Online Class (Veg) 🍰 🌟 Learn the Art of Swiss Roll Making in Just 5 Days @ ₹399/- 🌟 👨‍🍳 Join our live class to learn from an experienced trainer and master the Swiss Roll making skills professionally. Start your own profitable Swiss Roll making business from the comfort of your home. Don’t miss this opportunity! Register Now. 📝 For more details, Call or WhatsApp to 6294822573 / 7001770056 👉 Course Details: 💰 Course Fees: ₹399/- ⏰ Class Duration: 5 Days 📚 Course Module: Day-1: 🍞 Swiss Roll Sheet Making (From Scratches) 🥖 Swiss Roll Sheet Making (From Premix) 🧈 Butter Cream Preparation 🍫 Ganache Making Day-2: 🌈 Rainbow Swiss Roll 🎨 Printed Swiss Roll Day-3: 🍒 Black Forest Swiss Roll 🍓 Jam Swiss Roll Day-4: 🍫 Chocolate Swiss Roll 🍬 Rasgulla Swiss Roll Day-5: 🍮 Tiramisu Swiss Roll 🍘 Matichur Swiss Roll 📖 Extra Learning: 📈 Marketing & Selling Guide 🎁 What We Provide After the Course: 📹 Recordings for a lifetime 📜 Course Materials as PDFs 🏆 Course Completion Certificate 📞 Lifetime Support (Call or WhatsApp) 💬 Community Support 🛒 Ingredients & Tools Buying Guide 🗣️ Language of Communication: 🗨️ Hindi 💳 Payment Options: 💳 Google Pay / Phone Pay / Paytm: 💼 Monalisa Sarkar – 6294822573 🏦 Bank Details: 💼 Monalisa Sarkar 🏦 HDFC Bank (Current Account) 💳 A/C No.: 50200060217322 🏛️ IFSC Code: HDFC0005439 📝 Joining Procedure: 💵 Make a payment of the course fees. 📩 Share the Payment Receipt on WhatsApp (7001770056). 📚 PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime. 📜 A certificate will be shared at the end of the course. 📌 Note: If any issue, please Call or WhatsApp at +91 70017 70056",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-23",
+    "originalId": 23,
+    "title": "Healthy Cookies Making Online Class (Veg)",
+    "slug": "healthy-cookies-making-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/healthy-cookies-making-online-class-veg/",
+    "category": "Cookies",
+    "rawCategory": "Healthy Cookies Making Class",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Healthy-Special-Cookies-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Healthy-Special-Cookies-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 68,
+    "studentsCount": "2.8k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Healthy Cookies Making Online Class (Veg). Learn the Art of Healthy Cookies Making in Just 5 Days @ ₹399/- Join our live class to learn from an experienced trai...",
+    "description": "Healthy Cookies Making Online Class (Veg). Learn the Art of Healthy Cookies Making in Just 5 Days @ ₹399/- Join our live class to learn from an experienced trainer and master the Healthy Cookies-making skills professionally. Start your own profitable Healthy Cookie-making business from the comfort of your home. Don’t miss this opportunity! Register Now. For more details, Call or WhatsApp to 6294822573 / 7001770056 Course Details: Healthy Cookies Making: Course Fees: ₹399/- Class Duration: 5 Days Pre-recorded Class Course Module: Healthy Cookies Making: Day-1: Oats Meal Choco Chips Cookies Almond Flour Cookies Millet Cardamom Cookies Day-2: Protein Packed Cookies Healthy Coconut Cookies Keto Diet Cookies Day-3: Pistachio Cookies Peanut Butter Flaky Cookies Rich Chocolate Cookies Day-4: Flax & Sea Seeds Cookies Finger Millet Cookies Oats Sesame Cookies Day-5: Orange Chocolate Cookies Bakery Style Ata Cookies Dry Fruits Cookies Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees. Share the Payment Receipt on WhatsApp (7001770056). We will add you to another WhatsApp Group. PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime. A certificate will be shared at the end of the course. Note: Class date & timing may change with the decision of the Euphoria Live Classes Team at any time with two hours prior notice.",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-22",
+    "originalId": 22,
+    "title": "Iyengar Bakery Style Cake Making Online Class (Veg)",
+    "slug": "iyengar-bakery-style-cake-2",
+    "permalink": "https://euphorialiveclasses.com/iyengar-bakery-style-cake-2/",
+    "category": "Cakes",
+    "rawCategory": "Iyengar Bakery Cake",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Iyengar-Bakery-Style-Cake-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Iyengar-Bakery-Style-Cake-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 67,
+    "studentsCount": "2.6k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "🌟🍰 Iyengar Bakery Style Cake Making Online Class (Veg) 🍰🌟 👩‍🍳 Join our most popular and delicious live class, and unlock the secret recipes of crafting Iyengar ...",
+    "description": "🌟🍰 Iyengar Bakery Style Cake Making Online Class (Veg) 🍰🌟 👩‍🍳 Join our most popular and delicious live class, and unlock the secret recipes of crafting Iyengar Bakery Style Cakes from a seasoned baking & cooking expert. 🧁✨ Every recipe is tried, tested, and truly authentic. It’s the perfect opportunity for aspiring entrepreneurs looking to kickstart a business with minimal investment. 💼 🎉 Don’t let this golden opportunity slip away! Reserve your spot now. 📝🎈 📌 For more details, 📞 Call or WhatsApp: 6294-822-573 / 7001-770-056 📲📮 👉 Course Details: Iyengar Bakery Style Cake: 💰 Course Fees: ₹399/- ⏰ Class Duration: 5 Days 📚 Course Module: Iyengar Bakery Style Cake: 📅 Day-1: Vanilla Cake Chocolate Cake 📅 Day-2: Marble Cake Ribbon Cake Rose Honey Bell Cake 📅 Day-3: Palm Cake Khejur-Badam Cake 📅 Day-4: Mixed Fruits Cake Pineapple Cake Malai Cake 📅 Day-5: Pistachio Cake Mawa Cake 📖 Extra Learning: 📈 Marketing & Selling Guide 🎁 What We Provide After the Course: 📹 Recordings for a lifetime 📜 Course Materials as PDFs 🏆 Course Completion Certificate 📞 Lifetime Support (Call or WhatsApp) 💬 Community Support 🛒 Ingredients & Tools Buying Guide 🗣️ Language of Communication: 🗨️ Hindi 💳 Payment Options: 💳 Google Pay / Phone Pay / Paytm: 💼 Monalisa Sarkar – 6294822573 🏦 Bank Details: 💼 Monalisa Sarkar 🏦 HDFC Bank (Current Account) 💳 A/C No.: 50200060217322 🏛️ IFSC Code: HDFC0005439 📝 Joining Procedure: 💵 Make a payment of the course fees. 📩 Share the Payment Receipt on WhatsApp ( 7001770056 ). 📚 PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime. 📜 A certificate will be shared at the end of the course. 📌 Note: If any issues, please call or Whatsapp to +91 70017 70056 (Except on holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-21",
+    "originalId": 21,
+    "title": "Festive Special Chocolate Mithai Making Online Class (Veg)",
+    "slug": "diwali-special-chocolate-mithai-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/diwali-special-chocolate-mithai-making-online-class/",
+    "category": "Chocolates",
+    "rawCategory": "Chocolate Mithai Class",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Festive-Special-Chocolate-Mithai-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Festive-Special-Chocolate-Mithai-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 66,
+    "studentsCount": "2.4k+",
+    "isVeg": true,
+    "badge": "Popular",
+    "shortDescription": "🌟🍰 Festive Special Chocolate Mithai Making Online Class (Veg) 🍰🌟 👩‍🍳 Join our most popular and delicious live class, and unlock the secret recipes of Diwali Spe...",
+    "description": "🌟🍰 Festive Special Chocolate Mithai Making Online Class (Veg) 🍰🌟 👩‍🍳 Join our most popular and delicious live class, and unlock the secret recipes of Diwali Special Chocolate Mithai Making Live Class from a seasoned baking & cooking expert. 🧁✨ Every recipe is tried, tested, and truly authentic. It’s the perfect opportunity for aspiring entrepreneurs looking to kickstart a business with minimal investment. 💼 📌 For more details, 📞 Call or WhatsApp: 6294-822-573 👉 Course Details: Chocolate Mithai Making: 💰 Course Fees: ₹399/- ⏰ Class Duration: 5 Days + 2 Days 📚 Course Module: Chocolate Mithai Making: Day-1: Motichur laddu-Chocolate Mithai Kaju Katli Chocolate Mithai Kalakand Chocolate Mithai Day-2: Fudgy Brownie Chocolate Mithai Coconut Bounty Blast Chocolate Mithai Cookies & Cream Chocolate Mithai Day-3: Hazelnut Proline Chocolate Mithai Shahi Ghevar Chocolate Mithai Silky Snickers Chocolate Mithai Day-4: Karachi Chocolate Mithai Shahi Rajbhog Chocolate Mithai Coco-Orange Chocolate Mithai Day-5: Cranberry- Colada Chocolate Mithai Chai-masala Chocolate Mithai Benarasi Paan Chocolate Mithai 📖 Extra Learning: 📈 Marketing & Selling Guide 🎁 What We Provide After the Course: 📹 Recordings for a lifetime 📜 Course Materials as PDFs 🏆 Course Completion Certificate 📞 Lifetime Support (Call or WhatsApp) 💬 Community Support 🛒 Ingredients & Tools Buying Guide 🗣️ Language of Communication: 🗨️ Hindi 💳 Payment Options: 💳 Google Pay / Phone Pay / Paytm: 💼 Monalisa Sarkar – 6294822573 🏦 Bank Details: 💼 Monalisa Sarkar 🏦 HDFC Bank (Current Account) 💳 A/C No.: 50200060217322 🏛️ IFSC Code: HDFC0005439 📝 Joining Procedure: 💵 Make a payment of the course fees. 📩 Share the Payment Receipt on WhatsApp ( 7001770056 ). 📚 PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime. 📜 A certificate will be shared at the end of the course. 📌 Note: If any issues, please Call or WhatsApp to +91 70017 70056 (Except on holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-20",
+    "originalId": 20,
+    "title": "Mousse Cake Making Online Class (Veg)",
+    "slug": "mousse-cake-making-online-class-veg",
+    "permalink": "https://euphorialiveclasses.com/mousse-cake-making-online-class-veg/",
+    "category": "Cakes",
+    "rawCategory": "Mousse Cake Making",
+    "price": 399,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Mousse-Cake-Making-Online-Class-Veg.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Mousse-Cake-Making-Online-Class-Veg.webp"
+    ],
+    "rating": 5.0,
+    "reviewsCount": 65,
+    "studentsCount": "2.2k+",
+    "isVeg": true,
+    "badge": "Bestseller",
+    "shortDescription": "🌟🍰 Mousse Cake Making Online Class (Veg) 🍰🌟Join our most popular and delicious live class, and unlock the secret recipes of Mousse Cake Making Live Class (Veg) ...",
+    "description": "🌟🍰 Mousse Cake Making Online Class (Veg) 🍰🌟Join our most popular and delicious live class, and unlock the secret recipes of Mousse Cake Making Live Class (Veg) from a seasoned baking & cooking expert. 🧁✨ Every recipe is tried, tested, and truly authentic. It’s the perfect opportunity for aspiring entrepreneurs looking to kickstart a business with minimal investment. 💼 📌 For more details, 📞 Call or WhatsApp: 6294-822-573 👉 Course Details: Mousse Cake Making: 💰 Course Fees: ₹399/- ⏰ Class Duration: 5 Days Pre-recorded class 📚 Course Module: Mousse Cake Making: Day-1: Vanilla Sponge Making Chocolate Sponge Making Brownie Sponge Making Coconut Sponge Making Day-2: Triple Layered Mousse Cake Mango Mousse Cake Day-3: Chocolate Hazelnut Mousse Cake Coconut Mousse Cake Day-4: Mousse Bar Making Mawa-Kesar Mouse Cake Day-5: Snickers Mini Mouse Cake Cherry Blast Mousse Cake 📖 Extra Learning: 📈 Marketing & Selling Guide 🎁 What We Provide After the Course: 📹 Recordings for a lifetime 📜 Course Materials as PDFs 🏆 Course Completion Certificate 📞 Lifetime Support (Call or WhatsApp) 💬 Community Support 🛒 Ingredients & Tools Buying Guide 🗣️ Language of Communication: 🗨️ Hindi 💳 Payment Options: 💳 Google Pay / Phone Pay / Paytm: 💼 Monalisa Sarkar – 6294822573 🏦 Bank Details: 💼 Monalisa Sarkar 🏦 HDFC Bank (Current Account) 💳 A/C No.: 50200060217322 🏛️ IFSC Code: HDFC0005439 📝 Joining Procedure: 💵 Make a payment of the course fees. 📩 Share the Payment Receipt on WhatsApp ( 7001770056 ). 📚 PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime. 📜 A certificate will be shared at the end of the course. 📌 Note: If any issue, please call or WhatsApp to +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  },
+  {
+    "id": "course-16",
+    "originalId": 16,
+    "title": "Diwali Special Gift Hamper Making Online Class",
+    "slug": "gift-hamper-making-online-class",
+    "permalink": "https://euphorialiveclasses.com/gift-hamper-making-online-class/",
+    "category": "Baking",
+    "rawCategory": "Diwali Gift Humper Making",
+    "price": 349,
+    "originalPrice": 999,
+    "currency": "₹",
+    "image": "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Diwali-Special-Gift-Humper-Making.webp",
+    "allImages": [
+      "https://euphorialiveclasses.com/wp-content/uploads/2024/04/Diwali-Special-Gift-Humper-Making.webp"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 61,
+    "studentsCount": "1.4k+",
+    "isVeg": true,
+    "badge": null,
+    "shortDescription": "Diwali Special Gift Hamper Making Online Class for 5 days. As the festive season draws near, we’re thrilled to present an exclusive workshop for crafting the mo...",
+    "description": "Diwali Special Gift Hamper Making Online Class for 5 days. As the festive season draws near, we’re thrilled to present an exclusive workshop for crafting the most dazzling Diwali gift hampers. 𝐖𝐡𝐚𝐭 𝐘𝐨𝐮’𝐥𝐥 𝐋𝐞𝐚𝐫𝐧: Get ready to curate a show-stopping menu that’s sure to impress. In our special workshop, you’ll learn a range of exciting recipes ideal for any festive hamper, including: 14 Eggless Recipes 5 Types of Assembling Extended Shelf Life of the Products Budget Packaging and Decoration For more details, Call or WhatsApp: 6294-822-573 Course Details: Gift Hamper Making Online Class: Course Fees: ₹349/- Class Duration: 5 Days Pre-recorded Class Course Module: Gift Hamper Making Online Class: Day-1: Cookies & Sticks: Rose Pista Nankhatai Bread Herb Sticks Designer Cookies Day-2: Chocolate Bar Making: Energy Bar Making French Chocolate Mendiants Caramel Chocolate Candy Making Dry Fruits Laddu Making Day-3: Muffins, Brownies & Teatime Cake: Lemon-Raspberry Streusel Muffins Rocky Road Brownie Honey-almond Teatime Cake Spicy Cookies Sticks Making Day-4: Muesli Jar Making Caramel Coated Nuts Making Flavoured Mixed Nuts jar-making Day-5: Humper Making Ideas: Budget-Friendly Hamper Making Premium Hamper Making Festive Hamper Making Special Diwali Hamper Making Jumbo Hamper Making Extra Learning: Marketing & Selling Guide What We Provide After the Course: Recordings for a lifetime Course Materials as PDFs Course Completion Certificate Lifetime Support (Call or WhatsApp) Community Support Ingredients & Tools Buying Guide Language of Communication: Hindi Payment Options: Google Pay / Phone Pay / Paytm: Monalisa Sarkar – 6294822573 Bank Details: Monalisa Sarkar HDFC Bank (Current Account) A/C No.: 50200060217322 IFSC Code: HDFC0005439 Joining Procedure: Make a payment of the course fees. Share the Payment Receipt on WhatsApp. PDFs & videos will be accessible through Euphoria Live Classes App for a lifetime. A certificate will be shared at the end of the course. Note: For more details. please call or WhatsApp +91 70017 70056 (Except holidays)",
+    "modules": [
+      "Kitchen Setup & Essential Equipment",
+      "Ingredient Science & Measuring Secrets",
+      "Hands-on Practical Baking/Cooking Session",
+      "Decorating, Finishing & Presentation",
+      "Commercial Packaging, Shelf Life & Costing"
+    ]
+  }
+];

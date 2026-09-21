@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Euphoria Live Classes | Professional Baking, Cooking & Business Online Classes</title>
+  <meta name="description" content="Learn professional baking, cooking, and business skills with Euphoria Live Classes. Join 70,000+ happy learners with lifetime access and practical recipes." />
+  <link rel="icon" type="image/png" href="assets/images/logo-navbar-transparent.png" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            euphoria: {
+              red: '#d34a30',
+              redHover: '#ba3c24',
+              navy: '#0c203b',
+              navyDark: '#081528',
+              navyLight: '#18345b',
+              cream: '#fdfaf5',
+              creamLight: '#fffdfa',
+              creamDark: '#f7f1e5',
+              gold: '#f59e0b',
+              border: '#f1e8d9'
+            }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+            script: ['Caveat', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-white text-gray-800 antialiased selection:bg-red-100 selection:text-red-700">
+
+  <!-- ================= TOP HEADER & NAVIGATION ================= -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Main Row -->
+      <div class="flex items-center justify-between h-20 gap-4">
+        
+        <!-- Left: Hamburger & Logo -->
+        <div class="flex items-center gap-4">
+          <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-700 hover:text-euphoria-navy focus:outline-none" aria-label="Open navigation menu">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+          
+          <a href="#" class="flex items-center gap-2 group">
+            <img src="assets/images/logo-navbar-transparent.png" alt="Euphoria Live Classes" class="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-105" />
+          </a>
+        </div>
+
+        <!-- Center: Search Input with Live Dropdown -->
+        <div class="relative flex-1 max-w-md hidden sm:block">
+          <div class="relative">
+            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-400">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+            <input 
+              id="search-input" 
+              type="text" 
+              placeholder="Search courses..." 
+              autocomplete="off"
+              class="w-full pl-10 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-xs sm:text-sm placeholder-gray-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-euphoria-red focus:border-transparent transition-all"
+            />
+          </div>
+          <!-- Live Search Results Dropdown -->
+          <div id="search-dropdown" class="hidden absolute left-0 right-0 top-full mt-1.5 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden z-50 max-h-72 overflow-y-auto">
+          </div>
+        </div>
+
+        <!-- Right: User Account & Cart -->
+        <div class="flex items-center gap-4 sm:gap-6">
+          <a href="#account" class="flex items-center gap-1.5 text-xs sm:text-sm font-medium text-gray-700 hover:text-euphoria-red transition-colors">
+            <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+            <span class="hidden md:inline">My Account</span>
+          </a>
+
+          <button id="cart-btn" class="relative flex items-center gap-1.5 text-xs sm:text-sm font-medium text-gray-700 hover:text-euphoria-red transition-colors group" aria-label="Shopping Cart">
+            <div class="relative">
+              <svg class="w-5 h-5 text-gray-700 group-hover:text-euphoria-red transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+              <span id="cart-count" class="absolute -top-2 -right-2 bg-euphoria-red text-white font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center shadow-sm">0</span>
+            </div>
+            <span class="hidden sm:inline">Cart</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Search Bar (Visible only on small screens) -->
+      <div class="pb-3 sm:hidden">
+        <input 
+          type="text" 
+          placeholder="Search courses..." 
+          class="w-full px-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-xs placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-euphoria-red"
+        />
+      </div>
+
+      <!-- Category Sub-Navigation Bar -->
+      <nav class="hidden md:flex items-center justify-center gap-7 py-2.5 border-t border-gray-100 text-xs sm:text-sm font-medium">
+        <a href="index.html" class="text-euphoria-red font-bold border-b-2 border-euphoria-red pb-1">Home</a>
+        <a href="courses.html" class="text-gray-700 hover:text-euphoria-red pb-1 transition-colors flex items-center gap-1">
+          <span>All Courses (94)</span>
+          <span class="bg-red-100 text-euphoria-red text-[10px] font-bold px-1.5 py-0.2 rounded-full">NEW</span>
+        </a>
+        <a href="free-resources.html" class="text-gray-700 hover:text-euphoria-red pb-1 transition-colors flex items-center gap-1">
+          <span>Free Resources</span>
+          <span class="bg-amber-100 text-amber-800 text-[10px] font-bold px-1.5 py-0.2 rounded-full">FREE</span>
+        </a>
+        <a href="learn.html" class="text-emerald-700 hover:text-emerald-800 font-semibold pb-1 transition-colors flex items-center gap-1">
+          <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <span>Student Portal (LMS)</span>
+        </a>
+        <a href="courses.html?cat=Baking" class="text-gray-600 hover:text-euphoria-red pb-1 transition-colors">Baking</a>
+        <a href="courses.html?cat=Cakes" class="text-gray-600 hover:text-euphoria-red pb-1 transition-colors">Cakes</a>
+        <a href="courses.html?cat=Chocolates" class="text-gray-600 hover:text-euphoria-red pb-1 transition-colors">Chocolates</a>
+        <a href="#why-learn" class="text-gray-600 hover:text-euphoria-red pb-1 transition-colors">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-menu" class="fixed inset-y-0 left-0 w-72 bg-white shadow-2xl z-50 -translate-x-full transition-transform duration-300 flex flex-col p-6">
+    <div class="flex items-center justify-between pb-4 border-b border-gray-100">
+      <img src="assets/images/logo-navbar-transparent.png" alt="Euphoria Live Classes" class="h-9 w-auto" />
+      <button id="close-mobile-menu" class="p-2 text-gray-500 hover:text-gray-900" aria-label="Close menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+    </div>
+    <div class="flex flex-col gap-3.5 py-6 text-sm font-medium text-gray-700">
+      <a href="index.html" class="hover:text-euphoria-red py-1 border-b border-gray-50 text-euphoria-red font-bold">Home</a>
+      <a href="courses.html" class="hover:text-euphoria-red py-1 border-b border-gray-50 flex items-center justify-between">
+        <span>All 94 Courses</span>
+        <span class="bg-red-100 text-euphoria-red text-[10px] font-bold px-1.5 py-0.5 rounded-full">CATALOG</span>
+      </a>
+      <a href="free-resources.html" class="hover:text-euphoria-red py-1 border-b border-gray-50 flex items-center justify-between">
+        <span>Free Resources & Cheat Sheets</span>
+        <span class="bg-amber-100 text-amber-800 text-[10px] font-bold px-1.5 py-0.5 rounded-full">FREE</span>
+      </a>
+      <a href="learn.html" class="hover:text-euphoria-red py-1 border-b border-gray-50 text-emerald-600 font-semibold flex items-center justify-between">
+        <span>Student Portal (LMS)</span>
+        <span>🎓</span>
+      </a>
+      <a href="courses.html?cat=Cakes" class="hover:text-euphoria-red py-1 border-b border-gray-50">Cakes Classes</a>
+      <a href="courses.html?cat=Chocolates" class="hover:text-euphoria-red py-1 border-b border-gray-50">Chocolate Making</a>
+      <a href="#why-learn" class="hover:text-euphoria-red py-1 border-b border-gray-50">About Euphoria</a>
+      <a href="#faq" class="hover:text-euphoria-red py-1 border-b border-gray-50">Frequently Asked Questions</a>
+    </div>
+  </div>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="relative bg-gradient-to-b from-[#fbf8f2] via-[#fcf9f5] to-white pt-6 pb-12 sm:pb-16 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <!-- Left Hero Content (7 Columns) -->
+        <div class="lg:col-span-7 flex flex-col justify-center text-left">
+          
+          <!-- Main Catchphrase Headline -->
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4">
+            <span class="font-serif italic text-euphoria-navy block leading-tight">Learn. Create.</span>
+            <span class="font-serif italic text-euphoria-red block leading-tight">Sell. Grow.</span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-gray-700 font-medium max-w-xl mb-6">
+            Professional Baking, Cooking & Business-Oriented Online Classes
+          </p>
+
+          <!-- 4 Feature Pills Row -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 mb-6 max-w-xl">
+            <div class="bg-white/90 backdrop-blur-sm border border-orange-100/80 rounded-xl p-2.5 text-center shadow-sm flex flex-col items-center justify-center gap-1.5">
+              <svg class="w-5 h-5 text-euphoria-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+              <span class="text-[11px] font-semibold text-gray-800 leading-tight">Learn from Home</span>
+            </div>
+
+            <div class="bg-white/90 backdrop-blur-sm border border-orange-100/80 rounded-xl p-2.5 text-center shadow-sm flex flex-col items-center justify-center gap-1.5">
+              <svg class="w-5 h-5 text-euphoria-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+              <span class="text-[11px] font-semibold text-gray-800 leading-tight">Lifetime Access</span>
+            </div>
+
+            <div class="bg-white/90 backdrop-blur-sm border border-orange-100/80 rounded-xl p-2.5 text-center shadow-sm flex flex-col items-center justify-center gap-1.5">
+              <svg class="w-5 h-5 text-euphoria-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+              <span class="text-[11px] font-semibold text-gray-800 leading-tight">Practical Recipes</span>
+            </div>
+
+            <div class="bg-white/90 backdrop-blur-sm border border-orange-100/80 rounded-xl p-2.5 text-center shadow-sm flex flex-col items-center justify-center gap-1.5">
+              <svg class="w-5 h-5 text-euphoria-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+              <span class="text-[11px] font-semibold text-gray-800 leading-tight">Business Guidance</span>
+            </div>
+          </div>
+
+          <!-- Tagline & CTA Button Row -->
+          <div class="flex flex-col sm:flex-row items-start sm:items-center gap-5 pt-2">
+            <span class="font-script text-2xl sm:text-3xl text-gray-800 leading-tight">
+              Turn Your Passion Into a Profitable Business!
+            </span>
+
+            <a href="#courses-section" class="btn-primary inline-flex items-center gap-2 px-7 py-3 rounded-xl font-bold text-sm tracking-wide shadow-md transform hover:-translate-y-0.5 transition-all">
+              <span>EXPLORE COURSES</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual with Instructor & Cakes (5 Columns) -->
+        <div class="lg:col-span-5 relative flex justify-center">
+          <!-- Main Hero Photo -->
+          <div class="relative max-w-md w-full">
+            <img 
+              src="assets/images/hero-instructor.png" 
+              alt="Euphoria Live Classes Head Chef & Instructor" 
+              class="w-full h-auto object-cover rounded-3xl drop-shadow-xl"
+            />
+
+            <!-- Top Floating Social Proof Badge -->
+            <div class="absolute -top-3 left-4 bg-white/95 backdrop-blur-md rounded-2xl shadow-lg border border-red-50 px-3.5 py-2 flex flex-col items-center text-center animate-bounce-slow">
+              <div class="text-xs sm:text-sm font-extrabold text-euphoria-navy leading-none">70,000+</div>
+              <div class="text-[10px] text-gray-600 font-medium leading-tight">Happy Learners<br/>and Growing...</div>
+              <span class="text-red-500 text-xs mt-0.5">♥</span>
+            </div>
+
+            <!-- Top Right Handwritten Quote Accent -->
+            <div class="absolute -top-6 -right-4 font-script text-xl sm:text-2xl text-[#5c3a21] font-semibold max-w-[150px] leading-tight text-right drop-shadow-sm hidden sm:block">
+              “Good Food Creates Brighter Futures ♥”
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRUST STATS BAR ================= -->
+  <section class="border-y border-[#faeed9] bg-[#fffcf7] py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 divide-y md:divide-y-0 md:divide-x divide-orange-100 text-center">
+        
+        <!-- Stat 1 -->
+        <div class="flex items-center justify-center gap-3 pt-2 md:pt-0">
+          <div class="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+          </div>
+          <div class="text-left">
+            <div class="text-lg font-extrabold text-euphoria-navy leading-none">70,000+</div>
+            <div class="text-xs text-gray-600 font-medium">Happy Learners</div>
+          </div>
+        </div>
+
+        <!-- Stat 2 -->
+        <div class="flex items-center justify-center gap-3 pt-2 md:pt-0">
+          <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-800">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path></svg>
+          </div>
+          <div class="text-left">
+            <div class="text-lg font-extrabold text-euphoria-navy leading-none">100+</div>
+            <div class="text-xs text-gray-600 font-medium">Professional Courses</div>
+          </div>
+        </div>
+
+        <!-- Stat 3 -->
+        <div class="flex items-center justify-center gap-3 pt-2 md:pt-0">
+          <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-800">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+          </div>
+          <div class="text-left">
+            <div class="text-lg font-extrabold text-euphoria-navy leading-none">Lifetime</div>
+            <div class="text-xs text-gray-600 font-medium">Access</div>
+          </div>
+        </div>
+
+        <!-- Stat 4 -->
+        <div class="flex items-center justify-center gap-3 pt-2 md:pt-0">
+          <div class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+          </div>
+          <div class="text-left">
+            <div class="text-lg font-extrabold text-euphoria-navy leading-none">Business</div>
+            <div class="text-xs text-gray-600 font-medium">Focused Learning</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FIND COURSES BY PRICE ================= -->
+  <section class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Heading with Decorative Yellow Rays -->
+      <div class="text-center mb-8">
+        <div class="inline-flex items-center gap-3 justify-center">
+          <div class="flex gap-1 items-center">
+            <span class="w-2.5 h-0.5 bg-amber-400 rotate-45 transform origin-right"></span>
+            <span class="w-3.5 h-0.5 bg-amber-400"></span>
+            <span class="w-2.5 h-0.5 bg-amber-400 -rotate-45 transform origin-right"></span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-euphoria-navy tracking-tight">Find Courses by Price</h2>
+          <div class="flex gap-1 items-center">
+            <span class="w-2.5 h-0.5 bg-amber-400 -rotate-45 transform origin-left"></span>
+            <span class="w-3.5 h-0.5 bg-amber-400"></span>
+            <span class="w-2.5 h-0.5 bg-amber-400 rotate-45 transform origin-left"></span>
+          </div>
+        </div>
+        <p class="text-xs sm:text-sm text-gray-600 font-medium mt-1">Quality Learning at the Best Value!</p>
+      </div>
+
+      <!-- 3 Price Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Price Card 1 (₹449) -->
+        <div class="price-card-pink rounded-3xl p-6 relative overflow-hidden flex items-center justify-between shadow-soft shadow-card-hover group">
+          <div class="z-10 flex flex-col items-start">
+            <span class="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Courses at</span>
+            <div class="text-3xl sm:text-4xl font-extrabold text-red-600 tracking-tight mb-4">₹449/-</div>
+            <button class="price-tier-btn px-5 py-2 bg-[#d34a30] hover:bg-[#ba3c24] text-white text-xs font-bold rounded-xl shadow transition-all flex items-center gap-1.5" data-price="449">
+              <span>View Courses</span>
+              <span>→</span>
+            </button>
+          </div>
+          <div class="w-32 h-32 flex items-center justify-center flex-shrink-0">
+            <img src="assets/images/price-cookies-1.png" alt="Cookies plate" class="w-full h-auto object-contain drop-shadow-md group-hover:scale-105 transition-transform" />
+          </div>
+        </div>
+
+        <!-- Price Card 2 (₹399) -->
+        <div class="price-card-blue rounded-3xl p-6 relative overflow-hidden flex items-center justify-between shadow-soft shadow-card-hover group">
+          <div class="z-10 flex flex-col items-start">
+            <span class="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Courses at</span>
+            <div class="text-3xl sm:text-4xl font-extrabold text-[#1d68bd] tracking-tight mb-4">₹399/-</div>
+            <button class="price-tier-btn px-5 py-2 bg-[#1d68bd] hover:bg-[#155296] text-white text-xs font-bold rounded-xl shadow transition-all flex items-center gap-1.5" data-price="399">
+              <span>View Courses</span>
+              <span>→</span>
+            </button>
+          </div>
+          <div class="w-32 h-32 flex items-center justify-center flex-shrink-0">
+            <img src="assets/images/price-cake.png" alt="Chocolate cake" class="w-full h-auto object-contain drop-shadow-md group-hover:scale-105 transition-transform" />
+          </div>
+        </div>
+
+        <!-- Price Card 3 (₹349 with Badge) -->
+        <div class="price-card-peach rounded-3xl p-6 relative overflow-hidden flex items-center justify-between shadow-soft shadow-card-hover group">
+          <!-- Top Badge -->
+          <div class="absolute top-3 right-4 bg-red-600 text-white text-[10px] font-bold px-3 py-0.5 rounded-full shadow-sm">
+            Includes ₹499/- Courses
+          </div>
+
+          <div class="z-10 flex flex-col items-start">
+            <span class="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Courses at</span>
+            <div class="text-3xl sm:text-4xl font-extrabold text-[#d34a30] tracking-tight mb-4">₹349/-</div>
+            <button class="price-tier-btn px-5 py-2 bg-[#d34a30] hover:bg-[#ba3c24] text-white text-xs font-bold rounded-xl shadow transition-all flex items-center gap-1.5" data-price="349">
+              <span>View Courses</span>
+              <span>→</span>
+            </button>
+          </div>
+          <div class="w-32 h-32 flex items-center justify-center flex-shrink-0">
+            <img src="assets/images/price-cookies-2.png" alt="Cookies plate" class="w-full h-auto object-contain drop-shadow-md group-hover:scale-105 transition-transform" />
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= OUR BEST SELLING COURSES ================= -->
+  <section id="courses-section" class="py-12 bg-gray-50/70 border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="flex items-center justify-between mb-8">
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">🔥</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-euphoria-navy tracking-tight">Our Best Selling Courses</h2>
+        </div>
+        <a href="courses.html" class="text-xs sm:text-sm font-bold text-euphoria-red hover:text-euphoria-redHover flex items-center gap-1 transition-colors">
+          <span>View All 94 Courses</span>
+          <span>→</span>
+        </a>
+      </div>
+
+      <!-- Courses Grid (5 Columns on Large Displays) -->
+      <div id="courses-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FREE RESOURCES & SECURE LMS BANNER ================= -->
+  <section class="py-10 bg-gradient-to-r from-euphoria-navy to-euphoria-navyLight text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <div class="lg:col-span-8">
+          <div class="inline-flex items-center gap-2 bg-amber-400/20 text-amber-300 text-xs font-bold px-3 py-1 rounded-full mb-3 border border-amber-400/30">
+            <span>🎁 Zero Cost Learning • Downloadable PDFs</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold font-serif-brand tracking-tight">
+            Free Baking Cheat Sheets & Masterclasses
+          </h2>
+          <p class="text-xs sm:text-sm text-gray-300 mt-2 max-w-2xl leading-relaxed">
+            Get instant access to our Oven Temperature & Pan Conversion Matrix, Eggless Science Handbook, and Commercial Costing Guides. Experience our DRM-protected student learning portal at zero cost.
+          </p>
+        </div>
+        <div class="lg:col-span-4 flex flex-wrap lg:justify-end gap-3">
+          <a href="free-resources.html" class="px-5 py-3 bg-amber-500 hover:bg-amber-400 text-gray-950 font-bold text-xs rounded-xl shadow-lg transition-all flex items-center gap-1.5">
+            <span>Explore Free Resources</span>
+            <span>→</span>
+          </a>
+          <a href="learn.html" class="px-5 py-3 bg-white/10 hover:bg-white/20 text-white font-bold text-xs rounded-xl border border-white/20 backdrop-blur-sm transition-all flex items-center gap-1.5">
+            <span>Try Student Portal</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY LEARN WITH EUPHORIA? ================= -->
+  <section id="why-learn" class="py-14 bg-[#fdf8f0] border-t border-[#f4ebdc]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-10">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-euphoria-navy tracking-tight">Why Learn With Euphoria?</h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- 5 Feature Cards (8 Columns) -->
+        <div class="lg:col-span-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3.5">
+          
+          <!-- Card 1 -->
+          <div class="bg-white rounded-2xl p-4 text-center shadow-soft border border-orange-100/60 flex flex-col items-center justify-between min-h-[170px] shadow-card-hover group">
+            <div class="w-12 h-12 rounded-xl bg-blue-50 text-euphoria-navy flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 4a3 3 0 00-3 3v1a3 3 0 00-3 3v1a3 3 0 003 3h6a3 3 0 003-3v-1a3 3 0 00-3-3V7a3 3 0 00-3-3z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 14v4a2 2 0 002 2h2a2 2 0 002-2v-4"></path></svg>
+            </div>
+            <div>
+              <h3 class="text-xs sm:text-sm font-bold text-euphoria-navy leading-snug mb-1">Expert-Led Classes</h3>
+              <p class="text-[11px] text-gray-500 leading-tight">Practical techniques that actually work</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white rounded-2xl p-4 text-center shadow-soft border border-orange-100/60 flex flex-col items-center justify-between min-h-[170px] shadow-card-hover group">
+            <div class="w-12 h-12 rounded-xl bg-blue-50 text-euphoria-navy flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <div>
+              <h3 class="text-xs sm:text-sm font-bold text-euphoria-navy leading-snug mb-1">Lifetime Access</h3>
+              <p class="text-[11px] text-gray-500 leading-tight">Learn anytime, anywhere</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white rounded-2xl p-4 text-center shadow-soft border border-orange-100/60 flex flex-col items-center justify-between min-h-[170px] shadow-card-hover group">
+            <div class="w-12 h-12 rounded-xl bg-blue-50 text-euphoria-navy flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            </div>
+            <div>
+              <h3 class="text-xs sm:text-sm font-bold text-euphoria-navy leading-snug mb-1">PDF Materials</h3>
+              <p class="text-[11px] text-gray-500 leading-tight">Easy-to-follow resources</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white rounded-2xl p-4 text-center shadow-soft border border-orange-100/60 flex flex-col items-center justify-between min-h-[170px] shadow-card-hover group">
+            <div class="w-12 h-12 rounded-xl bg-blue-50 text-euphoria-navy flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+            </div>
+            <div>
+              <h3 class="text-xs sm:text-sm font-bold text-euphoria-navy leading-snug mb-1">Business Guidance</h3>
+              <p class="text-[11px] text-gray-500 leading-tight">Learn pricing, packaging & selling</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-white rounded-2xl p-4 text-center shadow-soft border border-orange-100/60 flex flex-col items-center justify-between min-h-[170px] shadow-card-hover group">
+            <div class="w-12 h-12 rounded-xl bg-blue-50 text-euphoria-navy flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-2.83m-1.414 5.658a9 9 0 01-2.167-9.238m7.824 2.166a1 1 0 111.414 1.414"></path></svg>
+            </div>
+            <div>
+              <h3 class="text-xs sm:text-sm font-bold text-euphoria-navy leading-snug mb-1">Lifetime Support</h3>
+              <p class="text-[11px] text-gray-500 leading-tight">Get help whenever you need it</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Pinned Parchment Note with Whisk (4 Columns) -->
+        <div class="lg:col-span-4 flex justify-center">
+          <div class="relative max-w-xs transform hover:rotate-1 transition-transform">
+            <img 
+              src="assets/images/why-learn-note.png" 
+              alt="More Than Just Recipes We Help You Build A Brighter Tomorrow" 
+              class="w-full h-auto drop-shadow-md rounded-lg"
+            />
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= WHAT OUR STUDENTS SAY (TESTIMONIALS) ================= -->
+  <section class="py-14 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-euphoria-navy tracking-tight">What Our Students Say</h2>
+          <p class="text-xs sm:text-sm text-gray-500 font-medium">Real People. Real Results.</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="#reviews" class="text-xs sm:text-sm font-bold text-blue-600 hover:text-blue-800 transition-colors hidden sm:inline">View All Reviews →</a>
+          <div class="flex items-center gap-1.5">
+            <button id="prev-review-btn" class="w-8 h-8 rounded-full border border-gray-200 bg-white hover:bg-gray-50 flex items-center justify-center text-gray-600 shadow-sm transition-all" aria-label="Previous review">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            </button>
+            <button id="next-review-btn" class="w-8 h-8 rounded-full border border-gray-200 bg-white hover:bg-gray-50 flex items-center justify-center text-gray-600 shadow-sm transition-all" aria-label="Next review">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Review 1 (Priya) -->
+        <div class="testimonial-card bg-white rounded-2xl p-5 border border-gray-100 shadow-soft flex items-center justify-between gap-4 shadow-card-hover">
+          <div class="flex items-start gap-3.5 flex-1">
+            <img src="assets/images/student-priya.png" alt="Priya, Kolkata" class="w-14 h-14 rounded-full object-cover shadow-sm flex-shrink-0" />
+            <div>
+              <div class="flex items-center gap-0.5 text-amber-400 text-xs mb-1">
+                ★★★★★
+              </div>
+              <p class="text-xs text-gray-700 leading-snug mb-2 font-normal">
+                “The recipes are very easy to understand and the results were amazing. I now take regular orders!”
+              </p>
+              <div class="text-xs font-bold text-gray-900">Priya, Kolkata</div>
+            </div>
+          </div>
+          <div class="w-14 h-14 flex-shrink-0 flex items-center justify-center">
+            <img src="assets/images/bake-priya.png" alt="Baked cake by Priya" class="w-full h-full object-contain drop-shadow-sm" />
+          </div>
+        </div>
+
+        <!-- Review 2 (Sneha) -->
+        <div class="testimonial-card bg-white rounded-2xl p-5 border border-gray-100 shadow-soft flex items-center justify-between gap-4 shadow-card-hover">
+          <div class="flex items-start gap-3.5 flex-1">
+            <img src="assets/images/student-sneha.png" alt="Sneha, Bangalore" class="w-14 h-14 rounded-full object-cover shadow-sm flex-shrink-0" />
+            <div>
+              <div class="flex items-center gap-0.5 text-amber-400 text-xs mb-1">
+                ★★★★★
+              </div>
+              <p class="text-xs text-gray-700 leading-snug mb-2 font-normal">
+                “Euphoria classes are worth every penny. Clear explanations and great support.”
+              </p>
+              <div class="text-xs font-bold text-gray-900">Sneha, Bangalore</div>
+            </div>
+          </div>
+          <div class="w-14 h-14 flex-shrink-0 flex items-center justify-center">
+            <img src="assets/images/bake-sneha.png" alt="Baked cookies by Sneha" class="w-full h-full object-contain drop-shadow-sm" />
+          </div>
+        </div>
+
+        <!-- Review 3 (Ankita) -->
+        <div class="testimonial-card bg-white rounded-2xl p-5 border border-gray-100 shadow-soft flex items-center justify-between gap-4 shadow-card-hover">
+          <div class="flex items-start gap-3.5 flex-1">
+            <img src="assets/images/student-ankita.png" alt="Ankita, Pune" class="w-14 h-14 rounded-full object-cover shadow-sm flex-shrink-0" />
+            <div>
+              <div class="flex items-center gap-0.5 text-amber-400 text-xs mb-1">
+                ★★★★★
+              </div>
+              <p class="text-xs text-gray-700 leading-snug mb-2 font-normal">
+                “I started my home baking business after completing the chocolate making course. Highly recommended!”
+              </p>
+              <div class="text-xs font-bold text-gray-900">Ankita, Pune</div>
+            </div>
+          </div>
+          <div class="w-14 h-14 flex-shrink-0 flex items-center justify-center">
+            <img src="assets/images/bake-ankita.png" alt="Baked chocolate jar by Ankita" class="w-full h-full object-contain drop-shadow-sm" />
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FROM LEARNER TO ENTREPRENEUR ================= -->
+  <section class="py-12 bg-[#fffcf7] border-y border-[#faeed9]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Left: Visual Journey Sequence (6 Columns) -->
+        <div class="lg:col-span-6 flex items-center justify-center">
+          <img 
+            src="assets/images/story-journey-composite.png" 
+            alt="From Learner to Taking Regular Orders" 
+            class="w-full max-w-lg h-auto rounded-2xl drop-shadow-md"
+          />
+        </div>
+
+        <!-- Right: Story Content & Pinned Card (6 Columns) -->
+        <div class="lg:col-span-6 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="flex-1 text-left">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-euphoria-navy tracking-tight mb-2">From Learner to Entrepreneur</h2>
+            <p class="text-sm text-gray-600 leading-relaxed mb-5">
+              Many of our students are now running their own successful home businesses.
+            </p>
+            <button id="open-stories-btn" class="btn-primary inline-flex items-center gap-2 px-6 py-2.5 rounded-xl font-bold text-xs tracking-wide shadow transition-all">
+              <span>Read Their Stories</span>
+              <span>→</span>
+            </button>
+          </div>
+
+          <!-- Pinned Note with Succulent Plant -->
+          <div class="w-48 sm:w-56 flex-shrink-0">
+            <img 
+              src="assets/images/story-note-plant.png" 
+              alt="Same Passion. Bigger Possibilities." 
+              class="w-full h-auto drop-shadow-sm transform hover:rotate-1 transition-transform"
+            />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ & CTA SECTION ================= -->
+  <section id="faq" class="py-14 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        
+        <!-- Left Column: FAQ Accordion (7 Columns) -->
+        <div class="lg:col-span-7 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-6">
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-euphoria-navy tracking-tight">Frequently Asked Questions</h2>
+              <a href="#faq" class="text-xs sm:text-sm font-bold text-blue-600 hover:text-blue-800 transition-colors">View All FAQs →</a>
+            </div>
+
+            <!-- Accordion List -->
+            <div class="bg-white rounded-2xl border border-gray-200 divide-y divide-gray-100 shadow-sm overflow-hidden">
+              
+              <!-- FAQ 1 -->
+              <div class="faq-item">
+                <button class="faq-header w-full px-5 py-3.5 flex items-center justify-between text-left text-xs sm:text-sm font-semibold text-gray-800 hover:text-euphoria-red transition-colors focus:outline-none">
+                  <span>How do I get access to the course after purchase?</span>
+                  <span class="faq-icon text-lg font-bold text-gray-400">+</span>
+                </button>
+                <div class="faq-content px-5 text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  Immediately upon completing your payment, you receive instant login credentials via email and WhatsApp. You can watch the lessons anytime on mobile, laptop, or tablet with lifetime access!
+                </div>
+              </div>
+
+              <!-- FAQ 2 -->
+              <div class="faq-item">
+                <button class="faq-header w-full px-5 py-3.5 flex items-center justify-between text-left text-xs sm:text-sm font-semibold text-gray-800 hover:text-euphoria-red transition-colors focus:outline-none">
+                  <span>Are the classes pre-recorded or live?</span>
+                  <span class="faq-icon text-lg font-bold text-gray-400">+</span>
+                </button>
+                <div class="faq-content px-5 text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  Our core masterclasses are high-definition pre-recorded video modules filmed from multiple camera angles, so you can pause, rewind, and practice at your own pace. We also host regular live Q&A sessions!
+                </div>
+              </div>
+
+              <!-- FAQ 3 -->
+              <div class="faq-item">
+                <button class="faq-header w-full px-5 py-3.5 flex items-center justify-between text-left text-xs sm:text-sm font-semibold text-gray-800 hover:text-euphoria-red transition-colors focus:outline-none">
+                  <span>Will I get PDF and recipe materials?</span>
+                  <span class="faq-icon text-lg font-bold text-gray-400">+</span>
+                </button>
+                <div class="faq-content px-5 text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  Yes! Every single course comes with printable, beautifully structured PDF recipe booklets, ingredient measurement guides in both grams & cups, and costing templates.
+                </div>
+              </div>
+
+              <!-- FAQ 4 -->
+              <div class="faq-item">
+                <button class="faq-header w-full px-5 py-3.5 flex items-center justify-between text-left text-xs sm:text-sm font-semibold text-gray-800 hover:text-euphoria-red transition-colors focus:outline-none">
+                  <span>Do you provide support if I have doubts?</span>
+                  <span class="faq-icon text-lg font-bold text-gray-400">+</span>
+                </button>
+                <div class="faq-content px-5 text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  Absolutely. You get dedicated chef mentorship and WhatsApp support where you can send photos of your bakes and get personalized guidance and troubleshooting tips anytime.
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Dark Navy CTA Box (5 Columns) -->
+        <div class="lg:col-span-5 flex">
+          <div class="w-full bg-[#0c203b] rounded-3xl p-8 relative overflow-hidden shadow-xl flex flex-col justify-between text-center text-white border border-[#17335c]">
+            <!-- Subtle Whisks on Left and Cookies on Right -->
+            <img src="assets/images/cta-whisks.png" alt="Baking whisks" class="absolute bottom-2 left-2 w-16 h-auto opacity-70 pointer-events-none" />
+            <img src="assets/images/cta-cookies.png" alt="Cookies" class="absolute bottom-2 right-2 w-16 h-auto opacity-80 pointer-events-none" />
+
+            <div class="relative z-10 my-auto">
+              <h3 class="text-2xl sm:text-3xl font-extrabold leading-snug mb-3 tracking-tight">
+                Ready to Turn Your Skills Into a Business?
+              </h3>
+              <p class="text-xs sm:text-sm text-gray-300 mb-6 font-normal max-w-xs mx-auto">
+                Join 70,000+ learners and start your journey today!
+              </p>
+              <a href="#courses-section" class="btn-primary inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl font-bold text-sm tracking-wide shadow-lg transition-all hover:scale-105">
+                <span>EXPLORE COURSES</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-euphoria-navyDark text-gray-300 pt-14 pb-8 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-12 border-b border-gray-800">
+        
+        <!-- Col 1: Brand Info (4 Columns) -->
+        <div class="lg:col-span-4">
+          <img src="assets/images/logo-footer.png" alt="Euphoria Live Classes" class="h-12 w-auto mb-4 object-contain" />
+          <p class="text-xs font-semibold text-gray-300 mb-1">Learn. Create. Sell. Grow.</p>
+          <p class="text-xs text-gray-400 max-w-sm leading-relaxed">
+            Professional cooking & baking classes for a brighter tomorrow.
+          </p>
+        </div>
+
+        <!-- Col 2: Quick Links (2 Columns) -->
+        <div class="lg:col-span-2">
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Quick Links</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#" class="hover:text-white transition-colors">Home</a></li>
+            <li><a href="#courses-section" class="hover:text-white transition-colors">All Courses</a></li>
+            <li><a href="#courses-section" class="hover:text-white transition-colors">Baking</a></li>
+            <li><a href="#courses-section" class="hover:text-white transition-colors">Cooking</a></li>
+            <li><a href="#why-learn" class="hover:text-white transition-colors">Business</a></li>
+            <li><a href="#courses-section" class="hover:text-white transition-colors">Baking Tools</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Help (2 Columns) -->
+        <div class="lg:col-span-2">
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Help</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#account" class="hover:text-white transition-colors">My Account</a></li>
+            <li><a href="#faq" class="hover:text-white transition-colors">FAQs</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Refund Policy</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Terms & Conditions</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Follow Us & Newsletter (4 Columns) -->
+        <div class="lg:col-span-4">
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Follow Us</h4>
+          <!-- Social Icons matching screenshot: Instagram, YouTube, Facebook, WhatsApp, Pinterest -->
+          <div class="flex items-center gap-2.5 mb-6">
+            <!-- Instagram -->
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="w-7 h-7 rounded-full bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-600 flex items-center justify-center text-white text-xs hover:opacity-85 transition-opacity" title="Instagram">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <!-- YouTube -->
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="w-7 h-7 rounded-full bg-red-600 flex items-center justify-center text-white text-xs hover:opacity-85 transition-opacity" title="YouTube">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="w-7 h-7 rounded-full bg-blue-600 flex items-center justify-center text-white text-xs hover:opacity-85 transition-opacity" title="Facebook">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.5 5H18V0h-3.808C10.595 0 9 1.582 9 4.615V8z"/></svg>
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://whatsapp.com" target="_blank" rel="noopener" class="w-7 h-7 rounded-full bg-emerald-500 flex items-center justify-center text-white text-xs hover:opacity-85 transition-opacity" title="WhatsApp">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            </a>
+            <!-- Pinterest -->
+            <a href="https://pinterest.com" target="_blank" rel="noopener" class="w-7 h-7 rounded-full bg-red-700 flex items-center justify-center text-white text-xs hover:opacity-85 transition-opacity" title="Pinterest">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.18c-.05-.98-.09-2.48.02-3.55l.77-3.26s-.2-.39-.2-.97c0-.91.53-1.59 1.18-1.59.56 0 .83.42.83.92 0 .56-.36 1.4-.54 2.18-.15.65.33 1.18.97 1.18 1.17 0 2.06-1.23 2.06-3.01 0-1.57-1.13-2.67-2.75-2.67-1.87 0-2.97 1.4-2.97 2.85 0 .56.22 1.17.49 1.5.05.07.06.13.04.2l-.19.77c-.03.12-.1.15-.23.09-1.04-.48-1.69-1.99-1.69-3.2 0-2.6 1.89-5 5.46-5 2.87 0 5.1 2.05 5.1 4.78 0 2.85-1.8 5.15-4.3 5.15-.84 0-1.63-.44-1.9-.95l-.52 1.97c-.19.72-.7 1.63-1.04 2.18A12 12 0 1 0 12 0z"/></svg>
+            </a>
+          </div>
+
+          <!-- Newsletter Subscribe Box -->
+          <div class="bg-[#11243e] p-4 rounded-2xl border border-gray-700/60">
+            <h5 class="text-xs font-bold text-white mb-1">Join Our Community</h5>
+            <p class="text-[11px] text-gray-400 mb-3">Get updates on new courses & special offers.</p>
+            <form id="newsletter-form" class="flex items-center gap-2">
+              <input 
+                type="email" 
+                required 
+                placeholder="Your email address" 
+                class="flex-1 px-3 py-2 bg-white text-gray-800 text-xs rounded-xl focus:outline-none focus:ring-2 focus:ring-euphoria-red placeholder-gray-400"
+              />
+              <button type="submit" class="bg-[#0b1b30] hover:bg-euphoria-red text-white p-2 rounded-xl text-xs transition-colors border border-gray-600" aria-label="Subscribe">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-400 gap-4">
+        <div>© 2024 Euphoria Live Classes. All rights reserved.</div>
+        <div class="flex items-center gap-1">
+          <span>Made with</span>
+          <span class="text-red-500">❤️</span>
+          <span>in India</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= CART SLIDE-OVER DRAWER ================= -->
+  <div id="cart-backdrop" class="fixed inset-0 bg-black/50 z-50 opacity-0 pointer-events-none transition-opacity duration-300 backdrop-blur-xs"></div>
+  <aside id="cart-drawer" class="fixed inset-y-0 right-0 max-w-md w-full bg-white shadow-2xl z-50 translate-x-full transition-transform duration-300 flex flex-col">
+    <!-- Cart Header -->
+    <div class="p-5 border-b border-gray-100 flex items-center justify-between bg-gray-50/70">
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-euphoria-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+        <h3 class="font-bold text-gray-900 text-base">Your Learning Cart</h3>
+      </div>
+      <button id="close-cart-btn" class="p-2 text-gray-400 hover:text-gray-700 rounded-lg" aria-label="Close cart">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+    </div>
+
+    <!-- Cart Body -->
+    <div class="flex-1 overflow-y-auto p-5">
+      <!-- Empty State -->
+      <div id="cart-empty" class="py-16 text-center text-gray-400 flex flex-col items-center justify-center">
+        <div class="w-16 h-16 rounded-full bg-orange-50 text-orange-400 flex items-center justify-center mb-3">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+        </div>
+        <p class="text-sm font-semibold text-gray-700 mb-1">Your cart is empty</p>
+        <p class="text-xs text-gray-500 max-w-xs">Add one of our bestselling courses and start your journey to a brighter future today!</p>
+      </div>
+
+      <!-- Item List Container -->
+      <div id="cart-items" class="space-y-3"></div>
+    </div>
+
+    <!-- Cart Footer -->
+    <div id="cart-footer" class="p-5 border-t border-gray-100 bg-gray-50/70 hidden">
+      <div class="flex items-center justify-between text-sm mb-4">
+        <span class="text-gray-500 font-medium">Subtotal:</span>
+        <span id="cart-subtotal" class="text-xl font-extrabold text-euphoria-navy">₹0</span>
+      </div>
+      <button id="checkout-btn" class="btn-primary w-full py-3.5 rounded-xl font-bold text-sm tracking-wide shadow-md flex items-center justify-center gap-2">
+        <span>Proceed to Secure Checkout</span>
+        <span>→</span>
+      </button>
+      <div class="flex items-center justify-center gap-2 mt-3 text-[11px] text-gray-400">
+        <svg class="w-3.5 h-3.5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+        <span>Instant WhatsApp & Email Course Access</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================= COURSE DETAILS MODAL ================= -->
+  <div id="course-modal" class="fixed inset-0 bg-black/60 z-50 hidden flex items-center justify-center p-4 backdrop-blur-xs">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 relative shadow-2xl max-h-[90vh] overflow-y-auto">
+      <button id="close-course-modal" class="absolute top-4 right-4 p-2 text-gray-400 hover:text-gray-700 rounded-lg" aria-label="Close modal">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+      <div id="course-modal-body">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= STUDENT STORIES MODAL ================= -->
+  <div id="stories-modal" class="fixed inset-0 bg-black/60 z-50 hidden flex items-center justify-center p-4 backdrop-blur-xs">
+    <div class="bg-white rounded-3xl max-w-xl w-full p-6 sm:p-8 relative shadow-2xl">
+      <button id="close-stories-btn" class="absolute top-4 right-4 p-2 text-gray-400 hover:text-gray-700 rounded-lg" aria-label="Close stories modal">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+      <h3 class="text-xl font-bold text-euphoria-navy mb-3">Inspiring Student Journey</h3>
+      <div class="space-y-4 text-xs sm:text-sm text-gray-600 leading-relaxed">
+        <p>
+          "I began baking as a weekend hobby with zero professional background. Euphoria's step-by-step masterclasses taught me not just how to make perfect cakes and chocolates, but crucially how to price them, photograph them, and get customers through Instagram."
+        </p>
+        <p class="font-medium text-gray-800">
+          — Ananya Sen, Home Baker & Founder of Sweet Euphoria Treats, Mumbai
+        </p>
+        <div class="p-4 bg-orange-50 rounded-2xl border border-orange-100 flex items-center gap-3">
+          <div class="text-2xl">📈</div>
+          <div>
+            <div class="font-bold text-xs text-gray-900">Over 3,500+ home businesses launched!</div>
+            <div class="text-[11px] text-gray-500">From hobby to ₹50,000+ monthly revenue.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= TOAST ALERT ================= -->
+  <div id="toast" class="bg-euphoria-navy text-white px-5 py-3.5 rounded-2xl shadow-2xl border border-gray-700 flex items-center gap-3">
+    <div class="w-6 h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xs flex-shrink-0">
+      ✓
+    </div>
+    <div id="toast-message" class="text-xs font-semibold">Action completed successfully!</div>
+  </div>
+
+  <!-- ================= MOBILE APP BOTTOM NAVIGATION BAR ================= -->
+  <nav class="md:hidden mobile-app-bottom-bar grid grid-cols-5 px-1 py-1">
+    <a href="index.html" class="mobile-nav-tab active">
+      <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+      <span>Home</span>
+    </a>
+
+    <a href="courses.html" class="mobile-nav-tab">
+      <div class="relative">
+        <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+        <span class="absolute -top-1 -right-2 bg-euphoria-red text-white text-[9px] font-bold px-1 rounded-full">94</span>
+      </div>
+      <span>Courses</span>
+    </a>
+
+    <a href="free-resources.html" class="mobile-nav-tab">
+      <div class="relative">
+        <svg class="w-5 h-5 mb-0.5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+        <span class="absolute -top-1 -right-2 bg-amber-500 text-white text-[8px] font-extrabold px-1 rounded-full">FREE</span>
+      </div>
+      <span>Resources</span>
+    </a>
+
+    <a href="learn.html" class="mobile-nav-tab">
+      <svg class="w-5 h-5 mb-0.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <span>Portal</span>
+    </a>
+
+    <button onclick="document.getElementById('cart-btn')?.click()" class="mobile-nav-tab">
+      <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+      <span>Cart</span>
+    </button>
+  </nav>
+
+  <!-- ================= FLOATING WHATSAPP SUPPORT ================= -->
+  <a 
+    href="https://wa.me/916294822573?text=Hi%20Euphoria%2C%20I%20have%20a%20question%20about%20live%20classes" 
+    target="_blank" 
+    rel="noopener"
+    class="floating-whatsapp-btn flex items-center gap-2 bg-[#25D366] text-white px-3.5 py-2.5 rounded-full font-bold text-xs shadow-lg hover:bg-[#20bd5a] transition-all"
+    aria-label="Direct WhatsApp Support"
+  >
+    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    <span class="hidden sm:inline">WhatsApp Support</span>
+  </a>
+
+  <!-- Application Logic -->
+  <script src="js/app.js"></script>
+</body>
+</html>

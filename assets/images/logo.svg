@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" width="100%" height="100%">
+  <!-- Chef Hat Icon -->
+  <g transform="translate(130, 2) scale(0.65)">
+    <!-- Hat Puffs -->
+    <path d="M15,22 C10,22 6,18 6,13 C6,8 10,4 15,4 C16,4 17,4.2 18,4.6 C20,1.8 23.5,0 27.5,0 C32,0 35.8,2.2 37.5,5.5 C39,4.5 41,4 43,4 C48,4 52,8 52,13 C52,18 48,22 43,22 Z" fill="#ffffff" stroke="#0c203b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Red Fold/Ribbon -->
+    <path d="M16,21 C22,25 36,25 42,21" fill="none" stroke="#d34a30" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M17,25 C23,28 35,28 41,25" fill="none" stroke="#d34a30" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Two Playful Red Dots -->
+  <circle cx="196" cy="18" r="4.5" fill="#d34a30" />
+  <circle cx="187" cy="22" r="3" fill="#d34a30" />
+
+  <!-- Euphoria Text -->
+  <text x="15" y="44" font-family="'Outfit', 'Playfair Display', cursive, sans-serif" font-weight="800" font-size="38" fill="#0c203b" letter-spacing="-0.5">
+    Euphoria
+  </text>
+
+  <!-- LIVE CLASSES Subtitle -->
+  <text x="18" y="62" font-family="'Outfit', sans-serif" font-weight="700" font-size="13" fill="#0c203b" letter-spacing="4.5">
+    LIVE CLASSES
+  </text>
+</svg>
