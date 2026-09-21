@@ -13,11 +13,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Java JDK 17
+      - name: Setup Java JDK 21
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: '17'
+          java-version: '21'
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -27,7 +27,7 @@ jobs:
       - name: Install Dependencies & Build Web Bundle
         run: |
           npm install
-          python scripts/build_app.py
+          python3 scripts/build_app.py
           npx cap sync android
 
       - name: Grant Execute Permission for Gradlew
